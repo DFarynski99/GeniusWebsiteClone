@@ -5,6 +5,9 @@ body, html {
   padding: 0;
 }
 
+body{
+  overflow: hidden;
+}
 
 #yellowBar {
   background-color: #fdfd63;
@@ -17,36 +20,121 @@ body, html {
 }
 
 #blackBar {
-  background-color: black;
+  background-color: #121212 ;
   height: 41px;
-  width: 100%;
-  padding-right: 10px;
   display: flex;
-  align-items: center; /* Vertical alignment */
-  justify-content: flex-end; /* Horizontal alignment */
+  align-items: center; /* Vertical axis alignment */
+  justify-content: center
 }
+
+#blackBar a {
+  flex: 1;
+  margin-right:115px; /* Adjust the margin as desired */
+  white-space: nowrap;
+}
+
+
+#featured {
+  font-weight: 525;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
+}
+#separatorOne {
+  position: absolute;
+  left: 81%;
+  transform: translateX(-81%);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+#charts {
+  font-weight: 525;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
+}
+#separatorTwo {
+  position: absolute;
+  left: 84%;
+  transform: translateX(-84%);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+#videos {
+  font-weight: 525;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
+}
+#separatorThree {
+  position: absolute;
+  left: 88%;
+  transform: translateX(-88%);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#promoteYourMusic {
+  font-weight: 525;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
+}
+
+
 
 #signUp {
 
-  font-size: 78.12%;
+  font-size: 78.1%;
   position: absolute;
-  right: 75px;
+  padding-top: 2px;
+  right: 73.5px;
   background-color: transparent;
   border: none;
   outline: none;
   cursor: pointer;
   font-family: "Programme Regular", serif;
+  letter-spacing: 0.77px;
 }
 
 #signIn {
-  font-size: 78.12%;
+  font-size: 78.1%;
   position: absolute;
-  right: 12px;
+  padding-top: 2px;
+  right: 10px;
   background-color: transparent;
   border: none;
   outline: none;
   cursor: pointer;
   font-family: "Programme Regular", serif;
+  letter-spacing: 0.77px;
 }
 
 @font-face {font-family: "Programme Bold"; src: url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.eot"); src: url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.woff") format("woff"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.svg#Programme Bold") format("svg"); }
@@ -71,6 +159,7 @@ body, html {
 
 #searchBar::placeholder{
   color: black;
+  padding-left: 1px;
 }
 #searchBar:focus::placeholder{
   color: #8b8989;
@@ -92,7 +181,7 @@ body, html {
 
 
 #geniusLogoImage {
-  height: 23px;
+  height: 22.48px;
   width: 128.5px;
   position: absolute;
   top: 10px;
@@ -101,115 +190,68 @@ body, html {
   cursor: pointer;
 }
 
-#featured {
-  font-weight: 525;
-  font-size: 14.5px;
-  position: absolute;
-  left: 31%;
-  transform: translateX(-31%);
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-family: "Programme Regular", serif;
-  color: white;
-  text-decoration: none;
-}
-#separatorOne {
-  position: absolute;
-  left: 81%;
-  transform: translateX(-81%);
-  color: white;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-
-#charts {
-  font-weight: 525;
-  font-size: 14.5px;
-  position: absolute;
-  left: 38.6%;
-  transform: translateX(-38.6%);
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-family: "Programme Regular", serif;
-  color: white;
-  text-decoration: none;
-}
-#separatorTwo {
-  position: absolute;
-  left: 84%;
-  transform: translateX(-84%);
-  color: white;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-
-#videos {
-  font-weight: 525;
-  font-size: 14.5px;
-  position: absolute;
-  left: 51%;
-  transform: translateX(-51%);
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-family: "Programme Regular", serif;
-  color: white;
-  text-decoration: none;
-}
-#separatorThree {
-  position: absolute;
-  left: 88%;
-  transform: translateX(-88%);
-  color: white;
-  font-weight: 600;
-  font-size: 16px;
-}
-
-#promoteYourMusic {
-  font-weight: 525;
-  font-size: 14.5px;
-  position: absolute;
-  left: 73.2%;
-  transform: translateX(-73.2%);
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-family: "Programme Regular", serif;
-  color: white;
-  text-decoration: none;
-}
-
-#containerOne {
+#containerOneMain {
   outline: red dashed 1px;
   font-family: "Programme Light", serif;
   font-size: 38px;
   position: absolute;
-
-  left: 20%;
-  transform: translateX(-20%);
-  top: 20%;
-
+  left: 50%;
+  transform: translateX(-50%);
+  top: 150px;
+  height: 100%;
   word-break: break-word;
-
-  line-height: 42px;
   width: 80%;
-  margin: 0 auto;
-  padding: 20px;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  max-width: 1185px;
 }
+
+#newsLineOne{
+
+  outline: green dotted 2px;
+  font-family: "Programme Regular", serif;
+  line-height: 12px;
+  font-size: 12px;
+  top: 4px;
+  width: 38.6225%;
+  padding-top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+  position: absolute;
+  left: -0.1%;
+  transform: translateX(-0);
+  letter-spacing: 0.6px;
+
+}
+
+#newsBlackBar{
+  background-color: black;
+  height: 2px;
+  width: 90.75%;
+  position: absolute;
+  top: 4px;
+  left: 44px;
+}
+
+#textContainerOne {
+  outline: blue dashed 1px;
+  font-size: 36px;
+  max-width: 750px;
+  position: absolute;
+  left: -2.25px;
+  top: 31px;
+  word-break: break-word;
+  line-height: 41.2px;
+  width: 37%;
+  background-color: white;
+}
+
 #headingOne {
   text-decoration: none;
   color: black;
@@ -226,10 +268,14 @@ body, html {
 
 #paragraphOne {
   font-family: "Programme Light", serif;
-  font-size: 16.5px;
+  font-size: 16px;
   line-height: normal;
   margin-top: 3px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
 }
 #hyperlinkOne{
   text-decoration: none;
@@ -238,7 +284,13 @@ body, html {
 
 #editorOne{
   font-size: 12px;
-  margin-top: 0px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+
 }
 #editorOne::before {
   content: attr(data-before);
@@ -249,6 +301,41 @@ body, html {
   color: #9a9a9a
 }
 
+@media (max-width: 960px) {
+  #containerOneMain  {
+    outline: #dfce0b dashed 1px;
+    font-family: "Programme Light", serif;
+    font-size: 38px;
+    position: absolute;
+    left: 12.5%;
+    transform: translateX(-12.5%);
+    width: 50%;
+    top: 150px;
+    height: 100%;
+    word-break: break-word;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1185px;
+  }
+}
 
+@media (max-width: 960px) {
+  #textContainerOne {
+    outline: blue dashed 1px;
+    font-size: 36px;
+    position: absolute;
+    left: -2.25px;
+
+    top: 31px;
+    word-break: break-word;
+    line-height: 41.2px;
+    width: 62.5%;
+    background-color: white;
+  }
+}
 
 
