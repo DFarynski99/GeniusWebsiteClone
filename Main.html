@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="MainCSS.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Genius | Song Lyrics & Knowledge</title>
+</head>
+<body id="monkey">
+
+<div id="yellowBar">
+
+  <form>
+    <input type="text" name="search" id="searchBar" placeholder=" Search lyrics & more"/>
+    <button type="submit" id="searchButton" onclick="processSearch()">
+      <img src="magnifyingGlass.svg" alt="Search"/>
+    </button>
+
+  </form>
+
+  <button onclick="redirectToSignUp()" id="signUp">SIGN UP</button>
+  <button onclick="redirectToSignIn()" id="signIn">SIGN IN</button>
+</div>
+
+
+<div id="blackBar">
+
+  <a href="#section" id="featured">FEATURED</a> <!-- Stays on the same page -->
+  <a href="#section" id="charts">CHARTS</a>   <!-- Stays on the same page -->
+  <a href="#section" id="videos">VIDEOS</a>   <!-- Stays on the same page -->
+  <a href="https://promote.genius.com/" id="promoteYourMusic">PROMOTE YOUR MUSIC</a>
+
+
+  <span id="separatorOne">|</span>
+  <span id="separatorTwo">|</span>
+  <span id="separatorThree">|</span>
+
+</div>
+
+<img src="geniusLogo.png" onclick="redirectToHome()" alt="Genius Logo" id="geniusLogoImage">
+
+
+<div id="containerOne">
+  <a id="headingOne" href="https://genius.com/a/top-hip-hop-song-2013">Looking Back At The Top Hip-Hop Song Of 2013 On Genius</a>
+  <p id="paragraphOne"><a id="hyperlinkOne" href="https://genius.com/a/top-hip-hop-song-2013">Eminem made a compelling case for being the GOAT on the skillful “Rap God.”</a></p>
+  <p id="editorOne" data-before="by Leah Degrazia /" data-after=" May 13 2023"></p>
+</div>
+
+
+
+<script>
+  function redirectToSignUp() {
+    window.location.href = "https://genius.com/signup";
+  }
+
+  function redirectToSignIn() {
+    window.location.href = "https://genius.com/login";
+  }
+
+  function redirectToHome() {
+    window.location.href = "https://genius.com";
+  }
+
+  function processSearch() {
+
+
+  }
+</script>
+</body>
+</html>

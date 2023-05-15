@@ -1,0 +1,237 @@
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+#yellowBar {
+  background-color: #fdfd63;
+  height: 41px;
+  width: 100%;
+  padding-right: 10px;
+  display: flex;
+  align-items: center; /* Vertical alignment */
+  justify-content: flex-end; /* Horizontal alignment */
+}
+
+#blackBar {
+  background-color: black;
+  height: 41px;
+  width: 100%;
+  padding-right: 10px;
+  display: flex;
+  align-items: center; /* Vertical alignment */
+  justify-content: flex-end; /* Horizontal alignment */
+}
+
+#signUp {
+
+  font-size: 13px;
+  position: absolute;
+  right: 95px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+}
+
+#signIn {
+
+  font-size: 13px;
+  position: absolute;
+  right: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+}
+
+@font-face {font-family: "Programme Bold"; src: url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.eot"); src: url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.woff") format("woff"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.svg#Programme Bold") format("svg"); }
+@font-face {font-family: "Programme Regular"; src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot"); src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff") format("woff"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.svg#Programme Regular") format("svg"); }
+@font-face {font-family: "Programme Light"; src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot"); src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff") format("woff"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.svg#Programme Light") format("svg"); }
+/*  height="151" width="837"   5.583333*/
+
+
+#searchBar {
+  font-family: "Programme Regular", serif;
+  font-weight: 525;
+  font-size: 16px;
+  width: 215px;
+  color: black;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 28px;
+  border: none;
+  outline: none;
+}
+
+#searchBar::placeholder{
+  color: black;
+}
+#searchBar:focus::placeholder{
+  color: #8b8989;
+
+}
+
+#searchButton{
+  position: absolute;
+  left: 95px;
+  transform: translateX(95px);
+  top: 6px;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+
+
+#geniusLogoImage {
+  height: 24px;
+  width: 132px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+#featured {
+  font-weight: 525;
+  font-size: 14.5px;
+  position: absolute;
+  left: 21%;
+  transform: translateX(-21%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
+}
+#separatorOne {
+  position: absolute;
+  left: 31%;
+  transform: translateX(-31%);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+#charts {
+  font-weight: 525;
+  font-size: 14.5px;
+  position: absolute;
+  left: 36.5%;
+  transform: translateX(-36.5%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
+}
+#separatorTwo {
+  position: absolute;
+  left: 44%;
+  transform: translateX(-44%);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+#videos {
+  font-weight: 525;
+  font-size: 14.5px;
+  position: absolute;
+  left: 51%;
+  transform: translateX(-51%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
+}
+#separatorThree {
+  position: absolute;
+  left: 58%;
+  transform: translateX(-58%);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#promoteYourMusic {
+  font-weight: 525;
+  font-size: 14.5px;
+  position: absolute;
+  left: 73.2%;
+  transform: translateX(-73.2%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
+}
+
+#containerOne {
+  font-family: "Programme Light", serif;
+  font-size: 38px;
+  position: absolute;
+  left: 10%;
+  transform: translateX(-10%);
+  width: 32%;
+  word-break: break-word;
+  padding-top: 10.3%;
+  line-height: 42px;
+}
+#paragraphOne {
+  font-family: "Programme Light", serif;
+  font-size: 16.5px;
+  line-height: normal;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+#hyperlinkOne{
+  text-decoration: none;
+  color: black;
+}
+
+#editorOne{
+  font-size: 12px;
+  margin-top: 0px;
+}
+#editorOne::before {
+  content: attr(data-before);
+  color: black
+}
+#editorOne::after {
+  content: attr(data-after);
+  color: #9a9a9a
+}
+
+#headingOne {
+  text-decoration: none;
+  color: black;
+
+}
+#headingOne:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+
