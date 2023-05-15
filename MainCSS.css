@@ -28,9 +28,9 @@ body, html {
 
 #signUp {
 
-  font-size: 13px;
+  font-size: 78.12%;
   position: absolute;
-  right: 95px;
+  right: 75px;
   background-color: transparent;
   border: none;
   outline: none;
@@ -39,10 +39,9 @@ body, html {
 }
 
 #signIn {
-
-  font-size: 13px;
+  font-size: 78.12%;
   position: absolute;
-  right: 40px;
+  right: 12px;
   background-color: transparent;
   border: none;
   outline: none;
@@ -64,7 +63,7 @@ body, html {
   color: black;
   position: absolute;
   top: 5px;
-  left: 5px;
+  left: 7px;
   height: 28px;
   border: none;
   outline: none;
@@ -80,9 +79,9 @@ body, html {
 
 #searchButton{
   position: absolute;
-  left: 95px;
-  transform: translateX(95px);
-  top: 6px;
+  left: 98px;
+  transform: translateX(98px);
+  top: 7px;
 
   background: none;
   border: none;
@@ -93,8 +92,8 @@ body, html {
 
 
 #geniusLogoImage {
-  height: 24px;
-  width: 132px;
+  height: 23px;
+  width: 128.5px;
   position: absolute;
   top: 10px;
   left: 50%;
@@ -106,8 +105,8 @@ body, html {
   font-weight: 525;
   font-size: 14.5px;
   position: absolute;
-  left: 21%;
-  transform: translateX(-21%);
+  left: 31%;
+  transform: translateX(-31%);
   background-color: transparent;
   border: none;
   outline: none;
@@ -118,8 +117,8 @@ body, html {
 }
 #separatorOne {
   position: absolute;
-  left: 31%;
-  transform: translateX(-31%);
+  left: 81%;
+  transform: translateX(-81%);
   color: white;
   font-weight: 600;
   font-size: 16px;
@@ -130,8 +129,8 @@ body, html {
   font-weight: 525;
   font-size: 14.5px;
   position: absolute;
-  left: 36.5%;
-  transform: translateX(-36.5%);
+  left: 38.6%;
+  transform: translateX(-38.6%);
   background-color: transparent;
   border: none;
   outline: none;
@@ -142,8 +141,8 @@ body, html {
 }
 #separatorTwo {
   position: absolute;
-  left: 44%;
-  transform: translateX(-44%);
+  left: 84%;
+  transform: translateX(-84%);
   color: white;
   font-weight: 600;
   font-size: 16px;
@@ -166,8 +165,8 @@ body, html {
 }
 #separatorThree {
   position: absolute;
-  left: 58%;
-  transform: translateX(-58%);
+  left: 88%;
+  transform: translateX(-88%);
   color: white;
   font-weight: 600;
   font-size: 16px;
@@ -189,16 +188,42 @@ body, html {
 }
 
 #containerOne {
+  outline: red dashed 1px;
   font-family: "Programme Light", serif;
   font-size: 38px;
   position: absolute;
-  left: 10%;
-  transform: translateX(-10%);
-  width: 32%;
+
+  left: 20%;
+  transform: translateX(-20%);
+  top: 20%;
+
   word-break: break-word;
-  padding-top: 10.3%;
+
   line-height: 42px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
+#headingOne {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+
+}
+#headingOne:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
 #paragraphOne {
   font-family: "Programme Light", serif;
   font-size: 16.5px;
@@ -224,14 +249,6 @@ body, html {
   color: #9a9a9a
 }
 
-#headingOne {
-  text-decoration: none;
-  color: black;
 
-}
-#headingOne:hover{
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-}
 
 
