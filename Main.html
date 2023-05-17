@@ -8,16 +8,16 @@
 </head>
 <body>
 
-<div id="contentContainerMain">
+
 
 <div id="yellowBar">
 
-  <form>
+<form id="magnifyOne">
     <input type="text" name="search" id="searchBar" placeholder=" Search lyrics & more"/>
     <button type="submit" id="searchButton" onclick="processSearch()">
-      <img src="magnifyingGlass.svg" alt="Search"/>
+      <img src="magnifyingGlass.svg" alt="Search" id="magnifyTwo"/>
     </button>
-  </form>
+</form>
 
   <button onclick="redirectToSignUp()" id="signUp">SIGN UP</button>
   <button onclick="redirectToSignIn()" id="signIn">SIGN IN</button>
@@ -35,6 +35,12 @@
   <span id="separatorOne">|</span>
   <span id="separatorTwo">|</span>
   <span id="separatorThree">|</span>
+  <span id="separatorFour">|</span>
+
+  <a href="" id="facebookLink">
+    <img src="FacebookGeniusClone.png" alt="Facebook Link" id="facebookLinkImage">
+  </a>
+
 
 </div>
 
@@ -47,15 +53,45 @@
     <div id="newsBlackBar"></div>
   </div>
 
+
+
+
   <div id="textContainerOne">
-  <a id="headingOne" href="https://genius.com/a/top-hip-hop-song-2013">Looking Back At The Top Hip-Hop Song Of 2013 On Genius</a>
-  <p id="paragraphOne"><a id="hyperlinkOne" href="https://genius.com/a/top-hip-hop-song-2013">Eminem made a compelling case for being the GOAT on the skillful “Rap God.”</a></p>
-  <p id="editorOne" data-before="by Leah Degrazia / " data-after=" May 13 2023"></p>
+
+    <a id="headingOne" href="https://genius.com/a/g-i-dle-are-more-confident-than-ever-on-new-song-queencard">(G)I-DLE Are More Confident Than Ever On New Song “Queencard”
+      <p id="paragraphOne">The song comes off the K-pop girl group’s new mini-album ‘I feel.’</p>
+      <div id="hyperlinkHoverArea">  </div>
+      <p id="mainImageName">by Leah Degrazia&nbsp;/ </p>
+      <p id="mainImageDate">May 17 2023</p>
+    </a>
+
+    </div>
+
+
+
+    <a>
+      <img id="imageID1" src="iFeelGeniusClone.PNG" alt="iFeelImage" onclick="redirectToMainNewsArticle()">
+    </a>
+
+
+
+  <div id="threeSmallerArticles">
+
+    <div id="newsLineMiniOne">NEWS</div>
+      <a id="newsMiniStoryOneAnchor" href="https://promote.genius.com/">
+        <p id="newsMiniStoryOne">Looking Back At The Top Hip-Hop Song Of 2013 On Genius</p>
+        <img src="GeniusCloneEminemImage.png" id="miniStoryImageOne" alt="EminemStoryImage">
+        <p id="miniStoryOneAuthor">by Leah Degrazia&nbsp;/</p>
+        <p id="miniStoryOneDate">May 13 2023</p>
+      </a>
+    </div>
+
+
+  <div id="newsLineMiniTwo">NEWS
+    <div id="newsBlackBarMiniOne"></div>
   </div>
 
 
-
-</div>
 
 </div>
 
@@ -73,8 +109,11 @@
     window.location.href = "https://genius.com";
   }
 
-  function processSearch() {
+  function redirectToMainNewsArticle() {
+      window.location.href = "https://genius.com/a/g-i-dle-are-more-confident-than-ever-on-new-song-queencard";
+  }
 
+  function processSearch() {
 
   }
 </script>

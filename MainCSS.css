@@ -5,8 +5,21 @@ body, html {
   padding: 0;
 }
 
-body{
-  overflow: hidden;
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 0.000000001em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 
 #yellowBar {
@@ -27,16 +40,18 @@ body{
   justify-content: center
 }
 
-#blackBar a {
-  flex: 1;
-  margin-right:115px; /* Adjust the margin as desired */
-  white-space: nowrap;
+#blackBar::selection{
+  background-color: yellow; /* Set the desired background color */
 }
 
 
 #featured {
   font-weight: 525;
-  font-size: 15px;
+  font-size: 14.1px;
+  letter-spacing: 0.95px;
+  position: absolute;
+  left: 31.05%;
+  transform: translateX(-31.05%);
   background-color: transparent;
   border: none;
   outline: none;
@@ -47,17 +62,24 @@ body{
 }
 #separatorOne {
   position: absolute;
-  left: 81%;
-  transform: translateX(-81%);
+  left: 35.675%;
+  transform: translateX(-35.675%);
   color: white;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 15px;
+}
+#separatorOne::selection{
+  background-color: transparent;
 }
 
 
 #charts {
   font-weight: 525;
-  font-size: 15px;
+  font-size: 14.1px;
+  letter-spacing: 0.95px;
+  position: absolute;
+  left: 38.75%;
+  transform: translateX(-38.75%);
   background-color: transparent;
   border: none;
   outline: none;
@@ -68,17 +90,23 @@ body{
 }
 #separatorTwo {
   position: absolute;
-  left: 84%;
-  transform: translateX(-84%);
+  left: 42.5%;
+  transform: translateX(-42.5%);
   color: white;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 15px;
 }
-
+#separatorTwo::selection{
+  background-color: transparent;
+}
 
 #videos {
   font-weight: 525;
-  font-size: 15px;
+  font-size: 14.1px;
+  letter-spacing: 0.95px;
+  position: absolute;
+  left: 45.714%;
+  transform: translateX(-45.714%);
   background-color: transparent;
   border: none;
   outline: none;
@@ -89,16 +117,23 @@ body{
 }
 #separatorThree {
   position: absolute;
-  left: 88%;
-  transform: translateX(-88%);
+  left: 49.15%;
+  transform: translateX(-49.15%);
   color: white;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 15px;
+}
+#separatorThree::selection{
+  background-color: transparent;
 }
 
 #promoteYourMusic {
   font-weight: 525;
-  font-size: 15px;
+  font-size: 14.1px;
+  letter-spacing: 0.95px;
+  position: absolute;
+  left: 55.9%;
+  transform: translateX(-55.9%);
   background-color: transparent;
   border: none;
   outline: none;
@@ -108,6 +143,31 @@ body{
   text-decoration: none;
 }
 
+#separatorFour {
+  position: absolute;
+  left: 61.65%;
+  transform: translateX(-61.65%);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+#separatorFour::selection{
+  background-color: transparent;
+}
+
+
+#facebookLinkImage {
+
+  position: absolute;
+  left: 150px;
+  transform: translateX(150px);
+  top: 7px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  height: 1px;
+  width: 1px;
+}
 
 
 #signUp {
@@ -163,7 +223,6 @@ body{
 }
 #searchBar:focus::placeholder{
   color: #8b8989;
-
 }
 
 #searchButton{
@@ -171,13 +230,23 @@ body{
   left: 98px;
   transform: translateX(98px);
   top: 7px;
-
   background: none;
   border: none;
   cursor: pointer;
   height: 30px;
   width: 30px;
 }
+#searchButton::selection{
+  background-color: transparent;
+}
+#magnifyOne::selection{
+  background-color: transparent;
+}
+#magnifyTwo::selection{
+  background-color: transparent;
+}
+
+
 
 
 #geniusLogoImage {
@@ -188,6 +257,10 @@ body{
   left: 50%;
   transform: translateX(-50%);
   cursor: pointer;
+}
+#geniusLogoImage::selection{
+  background-color: transparent; /* Set the desired background color */
+
 }
 
 #containerOneMain {
@@ -210,8 +283,10 @@ body{
   max-width: 1185px;
 }
 
-#newsLineOne{
 
+
+
+#newsLineOne{
   outline: green dotted 2px;
   font-family: "Programme Regular", serif;
   line-height: 12px;
@@ -226,8 +301,7 @@ body{
   position: absolute;
   left: -0.1%;
   transform: translateX(-0);
-  letter-spacing: 0.6px;
-
+  letter-spacing: 0.825px;
 }
 
 #newsBlackBar{
@@ -244,13 +318,37 @@ body{
   font-size: 36px;
   max-width: 750px;
   position: absolute;
-  left: -2.25px;
-  top: 31px;
+  left: -1.25px;
+  top: 32px;
   word-break: break-word;
-  line-height: 41.2px;
-  width: 37%;
+  line-height: 40.45px;
+  width: 38.6225%;
   background-color: white;
 }
+
+#hyperlinkHoverArea {
+  outline: dotted chocolate 1px;
+  top: 1px;
+  height: 346px;
+  width: 100%;
+  left: 0;
+  position: absolute;
+
+}
+
+
+#imageID1 {
+  position: absolute;
+  top: 3px;
+  left: 43.75575%;
+  height: 379px;
+  width: 669px;
+  cursor: pointer;
+}
+
+
+
+
 
 #headingOne {
   text-decoration: none;
@@ -267,39 +365,210 @@ body{
 }
 
 #paragraphOne {
+  outline: aqua dotted 1px;
   font-family: "Programme Light", serif;
   font-size: 16px;
-  line-height: normal;
+  line-height: 18px;
   margin-top: 3px;
   margin-bottom: 0;
   display: flex;
   align-items: flex-start;
   justify-content: left;
   text-align: left;
+  position: absolute;
+  top: 104.5%;
+
 }
 #hyperlinkOne{
   text-decoration: none;
   color: black;
 }
 
-#editorOne{
-  font-size: 12px;
+
+#mainImageName {
+  outline: dotted black 1px;
+  color: black;
+  font-size: 12.45px;
   margin-top: 5px;
+  position: absolute;
+  top: 137.5%;
+  left: 0.05%;
   margin-bottom: 0;
   display: flex;
   align-items: flex-start;
   justify-content: left;
   text-align: left;
+  letter-spacing: -0.2px;
+}
+
+#mainImageDate {
+  outline: dotted #999999 1px;
+  color: #999999FF;
+  font-size: 12px;
+  margin-top: 5px;
+  position: absolute;
+  top: 137.5%;
+  left: 22.2%;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+  letter-spacing: -0.075px;
+}
+
+
+
+#threeSmallerArticles {
+  outline: dashed deeppink 2px;
+  position: absolute;
+  left: 0;
+  width: 877px;
+  height: 400px;
+  top: 419px;
+}
+
+#newsLineMiniOne {
+  outline: #000000 dotted 2px;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  top: 0;
+  width: 251px;
+  padding-top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+  position: absolute;
+  left: -0.1%;
+  transform: translateX(-0.15%);
+  letter-spacing: 1.25px;
+}
+
+#newsMiniStoryOne {
+  outline: #9679c8 dotted 2px;
+  font-family: "Programme Light", serif;
+  font-size: 23.5px;
+  font-weight: 500;
+  width: 251px;
+  height: 373px;
+  padding-top: 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  transform: translateX(-0.1%);
+  letter-spacing: 0.26px;
+  line-height: 27px;
+  text-decoration: none;
+  color: black;
+  top: -25px;
+}
+
+#newsMiniStoryOneAnchor:hover{
+  text-decoration-color: black;
+  color: black;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  cursor: pointer;
+}
+
+#newsMiniStoryOneAnchor:hover #newsMiniStoryOne {
+  text-decoration: underline;
+}
+
+#miniStoryOneAuthor{
+  outline: dotted #40d5ba 1px;
+  color: black;
+  font-size: 12.45px;
+  margin-top: 5px;
+  position: absolute;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+  letter-spacing: -0.2px;
+  top: 230px;
+  padding-top: 0;
+  left: -0.9px;
+  transform: translateX(-0.25%);
 
 }
-#editorOne::before {
-  content: attr(data-before);
-  color: black
+
+#miniStoryOneDate{
+  outline: dotted #640a78 1px;
+  color: #999999FF;
+  font-size: 12.45px;
+  margin-top: 5px;
+  position: absolute;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+  letter-spacing: -0.2px;
+  top: 230px;
+  padding-top: 0;
+  left: 12.7%;
+  transform: translateX(-13.25%);
 }
-#editorOne::after {
-  content: attr(data-after);
-  color: #9a9a9a
+
+#miniStoryImageOne {
+  position: absolute;
+  top: 260px;
+  left: 0;
+  height: 141px;
+  width: 251px;
+  cursor: pointer;
 }
+
+
+#newsLineMiniTwo {
+  outline: #95ef95 dotted 2px;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  top: 44.75%;
+  width: 251px;
+  padding-top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+  position: absolute;
+  left: 26.25%;
+  transform: translateX(-0.15%);
+  letter-spacing: 1.3px;
+  height: 42.5%;
+}
+
+#newsBlackBarMiniOne{
+   background-color: black;
+   height: 100%;
+   width: 2px;
+   position: absolute;
+   top: 2px;
+   left: -31px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 960px) {
   #containerOneMain  {
@@ -321,21 +590,144 @@ body{
     text-align: center;
     max-width: 1185px;
   }
-}
 
-@media (max-width: 960px) {
+
+
   #textContainerOne {
     outline: blue dashed 1px;
     font-size: 36px;
     position: absolute;
-    left: -2.25px;
+    left: 0;
 
-    top: 31px;
+    top: 32px;
     word-break: break-word;
     line-height: 41.2px;
     width: 62.5%;
     background-color: white;
   }
+
+
+
+  #newsLineOne {
+
+  outline: green dotted 2px;
+  font-family: "Programme Regular", serif;
+  line-height: 12px;
+  font-size: 12px;
+  top: 4px;
+  width: 62.2%;
+  padding-top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+  position: absolute;
+  left: -0.1%;
+  transform: translateX(-0);
+  letter-spacing: 0.88px;
+  }
+
+
+
+  #featured {
+    position: absolute;
+    left: 21.8%;
+    transform: translateX(-21.8%);
+  }
+
+  #separatorOne {
+    position: absolute;
+    left: 31.75%;
+    transform: translateX(-31.8%);
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+
+
+  #charts {
+    font-weight: 525;
+    font-size: 14.1px;
+    letter-spacing: 0.95px;
+    position: absolute;
+    left: 37.9%;
+    transform: translateX(-37.9%);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Programme Regular", serif;
+    color: white;
+    text-decoration: none;
+  }
+  #separatorTwo {
+    position: absolute;
+    left: 45.45%;
+    transform: translateX(-45.45%);
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+
+  #videos {
+    font-weight: 525;
+    font-size: 14.1px;
+    letter-spacing: 0.95px;
+    position: absolute;
+    left: 52.2175%;
+    transform: translateX(-52.2175%);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Programme Regular", serif;
+    color: white;
+    text-decoration: none;
+  }
+  #separatorThree {
+    position: absolute;
+    left: 58.75%;
+    transform: translateX(-58.75%);
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  #promoteYourMusic {
+    font-weight: 525;
+    font-size: 14.1px;
+    letter-spacing: 0.95px;
+    position: absolute;
+    left: 75.72%;
+    transform: translateX(-75.72%);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: "Programme Regular", serif;
+    color: white;
+    text-decoration: none;
+  }
+
+  #separatorFour {
+    position: absolute;
+    left: 111%;
+    transform: translateX(-111%);
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  #imageID1 {
+    position: absolute;
+    top: 4px;
+    left: 78.4%;
+    height: 261.4px;
+    width: 464px;
+    cursor: pointer;
+
+  }
+
+
 }
-
-
