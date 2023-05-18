@@ -116,9 +116,11 @@
   <div id="largeCharts">CHARTS</div>
 
   <select id="typeFilter">
-    <option value="all">All Types</option>
     <option value="songs">Songs</option>
     <option value="albums">Albums</option>
+    <option value="artists">Artists</option>
+    <option value="lyrics">Lyrics</option>
+
   </select>
 
   <select id="genreFilter">
@@ -127,14 +129,28 @@
     <option value="pop">Pop</option>
   </select>
 
+  <select id="timeFilter">
+    <option value="today">Today</option>
+    <option value="lastWeek">Last Week</option>
+    <option value="thisYear">This Year</option>
+    <option value="all">All time</option>
+  </select>
 
-  <div id="filteredList">
-
-
-  </div>
+  <div id="filteredList"></div>
 
 
 
+<div id="chartsPlacementOne"></div>
+<div id="chartsPlacementTwo"></div>
+
+  <div id="chartsPlacementThree"></div>
+  <div id="chartsPlacementFour"></div>
+  <div id="chartsPlacementFive"></div>
+  <div id="chartsPlacementSix"></div>
+  <div id="chartsPlacementSeven"></div>
+  <div id="chartsPlacementEight"></div>
+  <div id="chartsPlacementNine"></div>
+  <div id="chartsPlacementTen"></div>
 
 
 
@@ -146,27 +162,37 @@
 <script>
 
   const songData = [
-    {id: 'areaCodes', type: 'songs', genre: 'pop', title: 'Area Codes', image: 'AreaCodes.png'},
-    {type: 'songs', genre: 'rock', title: 'Song 2'},
-    {type: 'albums', genre: 'pop', title: 'Album 3'},
-    {type: 'albums', genre: 'rock', title: 'Album 4'},
+
+    <!-- Songs / All Genres / Today  -->
+    {id: 'areaCodes', rank: "1", artist: "Kali", type: 'songs', genre: 'all', time: "today", title: 'Area Codes', image: 'AreaCodes.png', url: 'https://genius.com/Kali-area-codes-lyrics'},
+    {id: 'cupidTW', rank: "2", artist: "FIFTY FIFTY (피프티...", type: 'songs', genre: 'all', time: "today", title: 'Cupid (Twin Version)', image: 'CupidTwins.png', url: 'https://genius.com/Fifty-fifty-cupid-twin-version-lyrics'},
+    {id: 'allMyLife', rank: "3", artist: "Lil Durk", type: 'songs', genre: 'all', time: "today", title: 'All My Life', image: 'AllMyLife.png', url: 'https://genius.com/Lil-durk-all-my-life-lyrics'},
+    {id: 'kaarija', rank: "4", artist: "Genius English Trans...", type: 'songs', genre: 'all', time: "today", title: 'Käärijä - Cha Cha Cha (Engli...', image: 'kaarija.png', url: 'https://genius.com/Genius-english-translations-kaarija-cha-cha-cha-english-translation-lyrics'},
+    {id: 'fiftyFiftyCupid', rank: "5", artist: "Genius English Trans...", type: 'songs', genre: 'all', time: "today", title: 'FIFTY FIFTY - Cupid (Englis...', image: 'FiftyFifty.png', url: 'https://genius.com/Genius-english-translations-fifty-fifty-cupid-english-translation-lyrics'},
+    {id: 'mathematicalDisrespect', rank: "6", artist: "Lil Mabu", type: 'songs', genre: 'all', time: "today", title: 'MATHEMATICAL DISRESPECT', image: 'MathematicalDisrespect.png', url: 'https://genius.com/Lil-mabu-mathematical-disrespect-lyrics'},
+    {id: 'yoasobi', rank: "7", artist: "Genius Romanizations", type: 'songs', genre: 'all', time: "today", title: 'YOASOBI - アイドル (Idol) (...', image: 'yoasobi.png', url: 'https://genius.com/Genius-romanizations-yoasobi-idol-romanized-lyrics'},
+    {id: 'iFeel', rank: "8", artist: "Genius English Trans...", type: 'songs', genre: 'all', time: "today", title: '(G)I-DLE - 퀸카 (Queencard)...', image: 'iFeel.png', url: 'https://genius.com/Genius-english-translations-gi-dle-queencard-english-translation-lyrics'},
+    {id: 'mahal', rank: "9", artist: "Rockstar", type: 'songs', genre: 'all', time: "today", title: 'Mahal Pa Rin Kita', image: 'mahal.png', url: 'https://genius.com/Rockstar-mahal-pa-rin-kita-lyrics'},
+    {id: 'underYou', rank: "10", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+
+
+    <!-- Songs / All Genres / All-Time  -->
+    {id: 'allmyLifeALLTIME', type: 'songs', genre: 'all', time: "all", title: 'All My Life', image: 'AllMyLife.png'},
+
+
+
+
   ];
 
   function filterItems() {
     const typeFilter = document.getElementById("typeFilter").value;
     const genreFilter = document.getElementById("genreFilter").value;
+    const timeFilter = document.getElementById("timeFilter").value;
 
     const filteredItems = songData.filter(item => {
-      if (typeFilter === 'all' && genreFilter === 'all') {
-      return true;
-      } else if (typeFilter === 'all'){
-      return item.genre === genreFilter;
-      } else if (genreFilter === 'all'){
-      return item.type === typeFilter;
-      } else {
-      return item.type === typeFilter && item.genre === genreFilter;
+        return item.type === typeFilter && item.genre === genreFilter && item.time === timeFilter;
       }
-    });
+    );
 
     const filteredList  = document.getElementById('filteredList');
     filteredList.innerHTML = '';
@@ -176,6 +202,11 @@
       listItem.className = 'item';
       listItem.id = item.id; // Set the id attribute to the value of the id property
 
+      const link = document.createElement('a');
+      link.href = item.url; // Set the href attribute to the item's URL
+      link.className = 'item-link'; // Add the class "item-link" to the link element
+      listItem.appendChild(link);
+
       // Create an <img> element
       const image = document.createElement('img');
       image.src = item.image; // Set the src attribute to the image URL
@@ -184,7 +215,21 @@
       // Create a <p> element for displaying the type and title
       const titleElement = document.createElement('p');
       titleElement.textContent = `${item.title}`;
-      listItem.appendChild(titleElement);
+      link.appendChild(titleElement); // Append the title to the link element
+
+      // Create additional div elements
+      const additionalDiv1 = document.createElement('div');
+      additionalDiv1.className = 'additional-div-1';
+      additionalDiv1.id = `${item.id}` + 'Additional-div-1';
+      additionalDiv1.textContent = `${item.artist}`;
+      link.appendChild(additionalDiv1);
+
+      const additionalDiv2 = document.createElement('div');
+      additionalDiv2.className = 'additional-div-2';
+      additionalDiv2.id = `${item.id}` + 'Additional-div-2';
+      additionalDiv2.textContent = `${item.rank}`;
+      link.appendChild(additionalDiv2);
+
 
       filteredList.appendChild(listItem);
     });
@@ -192,6 +237,7 @@
 
   document.getElementById('typeFilter').addEventListener('change', filterItems);
   document.getElementById('genreFilter').addEventListener('change', filterItems);
+  document.getElementById('timeFilter').addEventListener('change', filterItems);
 
   filterItems();
 
