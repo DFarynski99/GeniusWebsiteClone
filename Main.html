@@ -77,25 +77,130 @@
 
   <div id="threeSmallerArticles">
 
+    <div id="blackVerticalBarOne"></div>
+    <div id="blackVerticalBarTwo"></div>
+
     <div id="newsLineMiniOne">NEWS</div>
-      <a id="newsMiniStoryOneAnchor" href="https://promote.genius.com/">
-        <p id="newsMiniStoryOne">Looking Back At The Top Hip-Hop Song Of 2013 On Genius</p>
-        <img src="GeniusCloneEminemImage.png" id="miniStoryImageOne" alt="EminemStoryImage">
-        <p id="miniStoryOneAuthor">by Leah Degrazia&nbsp;/</p>
-        <p id="miniStoryOneDate">May 13 2023</p>
+      <a id="newsMiniStoryOneAnchor" href="https://genius.com/a/how-do-you-game-let-us-know-for-a-chance-to-win-200">
+        <div id="newsMiniStoryOne">How Do You Game? Let Us Know For A Chance To Win $200
+        <img src="https://images.genius.com/3438040de356a266aadee4b162334f7c.1920x1080x1.png" id="miniStoryImageOne" alt="howDoYouGame?">
+        <p id="miniStoryOneAuthor">by Genius&nbsp;/</p>
+        <p id="miniStoryOneDate">May 3 2023</p>
+        </div>
       </a>
-    </div>
 
 
-  <div id="newsLineMiniTwo">NEWS
-    <div id="newsBlackBarMiniOne"></div>
+
+  <div id="newsLineMiniTwo">NEWS</div>
+    <a id="newsMiniStoryTwoAnchor" href="https://genius.com/a/how-do-you-game-let-us-know-for-a-chance-to-win-200">    <!-- Wrap everything you want to  -->
+      <div id="newsMiniStoryTwo">Meet Tyla, The South African Pop Singer Who’s Going Global
+      <img src="TylaSS.PNG" id="miniStoryImageTwo" alt="tylaArticle">
+      <p id="miniStoryTwoAuthor">by Ken Partridge&nbsp;/</p>
+      <p id="miniStoryTwoDate">May 16 2023</p>
+      </div>
+    </a>
+
+
+  <div id="newsLineMiniThree">NEWS</div>
+    <a id="newsMiniStoryThreeAnchor" href="https://genius.com/a/top-hip-hop-song-2013">
+      <div id="newsMiniStoryThree">Looking Back At The Top Hip-Hop Song Of 2013 On Genius
+      <img src="GeniusCloneEminemImage.png" id="miniStoryImageThree" alt="eminemArticle">
+      <p id="miniStoryThreeAuthor">by Leah Degrazia /</p>
+      <p id="miniStoryThreeDate">May 13 2023</p>
+      </div>
+    </a>
+
   </div>
+
+
+  <div id="largeCharts">CHARTS</div>
+
+  <select id="typeFilter">
+    <option value="all">All Types</option>
+    <option value="songs">Songs</option>
+    <option value="albums">Albums</option>
+  </select>
+
+  <select id="genreFilter">
+    <option value="all">All Genres</option>
+    <option value="rock">Rock</option>
+    <option value="pop">Pop</option>
+  </select>
+
+
+  <div id="filteredList">
+
+
+  </div>
+
+
+
 
 
 
 </div>
 
+
+
+
 <script>
+
+  const songData = [
+    {id: 'areaCodes', type: 'songs', genre: 'pop', title: 'Area Codes', image: 'AreaCodes.png'},
+    {type: 'songs', genre: 'rock', title: 'Song 2'},
+    {type: 'albums', genre: 'pop', title: 'Album 3'},
+    {type: 'albums', genre: 'rock', title: 'Album 4'},
+  ];
+
+  function filterItems() {
+    const typeFilter = document.getElementById("typeFilter").value;
+    const genreFilter = document.getElementById("genreFilter").value;
+
+    const filteredItems = songData.filter(item => {
+      if (typeFilter === 'all' && genreFilter === 'all') {
+      return true;
+      } else if (typeFilter === 'all'){
+      return item.genre === genreFilter;
+      } else if (genreFilter === 'all'){
+      return item.type === typeFilter;
+      } else {
+      return item.type === typeFilter && item.genre === genreFilter;
+      }
+    });
+
+    const filteredList  = document.getElementById('filteredList');
+    filteredList.innerHTML = '';
+
+    filteredItems.forEach(item => {
+      const listItem = document.createElement('div');
+      listItem.className = 'item';
+      listItem.id = item.id; // Set the id attribute to the value of the id property
+
+      // Create an <img> element
+      const image = document.createElement('img');
+      image.src = item.image; // Set the src attribute to the image URL
+      listItem.appendChild(image);
+
+      // Create a <p> element for displaying the type and title
+      const titleElement = document.createElement('p');
+      titleElement.textContent = `${item.title}`;
+      listItem.appendChild(titleElement);
+
+      filteredList.appendChild(listItem);
+    });
+  }
+
+  document.getElementById('typeFilter').addEventListener('change', filterItems);
+  document.getElementById('genreFilter').addEventListener('change', filterItems);
+
+  filterItems();
+
+
+
+
+
+
+
 
   function redirectToSignUp() {
     window.location.href = "https://genius.com/signup";
