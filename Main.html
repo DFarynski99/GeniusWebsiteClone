@@ -115,26 +115,6 @@
 
   <div id="largeCharts">CHARTS</div>
 
-  <select id="typeFilter">
-    <option value="songs">Songs</option>
-    <option value="albums">Albums</option>
-    <option value="artists">Artists</option>
-    <option value="lyrics">Lyrics</option>
-
-  </select>
-
-  <select id="genreFilter">
-    <option value="all">All Genres</option>
-    <option value="rock">Rock</option>
-    <option value="pop">Pop</option>
-  </select>
-
-  <select id="timeFilter">
-    <option value="today">Today</option>
-    <option value="lastWeek">Last Week</option>
-    <option value="thisYear">This Year</option>
-    <option value="all">All time</option>
-  </select>
 
   <div id="filteredList"></div>
 
@@ -142,8 +122,7 @@
 
 <div id="chartsPlacementOne"></div>
 <div id="chartsPlacementTwo"></div>
-
-  <div id="chartsPlacementThree"></div>
+<div id="chartsPlacementThree"></div>
   <div id="chartsPlacementFour"></div>
   <div id="chartsPlacementFive"></div>
   <div id="chartsPlacementSix"></div>
@@ -154,12 +133,56 @@
 
 
 
+    <button class= "large-button" onclick="toggleDropdown()">Select Filters</button>
+    <div id="dropdown-content" class="dropdown-content">
+      <div class="dropdown-column">
+        <h3 id="typeAIOHeading">Type</h3>
+        <div class="dropdown-option dropdown-type selected" data-value="songs" onclick="filterItems('type', 'songs')">Songs</div>
+        <div class="dropdown-option dropdown-type" data-value="albums" onclick="filterItems('type', 'albums')">Albums</div>
+        <div class="dropdown-option dropdown-type" data-value="artists" onclick="filterItems('type', 'artists')">Artists</div>
+        <div class="dropdown-option dropdown-type" data-value="lyrics" onclick="filterItems('type', 'lyrics')">Lyrics</div>
+      </div>
+      <div class="dropdown-column">
+        <h3 id="genreAIOHeading">Genre</h3>
+        <div class="dropdown-option dropdown-genre selected" data-value="all" onclick="filterItems('genre', 'all')">All</div>
+        <div class="dropdown-option dropdown-genre" data-value="rap" onclick="filterItems('genre', 'rap')">Rap</div>
+        <div class="dropdown-option dropdown-genre" data-value="pop" onclick="filterItems('genre', 'pop')">Pop</div>
+        <div class="dropdown-option dropdown-genre" data-value="r&b" onclick="filterItems('genre', 'r&b')">R&B</div>
+        <div class="dropdown-option dropdown-genre" data-value="rock" onclick="filterItems('genre', 'rock')">Rock</div>
+        <div class="dropdown-option dropdown-genre" data-value="country" onclick="filterItems('genre', 'country')">Country</div>
+      </div>
+      <div class="dropdown-column">
+        <h3 id="timeAIOHeading">Time</h3>
+        <div class="dropdown-option dropdown-time selected" data-value="today" onclick="filterItems('time', 'today')">Day</div>
+        <div class="dropdown-option dropdown-time" data-value="week" onclick="filterItems('time', 'week')">Week</div>
+        <div class="dropdown-option dropdown-time" data-value="month" onclick="filterItems('time', 'month')">Month</div>
+        <div class="dropdown-option dropdown-time" data-value="allTime" onclick="filterItems('time', 'allTime')">All Time</div>
+      </div>
+    </div>
+
+
+
+
 </div>
 
 
-
-
 <script>
+
+
+
+  var dropdownContent = document.getElementById('dropdown-content');
+
+  function toggleDropdown() {
+    if (dropdownContent.style.display === 'block') {
+      dropdownContent.style.display = 'none';
+    } else {
+      dropdownContent.style.display = 'block';
+    }
+  }
+
+
+
+
 
   const songData = [
 
@@ -184,15 +207,50 @@
 
   ];
 
-  function filterItems() {
-    const typeFilter = document.getElementById("typeFilter").value;
-    const genreFilter = document.getElementById("genreFilter").value;
-    const timeFilter = document.getElementById("timeFilter").value;
+
+  let selectedType = 'songs';
+  let selectedGenre = 'all';
+  let selectedTime = 'today';
+  filterItems('type', selectedType);
+  filterItems('genre', selectedGenre);
+  filterItems('time', selectedTime);
+
+  function updateButtonText() {
+    let genreText = selectedGenre.toUpperCase();
+    let dateText = selectedTime.toUpperCase();
+
+    if (selectedGenre === 'all'){
+      genreText = "ALL GENRES"
+    }
+
+    if (selectedTime === 'week'){
+      dateText = "THIS WEEK";
+    } else if (selectedTime === 'month'){
+      dateText = "THIS MONTH";
+    } else if (selectedTime === "allTime"){
+      dateText = "ALL TIME";
+    }
+
+    const buttonText = `${selectedType.toUpperCase()} / ${genreText} / ${dateText}`;
+    document.querySelector(".large-button").innerHTML = buttonText;
+  }
+
+  function filterItems(category, value) {
+    if (category === 'type') {
+      selectedType = value;
+    } else if (category === 'genre') {
+      selectedGenre = value;
+    } else if (category === 'time') {
+      selectedTime = value;
+    }
+
+    updateDropdownSelection(category, value);
+    updateButtonText();
+
 
     const filteredItems = songData.filter(item => {
-        return item.type === typeFilter && item.genre === genreFilter && item.time === timeFilter;
-      }
-    );
+      return item.type === selectedType && item.genre === selectedGenre && item.time === selectedTime;
+    });
 
     const filteredList  = document.getElementById('filteredList');
     filteredList.innerHTML = '';
@@ -232,6 +290,21 @@
 
 
       filteredList.appendChild(listItem);
+    });
+    // Rerender the list after updating the selected values
+    if (category && value) {
+      filterItems();
+    }
+  }
+
+  function updateDropdownSelection(category, value) {
+    const dropdownCategory = document.querySelectorAll(`.dropdown-${category}`);
+    dropdownCategory.forEach(option => {
+      if (option.getAttribute('data-value') === value) {
+        option.classList.add('selected');
+      } else {
+        option.classList.remove('selected');
+      }
     });
   }
 
