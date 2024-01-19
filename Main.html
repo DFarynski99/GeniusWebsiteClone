@@ -26,9 +26,11 @@
 
 <div id="blackBar">
 
-  <a href="#section" class="navBar" id="featured">FEATURED</a> <!-- Stays on the same page -->
-  <a href="#section" class="navBar" id="charts">CHARTS</a>   <!-- Stays on the same page -->
-  <a href="#section" class="navBar" id="videos">VIDEOS</a>   <!-- Stays on the same page -->
+  <a href="https://the50th.genius.com/" id="the50th">THE 50TH</a>
+
+  <a href="#bottomBlackBarNavBarAnchor" class="navBar" id="featured">FEATURED</a> <!-- Stays on the same page -->
+  <a href="#bottomThreeArticleNavBarAnchor" class="navBar" id="charts">CHARTS</a>   <!-- Stays on the same page -->
+  <a href="#bottomChartsNavBarAnchor" class="navBar" id="videos">VIDEOS</a>   <!-- Stays on the same page -->
   <a href="https://promote.genius.com/" class="navBar" id="promoteYourMusic">PROMOTE YOUR MUSIC</a>
 
 
@@ -36,21 +38,37 @@
   <span id="separatorTwo">|</span>
   <span id="separatorThree">|</span>
   <span id="separatorFour">|</span>
+  <span id="separatorFive">|</span>
 
-  <a href="" id="facebookLink">
-    <img src="FacebookGeniusClone.png" alt="Facebook Link" id="facebookLinkImage">
+
+  <a href="https://www.facebook.com/Genius/">
+    <svg id="facebookHeader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.95 20" width="9.95" height="20"><path d="M8.09 3.81c-1.4 0-1.58.84-1.58 1.67v1.3h3.35L9.49 11h-3v9H2.33v-9H0V6.88h2.42V3.81C2.42 1.3 3.81 0 6.6 0H10v3.81z" fill="#FFFFFF"></path></svg>
+  </a>
+
+  <a href="https://twitter.com/Genius">
+    <svg id="twitterHeader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16.43" width="20" height="16.43"><path d="M20 1.89l-2.3 2.16v.68a12.28 12.28 0 0 1-3.65 8.92c-5 5.13-13.1 1.76-14.05.81 0 0 3.78.14 5.81-1.76A4.15 4.15 0 0 1 2.3 9.86h2S.81 9.05.81 5.81A11 11 0 0 0 3 6.35S-.14 4.05 1.49.95a11.73 11.73 0 0 0 8.37 4.19A3.69 3.69 0 0 1 13.51 0a3.19 3.19 0 0 1 2.57 1.08 12.53 12.53 0 0 0 3.24-.81l-1.75 1.89A10.46 10.46 0 0 0 20 1.89z" fill="#FFFFFF"></path></svg>
+  </a>
+
+  <a href="https://www.instagram.com/genius/">
+    <svg id="instagramHeader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><path d="M10 0c2.724 0 3.062 0 4.125.06.83.017 1.65.175 2.426.467.668.254 1.272.65 1.77 1.162.508.498.902 1.1 1.153 1.768.292.775.45 1.595.467 2.424.06 1.063.06 1.41.06 4.123 0 2.712-.06 3.06-.06 4.123-.017.83-.175 1.648-.467 2.424-.52 1.34-1.58 2.402-2.922 2.92-.776.293-1.596.45-2.425.468-1.063.06-1.41.06-4.125.06-2.714 0-3.062-.06-4.125-.06-.83-.017-1.65-.175-2.426-.467-.668-.254-1.272-.65-1.77-1.162-.508-.498-.902-1.1-1.153-1.768-.292-.775-.45-1.595-.467-2.424C0 13.055 0 12.708 0 9.995c0-2.712 0-3.04.06-4.123.017-.83.175-1.648.467-2.424.25-.667.645-1.27 1.153-1.77.5-.507 1.103-.9 1.77-1.15C4.225.234 5.045.077 5.874.06 6.958 0 7.285 0 10 0zm0 1.798h.01c-2.674 0-2.992.06-4.046.06-.626.02-1.245.15-1.83.377-.434.16-.828.414-1.152.746-.337.31-.602.69-.775 1.113-.222.595-.34 1.224-.348 1.858-.06 1.064-.06 1.372-.06 4.045s.06 2.99.06 4.044c.007.633.125 1.262.347 1.857.17.434.434.824.775 1.142.31.33.692.587 1.113.754.596.222 1.224.34 1.86.348 1.063.06 1.37.06 4.045.06 2.674 0 2.992-.06 4.046-.06.635-.008 1.263-.126 1.86-.348.87-.336 1.56-1.025 1.897-1.897.217-.593.332-1.218.338-1.848.06-1.064.06-1.372.06-4.045s-.06-2.99-.06-4.044c-.01-.623-.128-1.24-.347-1.827-.16-.435-.414-.83-.745-1.152-.318-.34-.71-.605-1.143-.774-.596-.222-1.224-.34-1.86-.348-1.063-.06-1.37-.06-4.045-.06zm0 3.1c1.355 0 2.655.538 3.613 1.496.958.958 1.496 2.257 1.496 3.61 0 2.82-2.288 5.108-5.11 5.108-2.822 0-5.11-2.287-5.11-5.107 0-2.82 2.288-5.107 5.11-5.107zm0 8.415c.878 0 1.72-.348 2.34-.97.62-.62.97-1.46.97-2.338 0-1.827-1.482-3.31-3.31-3.31s-3.31 1.483-3.31 3.31 1.482 3.308 3.31 3.308zm6.51-8.633c0 .658-.533 1.192-1.192 1.192-.66 0-1.193-.534-1.193-1.192 0-.66.534-1.193 1.193-1.193.316 0 .62.126.844.35.223.223.35.526.35.843z" fill="#FFFFFF"></path></svg>
+  </a>
+
+  <a href="https://www.youtube.com/genius">
+    <svg id="youtubeHeader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.01 14.07" width="20.01" height="14.07"><path d="M19.81 3A4.32 4.32 0 0 0 19 1a2.86 2.86 0 0 0-2-.8C14.21 0 10 0 10 0S5.8 0 3 .2A2.87 2.87 0 0 0 1 1a4.32 4.32 0 0 0-.8 2S0 4.51 0 6.06V8a30 30 0 0 0 .2 3 4.33 4.33 0 0 0 .8 2 3.39 3.39 0 0 0 2.2.85c1.46.14 5.9.19 6.68.2h.4c1 0 4.35 0 6.72-.21a2.87 2.87 0 0 0 2-.84 4.32 4.32 0 0 0 .8-2 30.31 30.31 0 0 0 .2-3.21V6.28A30.31 30.31 0 0 0 19.81 3zM7.94 9.63V4l5.41 2.82z" fill="#FFFFFF"></path></svg>
   </a>
 
 
+
 </div>
+  <div id="bottomBlackBarNavBarAnchor"></div>
 
 <img src="geniusLogo.png" onclick="redirectToHome()" alt="Genius Logo" id="geniusLogoImage">
 
 
 <div id="containerOneMain">
 
-  <div id="newsLineOne">NEWS
-    <div id="newsBlackBar"></div>
+  <div id="featuredLineOne">NEWS
+    <div id="featuredBlackBar"></div>
   </div>
 
 
@@ -111,12 +129,14 @@
     </a>
 
   </div>
+  <div id="bottomThreeArticleNavBarAnchor"></div>
 
 
   <div id="largeCharts">CHARTS</div>
 
 
   <div id="filteredList"></div>
+  <div id="bottomChartsNavBarAnchor"></div>
 
 
 
@@ -215,31 +235,39 @@
     </a>
 
 
-    <a href="https://genius.com/a/read-all-the-lyrics-to-the-good-burger-2-soundtrack"  id="latestStory2href">
-    <div id="latestNewsStoryTWO">
+    <a href="https://genius.com/a/top-hip-hop-song-2020"  id="latestStory2href">
+      <div id="latestNewsStoryTWO">
 
-      <div id="newsTwo">NEWS</div>
-      <div id="blackBarLatestNewsTwo"></div>
-      <img src="https://images.genius.com/c623418abe4553230c90fe442cc09b56.3000x3000x1.png" id="latestStoreTwo">
-      <div id="latestNewsHeadlineTwo">Read All The Lyrics To The ‘Good Burger 2’ Soundtrack</div>
-      <div id="latestNewsAuthorTwo">by Genius / </div>
-      <div id="latestNewsDateTwo">Nov 23 2023</div>
+        <div id="newsTwo">NEWS</div>
+        <div id="blackBarLatestNewsTwo"></div>
+        <img src="https://images.genius.com/80e2a943ddc949fe892d1c22044b4dba.1920x1080x1.png" id="latestStoreTwo">
+        <div id="latestNewsHeadlineTwo">Looking Back At The Top Hip-Hop Song Of 2020 On Genius</div>
+        <div id="latestNewsAuthorTwo">by Ken Partridge / </div>
+        <div id="latestNewsDateTwo">Nov 25 2023</div>
 
 
-      <div id="presentedByTwoText">PRESENTED BY</div>
-      <img src="https://images.genius.com/244c8d6c6b1e76d47d5778f764f5a2fb.1205x794x1.png" id="presentedByTwoImg">
+      </div>
+    </a>
+
+
+    <a href="https://genius.com/a/read-all-the-lyrics-to-the-good-burger-2-soundtrack"  id="latestStory3href">
+    <div id="latestNewsStoryTHREE">
+
+      <div id="newsThree">NEWS</div>
+      <div id="blackBarLatestNewsThree"></div>
+      <img src="https://images.genius.com/c623418abe4553230c90fe442cc09b56.3000x3000x1.png" id="latestStoreThree">
+      <div id="latestNewsHeadlineThree">Read All The Lyrics To The ‘Good Burger 2’ Soundtrack</div>
+      <div id="latestNewsAuthorThree">by Genius / </div>
+      <div id="latestNewsDateThree">Nov 23 2023</div>
+
+
+      <div id="presentedByThreeText">PRESENTED BY</div>
+      <img src="https://images.genius.com/244c8d6c6b1e76d47d5778f764f5a2fb.1205x794x1.png" id="presentedByThreeImg">
 
 
     </div>
     </a>
 
-
-    <div id="latestNewsStoryTHREE">
-
-
-
-
-    </div>
 
     <a href="https://genius.com/a/bjork-rosalia-join-forces-to-fight-commercial-salmon-farming-with-new-song-oral"  id="latestStory4href">
     <div id="latestNewsStoryFOUR">
@@ -255,26 +283,51 @@
     </div>
       </a>
 
+
+    <a href="https://genius.com/a/bjork-rosalia-join-forces-to-fight-commercial-salmon-farming-with-new-song-oral"  id="latestStory5href">
     <div id="latestNewsStoryFIVE">
 
-
-
-
-    </div>
-
-    <div id="latestNewsStorySIX">
-
-
-
-
-    </div>
-
-    <div id="latestNewsStorySEVEN">
-
-
+      <div id="newsFive">NEWS</div>
+      <div id="blackBarLatestNewsFive"></div>
+      <img src="https://images.genius.com/0431fc5c720a1773fdda2a9a693f8f61.1000x1000x1.png" id="latestStoreFive">
+      <div id="latestNewsHeadlineFive">Björk & ROSALÍA Join Forces To Fight Commercial Salmon Farming With New Song “Oral”</div>
+      <div id="latestNewsAuthorFive">by Ken Partridge / </div>
+      <div id="latestNewsDateFive">Nov 22 2023</div>
 
 
     </div>
+    </a>
+
+
+    <a href="https://genius.com/a/top-hip-hop-song-2020"  id="latestStory6href">
+      <div id="latestNewsStorySIX">
+
+        <div id="newsSix">NEWS</div>
+        <div id="blackBarLatestNewsSix"></div>
+        <img src="https://images.genius.com/80e2a943ddc949fe892d1c22044b4dba.1920x1080x1.png" id="latestStoreSix">
+        <div id="latestNewsHeadlineSix">Looking Back At The Top Hip-Hop Song Of 2020 On Genius</div>
+        <div id="latestNewsAuthorSix">by Ken Partridge / </div>
+        <div id="latestNewsDateSix">Nov 25 2023</div>
+
+
+      </div>
+    </a>
+
+
+    <a href="https://genius.com/a/top-hip-hop-song-2020"  id="latestStory7href">
+      <div id="latestNewsStorySEVEN">
+
+        <div id="newsSeven">NEWS</div>
+        <div id="blackBarLatestNewsSeven"></div>
+        <img src="https://images.genius.com/80e2a943ddc949fe892d1c22044b4dba.1920x1080x1.png" id="latestStoreSeven">
+        <div id="latestNewsHeadlineSeven">Looking Back At The Top Hip-Hop Song Of 2020 On Genius</div>
+        <div id="latestNewsAuthorSeven">by Ken Partridge / </div>
+        <div id="latestNewsDateSeven">Nov 25 2023</div>
+
+
+      </div>
+    </a>
+
 
     <a href="https://genius.com/a/read-all-the-lyrics-to-2-chainz-lil-waynes-new-album-welcome-2-collegrove" id="latestStory8href">
     <div id="latestNewsStoryEIGHT">
@@ -290,7 +343,391 @@
     </div>
     </a>
 
+
+    <a href="https://genius.com/a/common-discusses-his-new-song-with-dj-premier-his-forthcoming-album-with-pete-rock" id="latestStory9href">
+    <div id="latestNewsStoryNINE">
+
+      <div id="newsNine">NEWS</div>
+      <div id="blackBarLatestNewsNine"></div>
+      <img src="https://images.genius.com/cf775b9372d430b41be898c40793f00d.2114x3171x1.jpg" id="latestStoreNine">
+      <div id="latestNewsHeadlineNine">Common Discusses His New Song With DJ Premier & His Forthcoming Album With Pete Rock</div>
+      <div id="latestNewsAuthorNine">by Ken Partridge / </div>
+      <div id="latestNewsDateNine">Nov 18 2023</div>
+
+
+    </div>
+    </a>
+
+
+
+
+    <a href="https://genius.com/a/common-discusses-his-new-song-with-dj-premier-his-forthcoming-album-with-pete-rock" id="latestStory10href">
+      <div id="latestNewsStoryTEN">
+
+        <div id="newsTen">NEWS</div>
+        <div id="blackBarLatestNewsTen"></div>
+        <img src="https://images.genius.com/cf775b9372d430b41be898c40793f00d.2114x3171x1.jpg" id="latestStoreTen">
+        <div id="latestNewsHeadlineTen">Common Discusses His New Song With DJ Premier & His Forthcoming Album With Pete Rock</div>
+        <div id="latestNewsAuthorTen">by Ken Partridge / </div>
+        <div id="latestNewsDateTen">Nov 18 2023</div>
+
+
+      </div>
+    </a>
+
+
+    <a href="https://genius.com/a/common-discusses-his-new-song-with-dj-premier-his-forthcoming-album-with-pete-rock" id="latestStory11href">
+      <div id="latestNewsStoryELEVEN">
+
+        <div id="newsEleven">NEWS</div>
+        <div id="blackBarLatestNewsEleven"></div>
+        <img src="https://images.genius.com/cf775b9372d430b41be898c40793f00d.2114x3171x1.jpg" id="latestStoreEleven">
+        <div id="latestNewsHeadlineEleven">Common Discusses His New Song With DJ Premier & His Forthcoming Album With Pete Rock</div>
+        <div id="latestNewsAuthorEleven">by Ken Partridge / </div>
+        <div id="latestNewsDateEleven">Nov 18 2023</div>
+
+
+      </div>
+    </a>
+
+
+
+    <a href="https://genius.com/a/common-discusses-his-new-song-with-dj-premier-his-forthcoming-album-with-pete-rock" id="latestStory12href">
+      <div id="latestNewsStoryTWELVE">
+
+        <div id="newsTwelve">NEWS</div>
+        <div id="blackBarLatestNewsTwelve"></div>
+        <img src="https://images.genius.com/cf775b9372d430b41be898c40793f00d.2114x3171x1.jpg" id="latestStoreTwelve">
+        <div id="latestNewsHeadlineTwelve">Common Discusses His New Song With DJ Premier & His Forthcoming Album With Pete Rock</div>
+        <div id="latestNewsAuthorTwelve">by Ken Partridge / </div>
+        <div id="latestNewsDateTwelve">Nov 18 2023</div>
+
+
+      </div>
+    </a>
+
   </div>
+
+
+
+  <div id="communityBlock">
+
+      <div id="communityHeading">COMMUNITY</div>
+      <div id="redCommunityDescription">GENIUS’S COMMUNITY OF CONTRIBUTORS POWERS THE WORLD’S BIGGEST COLLECTION OF SONG LYRICS AND MUSICAL KNOWLEDGE.</div>
+
+        <div class="large-button" id="communityJoinOurCommunityButton">JOIN OUR COMMUNITY</div>
+
+        <div class="large-button" id="communityLearnHowGeniusWorksButton">LEARN HOW GENIUS WORKS</div>
+
+
+          <div id="communityLeaderboard">
+
+            <div id="rankText">RANK</div>
+            <div id="topScholarsToday">TOP SCHOLARS TODAY</div>
+            <div id="iqEarnedToday">IQ EARNED TODAY</div>
+
+
+            <div id="communityGreyDividerOne"></div>
+            <div id="communityGreyDividerTwo"></div>
+            <div id="communityGreyDividerThree"></div>
+            <div id="communityGreyDividerFour"></div>
+            <div id="communityGreyDividerFive"></div>
+            <div id="communityGreyDividerSix"></div>
+            <div id="communityGreyDividerSeven"></div>
+            <div id="communityGreyDividerEight"></div>
+            <div id="communityGreyDividerNine"></div>
+            <div id="communityGreyDividerTen"></div>
+            <div id="communityGreyDividerEleven"></div>
+
+
+
+
+            <div id="communityRankOne">
+              <div id="rankNumber1">1</div>
+              <img src="userImage1.jpeg" id="userImage1">
+              <div id="userName1">alxdv</div>
+              <div id="userLevel1">CONTRIBUTOR</div>
+              <div id="userPoints1">4,534</div>
+            </div>
+
+
+            <div id="communityRankTwo">
+              <div id="rankNumber2">2</div>
+              <img src="userImage2.gif" id="userImage2">
+              <div id="userName2">frialdad</div>
+              <div id="userLevel2">MODERATOR</div>
+              <div id="userPoints2">3,887</div>
+            </div>
+
+
+            <div id="communityRankThree">
+              <div id="rankNumber3">3</div>
+              <img src="userImage3.gif" id="userImage3">
+              <div id="userName3">Cheat_Genius</div>
+              <div id="userLevel3">TRANSCRIBER</div>
+              <div id="userPoints3">3,612</div>
+            </div>
+
+
+            <div id="communityRankFour">
+              <div id="rankNumber4">4</div>
+              <img src="userImage4.png" id="userImage4">
+              <div id="userName4">PlanNine</div>
+              <div id="userLevel4">MODERATOR</div>
+              <div id="userPoints4">2,471</div>
+            </div>
+
+
+            <div id="communityRankFive">
+              <div id="rankNumber5">5</div>
+              <img src="userImage5.jpeg" id="userImage5">
+              <div id="userName5">SmashBreezy</div>
+              <div id="userLevel5">EDITOR</div>
+              <div id="userPoints5">2,364</div>
+            </div>
+
+
+            <div id="communityRankSix">
+              <div id="rankNumber6">6</div>
+              <img src="userImage6.png" id="userImage6">
+              <div id="userName6">AirGuitarVirtuosoRU</div>
+              <div id="userLevel6">CONTRIBUTOR</div>
+              <div id="userPoints6">2,056</div>
+            </div>
+
+
+            <div id="communityRankSeven">
+              <div id="rankNumber7">7</div>
+              <img src="userImage7.jpeg" id="userImage7">
+              <div id="userName7">polka</div>
+              <div id="userLevel7">MODERATOR</div>
+              <div id="userPoints7">1,721</div>
+            </div>
+
+
+            <div id="communityRankEight">
+              <div id="rankNumber8">8</div>
+              <img src="userImage8.jpeg" id="userImage8">
+              <div id="userName8">UnboxKings</div>
+              <div id="userLevel8">EDITOR</div>
+              <div id="userPoints8">1,640</div>
+            </div>
+
+
+            <div id="communityRankNine">
+              <div id="rankNumber9">9</div>
+              <img src="userImage9.jpeg" id="userImage9">
+              <div id="userName9">RAZOR05</div>
+              <div id="userLevel9">TRANSCRIBER</div>
+              <div id="userPoints9">1,549</div>
+            </div>
+
+
+            <div id="communityRankTen">
+              <div id="rankNumber10">10</div>
+              <img src="userImage10.jpeg" id="userImage10">
+              <div id="userName10">MCGAIDAR</div>
+              <div id="userLevel10">CONTRIBUTOR</div>
+              <div id="userPoints10">1,479</div>
+            </div>
+
+
+
+
+          </div>
+
+
+  </div>
+
+
+  <div id="footerBackground">
+
+    <div id="footer"></div>
+    <div id="footerGeniusDescription">Genius is the world’s biggest collection of song lyrics and musical knowledge</div>
+
+
+    <a href="https://www.facebook.com/Genius/">
+    <svg id="facebookFooter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.95 20" width="9.95" height="20"><path d="M8.09 3.81c-1.4 0-1.58.84-1.58 1.67v1.3h3.35L9.49 11h-3v9H2.33v-9H0V6.88h2.42V3.81C2.42 1.3 3.81 0 6.6 0H10v3.81z" fill="#FFFFFF"></path></svg>
+    </a>
+
+    <a href="https://twitter.com/Genius">
+    <svg id="twitterFooter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16.43" width="20" height="16.43"><path d="M20 1.89l-2.3 2.16v.68a12.28 12.28 0 0 1-3.65 8.92c-5 5.13-13.1 1.76-14.05.81 0 0 3.78.14 5.81-1.76A4.15 4.15 0 0 1 2.3 9.86h2S.81 9.05.81 5.81A11 11 0 0 0 3 6.35S-.14 4.05 1.49.95a11.73 11.73 0 0 0 8.37 4.19A3.69 3.69 0 0 1 13.51 0a3.19 3.19 0 0 1 2.57 1.08 12.53 12.53 0 0 0 3.24-.81l-1.75 1.89A10.46 10.46 0 0 0 20 1.89z" fill="#FFFFFF"></path></svg>
+    </a>
+
+    <a href="https://www.instagram.com/genius/">
+    <svg id="instagramFooter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20"><path d="M10 0c2.724 0 3.062 0 4.125.06.83.017 1.65.175 2.426.467.668.254 1.272.65 1.77 1.162.508.498.902 1.1 1.153 1.768.292.775.45 1.595.467 2.424.06 1.063.06 1.41.06 4.123 0 2.712-.06 3.06-.06 4.123-.017.83-.175 1.648-.467 2.424-.52 1.34-1.58 2.402-2.922 2.92-.776.293-1.596.45-2.425.468-1.063.06-1.41.06-4.125.06-2.714 0-3.062-.06-4.125-.06-.83-.017-1.65-.175-2.426-.467-.668-.254-1.272-.65-1.77-1.162-.508-.498-.902-1.1-1.153-1.768-.292-.775-.45-1.595-.467-2.424C0 13.055 0 12.708 0 9.995c0-2.712 0-3.04.06-4.123.017-.83.175-1.648.467-2.424.25-.667.645-1.27 1.153-1.77.5-.507 1.103-.9 1.77-1.15C4.225.234 5.045.077 5.874.06 6.958 0 7.285 0 10 0zm0 1.798h.01c-2.674 0-2.992.06-4.046.06-.626.02-1.245.15-1.83.377-.434.16-.828.414-1.152.746-.337.31-.602.69-.775 1.113-.222.595-.34 1.224-.348 1.858-.06 1.064-.06 1.372-.06 4.045s.06 2.99.06 4.044c.007.633.125 1.262.347 1.857.17.434.434.824.775 1.142.31.33.692.587 1.113.754.596.222 1.224.34 1.86.348 1.063.06 1.37.06 4.045.06 2.674 0 2.992-.06 4.046-.06.635-.008 1.263-.126 1.86-.348.87-.336 1.56-1.025 1.897-1.897.217-.593.332-1.218.338-1.848.06-1.064.06-1.372.06-4.045s-.06-2.99-.06-4.044c-.01-.623-.128-1.24-.347-1.827-.16-.435-.414-.83-.745-1.152-.318-.34-.71-.605-1.143-.774-.596-.222-1.224-.34-1.86-.348-1.063-.06-1.37-.06-4.045-.06zm0 3.1c1.355 0 2.655.538 3.613 1.496.958.958 1.496 2.257 1.496 3.61 0 2.82-2.288 5.108-5.11 5.108-2.822 0-5.11-2.287-5.11-5.107 0-2.82 2.288-5.107 5.11-5.107zm0 8.415c.878 0 1.72-.348 2.34-.97.62-.62.97-1.46.97-2.338 0-1.827-1.482-3.31-3.31-3.31s-3.31 1.483-3.31 3.31 1.482 3.308 3.31 3.308zm6.51-8.633c0 .658-.533 1.192-1.192 1.192-.66 0-1.193-.534-1.193-1.192 0-.66.534-1.193 1.193-1.193.316 0 .62.126.844.35.223.223.35.526.35.843z" fill="#FFFFFF"></path></svg>
+    </a>
+
+    <a href="https://www.youtube.com/genius">
+    <svg id="youtubeFooter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.01 14.07" width="20.01" height="14.07"><path d="M19.81 3A4.32 4.32 0 0 0 19 1a2.86 2.86 0 0 0-2-.8C14.21 0 10 0 10 0S5.8 0 3 .2A2.87 2.87 0 0 0 1 1a4.32 4.32 0 0 0-.8 2S0 4.51 0 6.06V8a30 30 0 0 0 .2 3 4.33 4.33 0 0 0 .8 2 3.39 3.39 0 0 0 2.2.85c1.46.14 5.9.19 6.68.2h.4c1 0 4.35 0 6.72-.21a2.87 2.87 0 0 0 2-.84 4.32 4.32 0 0 0 .8-2 30.31 30.31 0 0 0 .2-3.21V6.28A30.31 30.31 0 0 0 19.81 3zM7.94 9.63V4l5.41 2.82z" fill="#FFFFFF"></path></svg>
+    </a>
+
+
+    <a href="https://genius.com/Genius-about-genius-annotated">
+      <div id="aboutGenius">About Genius</div>
+    </a>
+
+    <a href="https://genius.com/contributor_guidelines">
+      <div id="contributorGuidelines">Contributor Guidelines</div>
+    </a>
+
+    <a href="https://genius.com/Comms-at-genius-press-genius-annotated">
+      <div id="press">Press</div>
+    </a>
+
+    <a href="https://genius-merch.creator-spring.com/?">
+      <div id="shop">Shop</div>
+    </a>
+
+    <a href="mailto:inquiry@genius.com">
+      <div id="advertise">Advertise</div>
+    </a>
+
+    <a href="https://genius.com/static/privacy_policy">
+      <div id="privacyPolicy">Privacy Policy</div>
+    </a>
+
+
+
+    <a href="https://genius.com/static/licensing">
+      <div id="licensing">Licensing</div>
+    </a>
+
+    <a href="https://genius.com/Genius-jobs-at-genius-annotated">
+      <div id="jobs">Jobs</div>
+    </a>
+
+    <a href="https://genius.com/developers">
+      <div id="developers">Developers</div>
+    </a>
+
+    <a href="https://genius.com/static/copyright">
+      <div id="copyrightPolicy">Copyright Policy</div>
+    </a>
+
+    <a href="https://genius.com/feedback/new">
+      <div id="contactUs">Contact Us</div>
+    </a>
+
+    <a href="https://genius.com/login">
+      <div id="signInFooter">Sign In</div>
+    </a>
+
+    <a href="https://support.genius.com/hc/en-us/requests/new">
+      <div id="doNotSell">Do Not Sell My Personal Information</div>
+    </a>
+
+
+
+
+
+    <div id="tagLLC">© 2023 ML Genius Holdings, LLC</div>
+
+    <a href="https://genius.com/static/terms">
+      <div id="termsOfUse">Terms of Use </div>
+    </a>
+
+
+    <div id="footerGreyLine"></div>
+
+
+    <a href="https://genius.com/verified-artists">
+    <div id="verifiedArtists">VERIFIED ARTISTS</div>
+    </a>
+
+    <div id="fullstop">.</div>
+    <div id="allArtists">ALL ARTISTS:</div>
+
+    <a id="artistsA" href="https://genius.com/artists-index/a">A</a>
+    <a id="artistsB" href="https://genius.com/artists-index/b">B</a>
+    <a id="artistsC" href="https://genius.com/artists-index/c">C</a>
+    <a id="artistsD" href="https://genius.com/artists-index/d">D</a>
+    <a id="artistsE" href="https://genius.com/artists-index/e">E</a>
+    <a id="artistsF" href="https://genius.com/artists-index/f">F</a>
+    <a id="artistsG" href="https://genius.com/artists-index/g">G</a>
+    <a id="artistsH" href="https://genius.com/artists-index/h">H</a>
+    <a id="artistsI" href="https://genius.com/artists-index/i">I</a>
+    <a id="artistsJ" href="https://genius.com/artists-index/j">J</a>
+    <a id="artistsK" href="https://genius.com/artists-index/k">K</a>
+    <a id="artistsL" href="https://genius.com/artists-index/l">L</a>
+    <a id="artistsM" href="https://genius.com/artists-index/m">M</a>
+    <a id="artistsN" href="https://genius.com/artists-index/n">N</a>
+    <a id="artistsO" href="https://genius.com/artists-index/o">O</a>
+    <a id="artistsP" href="https://genius.com/artists-index/p">P</a>
+    <a id="artistsQ" href="https://genius.com/artists-index/q">Q</a>
+    <a id="artistsR" href="https://genius.com/artists-index/r">R</a>
+    <a id="artistsS" href="https://genius.com/artists-index/s">S</a>
+    <a id="artistsT" href="https://genius.com/artists-index/t">T</a>
+    <a id="artistsU" href="https://genius.com/artists-index/u">U</a>
+    <a id="artistsV" href="https://genius.com/artists-index/v">V</a>
+    <a id="artistsW" href="https://genius.com/artists-index/w">W</a>
+    <a id="artistsX" href="https://genius.com/artists-index/x">X</a>
+    <a id="artistsY" href="https://genius.com/artists-index/y">Y</a>
+    <a id="artistsZ" href="https://genius.com/artists-index/z">Z</a>
+    <a id="artistsHashtag" href="https://genius.com/artists-index/0">#</a>
+
+
+
+
+
+    <div id="hotSongs">HOT SONGS:</div>
+
+    <a href="https://genius.com/Taylor-swift-youre-losing-me-from-the-vault-lyrics">
+    <div id="hotSongFooterOne">YOU'RE LOSING ME (FROM THE VAULT)</div>
+    </a>
+
+    <div id="fullstopTwo">.</div>
+
+    <a href="https://genius.com/Eminem-the-real-slim-shady-lyrics">
+      <div id="hotSongFooterTwo">THE REAL SLIM SHADY</div>
+    </a>
+
+    <div id="fullstopThree">.</div>
+
+    <a href="https://genius.com/Eminem-mockingbird-lyrics">
+      <div id="hotSongFooterThree">MOCKINGBIRD</div>
+    </a>
+
+    <div id="fullstopFour">.</div>
+
+    <a href="https://genius.com/Christmas-songs-the-twelve-days-of-christmas-lyrics">
+      <div id="hotSongFooterFour">THE TWELVE DAYS OF CHRISTMAS</div>
+    </a>
+
+    <div id="fullstopFive">.</div>
+
+    <a href="https://genius.com/Eminem-lose-yourself-lyrics">
+      <div id="hotSongFooterFive">LOSE YOURSELF</div>
+    </a>
+
+    <div id="fullstopSix">.</div>
+
+    <a href="https://genius.com/hot-songs">
+      <div id="viewAllFooter">VIEW ALL</div>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
 
 
 
@@ -302,6 +739,22 @@
  <script>
 
 
+     var buttonJoinCommunity = document.getElementById("communityJoinOurCommunityButton")
+   buttonJoinCommunity.addEventListener("click", function () {
+
+     var urlJoinCommunity = "https://genius.com/signup";
+     window.location.href = urlJoinCommunity;
+
+   });
+
+
+   var buttonLearnHowGeniusWorks = document.getElementById("communityLearnHowGeniusWorksButton")
+   buttonLearnHowGeniusWorks.addEventListener("click", function (){
+
+     var urlLearnGenius = "https://genius.com/Genius-how-genius-works-annotated";
+     window.location.href = urlLearnGenius;
+
+   });
 
    var dropdownContent = document.getElementById('dropdown-content');
    dropdownContent.style.display = 'none';
@@ -609,6 +1062,7 @@
   function processSearch() {
 
   }
-</script>
+
+ </script>
 </body>
 </html>

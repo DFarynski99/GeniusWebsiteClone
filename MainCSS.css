@@ -3,18 +3,15 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 15000px;
 }
 
 html {
-  height: 15000px;
   overflow-y: scroll;
   overflow-x: hidden;
 
 }
 
 body {
-  height: 15000px;
 }
 
 #yellowBar {
@@ -39,100 +36,72 @@ body {
   background-color: yellow; /* Set the desired background color */
 }
 
+#the50th{
+  font-weight: 525;
+  font-size: 14.1px;
+  letter-spacing: 0.95px;
+  position: absolute;
+  left: 492px;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
+}
+
+
+#separatorOne {
+  position: absolute;
+  left: 599px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
 
 #featured {
   font-weight: 525;
   font-size: 14.1px;
   letter-spacing: 0.95px;
   position: absolute;
-  left: 31.05%;
-  transform: translateX(-31.05%);
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
+  left: 636px;
   font-family: "Programme Regular", serif;
   color: white;
   text-decoration: none;
 }
-#separatorOne {
+
+#separatorTwo {
   position: absolute;
-  left: 35.675%;
-  transform: translateX(-35.675%);
+  left: 748px;
   color: white;
   font-weight: 500;
   font-size: 15px;
 }
-#separatorOne::selection{
-  background-color: transparent;
-}
-
 
 #charts {
   font-weight: 525;
   font-size: 14.1px;
   letter-spacing: 0.95px;
   position: absolute;
-  left: 38.75%;
-  transform: translateX(-38.75%);
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
+  left: 786px;
   font-family: "Programme Regular", serif;
   color: white;
   text-decoration: none;
 }
-#separatorTwo {
+
+#separatorThree {
   position: absolute;
-  left: 42.5%;
-  transform: translateX(-42.5%);
+  left: 878px;
   color: white;
   font-weight: 500;
   font-size: 15px;
 }
-#separatorTwo::selection{
-  background-color: transparent;
-}
+
 
 #videos {
   font-weight: 525;
   font-size: 14.1px;
   letter-spacing: 0.95px;
   position: absolute;
-  left: 45.714%;
-  transform: translateX(-45.714%);
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  font-family: "Programme Regular", serif;
-  color: white;
-  text-decoration: none;
-}
-#separatorThree {
-  position: absolute;
-  left: 49.15%;
-  transform: translateX(-49.15%);
-  color: white;
-  font-weight: 500;
-  font-size: 15px;
-}
-#separatorThree::selection{
-  background-color: transparent;
-}
-
-#promoteYourMusic {
-  font-weight: 525;
-  font-size: 14.1px;
-  letter-spacing: 0.95px;
-  position: absolute;
-  left: 55.9%;
-  transform: translateX(-55.9%);
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: pointer;
+  left: 916px;
   font-family: "Programme Regular", serif;
   color: white;
   text-decoration: none;
@@ -140,29 +109,72 @@ body {
 
 #separatorFour {
   position: absolute;
-  left: 61.65%;
-  transform: translateX(-61.65%);
+  left: 1006px;
   color: white;
   font-weight: 500;
   font-size: 15px;
 }
-#separatorFour::selection{
-  background-color: transparent;
-}
 
 
-#facebookLinkImage {
 
+#promoteYourMusic {
+  font-weight: 525;
+  font-size: 14.1px;
+  letter-spacing: 0.95px;
   position: absolute;
-  left: 150px;
-  transform: translateX(150px);
-  top: 7px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  height: 1px;
-  width: 1px;
+  left: 1044px;
+  font-family: "Programme Regular", serif;
+  color: white;
+  text-decoration: none;
 }
+
+#separatorFive {
+  position: absolute;
+  left: 1246px;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#facebookHeader {
+  position: absolute;
+  left: 1280px;
+  background: none;
+  cursor: pointer;
+  height: 14px;
+  width: 15px;
+  top: 55px;
+}
+#twitterHeader{
+  position: absolute;
+  left: 1315px;
+  background: none;
+  cursor: pointer;
+  height: 18px;
+  width: 17px;
+  top: 53px;
+}
+#instagramHeader{
+  position: absolute;
+  left: 1356px;
+  background: none;
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+  top: 55px;
+}
+#youtubeHeader{
+  position: absolute;
+  left: 1394px;
+  background: none;
+  cursor: pointer;
+  height: 18px;
+  width: 17px;
+  top: 52px;
+}
+
+
+
 
 
 #signUp {
@@ -192,7 +204,6 @@ body {
   letter-spacing: 0.77px;
 }
 
-@font-face {font-family: "Programme Bold"; src: url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.eot"); src: url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.woff") format("woff"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a4084c1b8de1174e1b0ba7dcaf5f0b02.svg#Programme Bold") format("svg"); }
 @font-face {font-family: "Programme Regular"; src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot"); src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff") format("woff"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.svg#Programme Regular") format("svg"); }
 @font-face {font-family: "Programme Light"; src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot"); src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff") format("woff"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.svg#Programme Light") format("svg"); }
 /*  height="151" width="837"   5.583333*/
@@ -266,7 +277,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   top: 150px;
-  height: 10000px;
+  height: 6141px;
   word-break: break-word;
   width: 80%;
   background-color: white;
@@ -282,7 +293,7 @@ body {
 
 
 
-#newsLineOne{
+#featuredLineOne{
   outline: green dotted 2px;
   font-family: "Programme Regular", serif;
   line-height: 12px;
@@ -300,14 +311,16 @@ body {
   letter-spacing: 0.825px;
 }
 
-#newsBlackBar{
+#featuredBlackBar{
   background-color: black;
   height: 2px;
-  width: 90.75%;
+  width: 415px;
+  left: 46px;
   position: absolute;
   top: 4px;
-  left: 44px;
 }
+
+
 
 #textContainerOne {
   outline: blue dashed 1px;
@@ -734,15 +747,23 @@ body {
   padding-top: 0;
 }
 
+
+#bottomThreeArticleNavBarAnchor{
+  position: absolute;
+  top: 820px;
+}
+
+
 #largeCharts {
   outline: #640a78 1px dotted;
-  font-family: "Programme Bold", serif;
+  font-family: "Programme Regular", serif;
+  font-weight: 600;
+  font-size: 81.2px;
   left: -2.5px;
   position: absolute;
   top: 882px;
   width: 311px;
   height: 96px;
-  font-size: 81.2px;
   padding: 0;
   margin: 0;
   letter-spacing: 1.2px;
@@ -770,7 +791,14 @@ body {
   width: 100%;
   height: 925px;
   left: 0;
+  z-index: 1;
 }
+
+#bottomChartsNavBarAnchor{
+  position: absolute;
+  top: 1936px;
+}
+
 
 #areaCodes {
   font-family: "Programme Regular", serif;
@@ -1483,8 +1511,9 @@ h3 {
 
 #blackBoxVideos {
   outline: #40d5ba 1px dotted;
-  font-family: "Programme Bold", serif;
-  font-size: 80px;
+  font-family: "Programme Regular", serif;
+  font-weight: 600;
+  font-size: 81.2px;
   color: white;
   letter-spacing: 1.8px;
   position: relative;
@@ -1621,18 +1650,20 @@ h3 {
 
 
 #latestBlock{
-  outline: greenyellow 5px dotted;
+  outline: greenyellow 1px dotted;
   top: 2800px;
   height: 1465px;
   width: 100%;
   position: absolute;
+  left: 0px;
 
 }
 
 #largeLatest {
   outline: #40d5ba 1px dotted;
-  font-family: "Programme Bold", serif;
-  font-size: 80px;
+  font-family: "Programme Regular", serif;
+  font-weight: 600;
+  font-size: 81.2px;
   color: black;
   letter-spacing: 2px;
   position: relative;
@@ -1657,7 +1688,7 @@ h3 {
 #latestNewsStoryONE {
   position: absolute;
   outline: red 1px solid;
-  left: -2px;
+  left: 0;
   width: 250px;
   height: 370px;
   top: 217px;
@@ -1680,7 +1711,7 @@ h3 {
   left: 45px;
 }
 #latestStoreOne {
-  width: 253px;
+  width: 250px;
   height: 142px;
   top: 26px;
   position: relative;
@@ -1715,11 +1746,9 @@ h3 {
 
 
 
-
-
 #latestNewsStoryTWO{
   position: absolute;
-  outline: #0059ff 5px solid;
+  outline: #002aff 1px solid;
   left: 310px;
   width: 250px;
   height: 370px;
@@ -1743,7 +1772,7 @@ h3 {
   left: 45px;
 }
 #latestStoreTwo {
-  width: 253px;
+  width: 250px;
   height: 142px;
   top: 26px;
   position: relative;
@@ -1761,21 +1790,85 @@ h3 {
 #latestNewsAuthorTwo{
   font-size: 12px;
   position: absolute;
-  top: 363px;
+  top: 270px;
 
 }
 #latestNewsDateTwo{
   font-size: 12px;
   position: absolute;
-  top: 363px;
-  left: 65px;
+  top: 270px;
+  left: 100px;
   color: #9a9a9a;
 }
 #latestNewsStoryTWO:hover #latestNewsHeadlineTwo {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-#presentedByTwoText {
+
+
+
+
+
+#latestNewsStoryTHREE{
+  position: absolute;
+  outline: #ff0000 1px solid;
+  left: 624px;
+  width: 250px;
+  height: 370px;
+  top: 216px;
+}
+#newsThree {
+  color: black;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  position: absolute;
+  top: 5px;
+  letter-spacing: 1.25px;
+  left: -1px;
+}
+#blackBarLatestNewsThree{
+  background-color: black;
+  height: 2px;
+  width: 205px;
+  border-left: 1.5px solid black;
+  position: absolute;
+  top: 10px;
+  left: 44px;
+}
+#latestStoreThree {
+  width: 250px;
+  height: 142px;
+  top: 26px;
+  position: relative;
+}
+#latestNewsHeadlineThree{
+  font-family: "Programme Light", serif;
+  font-size: 20.5px;
+  padding-top: 27px;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.26px;
+  line-height: 24px;
+  color: black;
+}
+#latestNewsAuthorThree{
+  font-size: 12px;
+  position: absolute;
+  top: 363px;
+
+}
+#latestNewsDateThree{
+  font-size: 12px;
+  position: absolute;
+  top: 363px;
+  left: 65px;
+  color: #9a9a9a;
+}
+#latestNewsStoryTHREE:hover #latestNewsHeadlineThree {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+#presentedByThreeText {
   font-family: "Programme Regular", serif;
   font-size: 12.25px;
   color: #9a9a9a;
@@ -1787,7 +1880,7 @@ h3 {
   letter-spacing: 0.8px;
 
 }
-#presentedByTwoImg {
+#presentedByThreeImg {
   height: 40px;
   width: 60px;
   position: relative;
@@ -1802,37 +1895,10 @@ h3 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-#latestNewsStoryTHREE{
-  position: absolute;
-  outline: red 5px solid;
-  left: 620px;
-  width: 250px;
-  height: 370px;
-  top: 216px;
-}
-
-
-
-
-
-
-
-
-
 #latestNewsStoryFOUR{
   position: absolute;
-  outline: #0059ff 5px solid;
-  left: 930px;
+  outline: #0059ff 1px solid;
+  left: 935px;
   width: 250px;
   height: 370px;
   top: 216px;
@@ -1844,7 +1910,6 @@ h3 {
   position: absolute;
   top: 5px;
   letter-spacing: 1.25px;
-  left: 5px;
 }
 #blackBarLatestNewsFour{
   background-color: black;
@@ -1853,15 +1918,13 @@ h3 {
   border-left: 1.5px solid black;
   position: absolute;
   top: 10px;
-  left: 50px;
-
+  left: 45px;
 }
 #latestStoreFour {
   width: 250px;
   height: 142px;
   top: 26px;
   position: relative;
-  left: 5px;
 }
 #latestNewsHeadlineFour{
   font-family: "Programme Light", serif;
@@ -1872,19 +1935,17 @@ h3 {
   letter-spacing: 0.26px;
   line-height: 24px;
   color: black;
-  left: 5px;
 }
 #latestNewsAuthorFour{
   font-size: 12px;
   position: absolute;
   top: 317px;
-  left: 5px;
 }
 #latestNewsDateFour{
   font-size: 12px;
   position: absolute;
   top: 317px;
-  left: 105px;
+  left: 100px;
   color: #9a9a9a;
 }
 #latestNewsStoryFOUR:hover #latestNewsHeadlineFour {
@@ -1900,36 +1961,203 @@ h3 {
 
 
 
-
-
-
-
 #latestNewsStoryFIVE {
   position: absolute;
-  outline: red 5px solid;
+  outline: red 1px solid;
   left: 0;
   width: 250px;
   height: 370px;
-  top: 631px;
+  top: 591px;
 }
+#newsFive {
+  color: black;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  position: absolute;
+  top: 4px;
+  letter-spacing: 1.25px;
+}
+#blackBarLatestNewsFive{
+  background-color: black;
+  height: 2px;
+  width: 205px;
+  border-left: 1.5px solid black;
+  position: absolute;
+  top: 10px;
+  left: 45px;
+}
+#latestStoreFive {
+  width: 250px;
+  height: 142px;
+  top: 26px;
+  position: relative;
+}
+#latestNewsHeadlineFive{
+  font-family: "Programme Light", serif;
+  font-size: 20.5px;
+  padding-top: 27px;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.26px;
+  line-height: 24px;
+  color: black;
+}
+#latestNewsAuthorFive{
+  font-size: 12px;
+  position: absolute;
+  top: 315px;
+  left: 2px;
+}
+#latestNewsDateFive{
+  font-size: 12px;
+  position: absolute;
+  top: 315px;
+  left: 100px;
+  color: #9a9a9a;
+}
+#latestNewsStoryFIVE:hover #latestNewsHeadlineFive {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+
+
+
+
+
 
 #latestNewsStorySIX{
   position: absolute;
-  outline: #0059ff 5px solid;
+  outline: #0059ff 1px solid;
   left: 310px;
   width: 250px;
   height: 370px;
-  top: 631px;
+  top: 591px;
 }
+#newsSix {
+  color: black;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  position: absolute;
+  top: 4px;
+  letter-spacing: 1.25px;
+}
+#blackBarLatestNewsSix{
+  background-color: black;
+  height: 2px;
+  width: 205px;
+  border-left: 1.5px solid black;
+  position: absolute;
+  top: 10px;
+  left: 45px;
+}
+#latestStoreSix {
+  width: 250px;
+  height: 142px;
+  top: 26px;
+  position: relative;
+}
+#latestNewsHeadlineSix{
+  font-family: "Programme Light", serif;
+  font-size: 20.5px;
+  padding-top: 27px;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.26px;
+  line-height: 24px;
+  color: black;
+}
+#latestNewsAuthorSix{
+  font-size: 12px;
+  position: absolute;
+  top: 270px;
+}
+#latestNewsDateSix{
+  font-size: 12px;
+  position: absolute;
+  top: 270px;
+  left: 100px;
+  color: #9a9a9a;
+}
+#latestNewsStorySIX:hover #latestNewsHeadlineSix {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+
+
+
+
+
+
+
 
 #latestNewsStorySEVEN{
   position: absolute;
-  outline: red 5px solid;
-  left: 620px;
+  outline: red 1px solid;
+  left: 624px;
   width: 250px;
   height: 370px;
-  top: 631px;
+  top: 591px;
 }
+#newsSeven {
+  color: black;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  position: absolute;
+  top: 4px;
+  left: -1px;
+  letter-spacing: 1.25px;
+}
+#blackBarLatestNewsSeven{
+  background-color: black;
+  height: 2px;
+  width: 205px;
+  border-left: 1.5px solid black;
+  position: absolute;
+  top: 10px;
+  left: 44px;
+}
+#latestStoreSeven {
+  width: 250px;
+  height: 142px;
+  top: 26px;
+  position: relative;
+}
+#latestNewsHeadlineSeven{
+  font-family: "Programme Light", serif;
+  font-size: 20.5px;
+  padding-top: 27px;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.26px;
+  line-height: 24px;
+  color: black;
+  left: 3px;
+}
+#latestNewsAuthorSeven{
+  font-size: 12px;
+  position: absolute;
+  top: 270px;
+
+}
+#latestNewsDateSeven{
+  font-size: 12px;
+  position: absolute;
+  top: 270px;
+  left: 100px;
+  color: #9a9a9a;
+}
+#latestNewsStorySEVEN:hover #latestNewsHeadlineSeven {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+
+
+
+
+
 
 
 
@@ -1937,20 +2165,19 @@ h3 {
 
 #latestNewsStoryEIGHT{
   position: absolute;
-  outline: #0059ff 5px solid;
-  left: 930px;
+  outline: #0059ff 1px solid;
+  left: 935px;
   width: 250px;
   height: 370px;
-  top: 631px;
+  top: 591px;
 }
 #newsEight {
   color: black;
   font-family: "Programme Regular", serif;
   font-size: 11.5px;
   position: absolute;
-  top: 5px;
+  top: 4px;
   letter-spacing: 1.25px;
-  left: 5px;
 }
 #blackBarLatestNewsEight{
   background-color: black;
@@ -1959,15 +2186,13 @@ h3 {
   border-left: 1.5px solid black;
   position: absolute;
   top: 10px;
-  left: 50px;
-
+  left: 45px;
 }
 #latestStoreEight {
   width: 250px;
   height: 142px;
   top: 26px;
   position: relative;
-  left: 5px;
 }
 #latestNewsHeadlineEight{
   font-family: "Programme Light", serif;
@@ -1978,25 +2203,1680 @@ h3 {
   letter-spacing: 0.26px;
   line-height: 24px;
   color: black;
-  left: 5px;
 }
 #latestNewsAuthorEight{
   font-size: 12px;
   position: absolute;
   top: 290px;
-  left: 5px;
 }
 #latestNewsDateEight{
   font-size: 12px;
   position: absolute;
   top: 290px;
-  left: 105px;
+  left: 100px;
   color: #9a9a9a;
 }
 #latestNewsStoryEIGHT:hover #latestNewsHeadlineEight {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
+
+
+
+
+
+
+
+
+
+#latestNewsStoryNINE {
+  position: absolute;
+  outline: red 1px solid;
+  left: 0;
+  width: 250px;
+  height: 370px;
+  top: 1003px;
+}
+#newsNine {
+  color: black;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  position: absolute;
+  top: 5px;
+  letter-spacing: 1.25px;
+  left: -1px;
+}
+#blackBarLatestNewsNine{
+  background-color: black;
+  height: 2px;
+  width: 205px;
+  border-left: 1.5px solid black;
+  position: absolute;
+  top: 10px;
+  left: 44px;
+}
+#latestStoreNine {
+  width: 250px;
+  height: 142px;
+  top: 26px;
+  position: relative;
+  left: -1px;
+}
+#latestNewsHeadlineNine{
+  font-family: "Programme Light", serif;
+  font-size: 20.5px;
+  padding-top: 27px;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.26px;
+  line-height: 24px;
+  color: black;
+  left: -1px;
+}
+#latestNewsAuthorNine{
+  font-size: 12px;
+  position: absolute;
+  top: 292px;
+  left: -1px;
+}
+#latestNewsDateNine{
+  font-size: 12px;
+  position: absolute;
+  top: 292px;
+  left: 99px;
+  color: #9a9a9a;
+}
+#latestNewsStoryNINE:hover #latestNewsHeadlineNine{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+
+
+
+
+#latestNewsStoryTEN{
+  position: absolute;
+  outline: #0059ff 1px solid;
+  left: 313px;
+  width: 250px;
+  height: 370px;
+  top: 1003px;
+}
+#newsTen{
+  color: black;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  letter-spacing: 1.25px;
+}
+#blackBarLatestNewsTen{
+  background-color: black;
+  height: 2px;
+  width: 205px;
+  border-left: 1.5px solid black;
+  position: absolute;
+  top: 10px;
+  left: 43px;
+}
+#latestStoreTen{
+  width: 250px;
+  height: 142px;
+  top: 26px;
+  position: relative;
+}
+#latestNewsHeadlineTen{
+  font-family: "Programme Light", serif;
+  font-size: 20.5px;
+  padding-top: 27px;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.26px;
+  line-height: 24px;
+  color: black;
+}
+#latestNewsAuthorTen{
+  font-size: 12px;
+  position: absolute;
+  top: 292px;
+  left: -1px;
+}
+#latestNewsDateTen{
+  font-size: 12px;
+  position: absolute;
+  top: 292px;
+  left: 99px;
+  color: #9a9a9a;
+}
+#latestNewsStoryTEN:hover #latestNewsHeadlineTen{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+
+
+
+
+#latestNewsStoryELEVEN{
+  position: absolute;
+  outline: red 1px solid;
+  left: 623px;
+  width: 250px;
+  height: 370px;
+  top: 1003px;
+}
+#newsEleven{
+  color: black;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  position: absolute;
+  top: 5px;
+  letter-spacing: 1.25px;
+}
+#blackBarLatestNewsEleven{
+  background-color: black;
+  height: 2px;
+  width: 205px;
+  border-left: 1.5px solid black;
+  position: absolute;
+  top: 10px;
+  left: 45px;
+}
+#latestStoreEleven{
+  width: 250px;
+  height: 142px;
+  top: 26px;
+  position: relative;
+}
+#latestNewsHeadlineEleven{
+  font-family: "Programme Light", serif;
+  font-size: 20.5px;
+  padding-top: 27px;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.26px;
+  line-height: 24px;
+  color: black;
+}
+#latestNewsAuthorEleven{
+  font-size: 12px;
+  position: absolute;
+  top: 292px;
+  left: -1px;
+}
+#latestNewsDateEleven{
+  font-size: 12px;
+  position: absolute;
+  top: 292px;
+  left: 99px;
+  color: #9a9a9a;
+}
+#latestNewsStoryELEVEN:hover #latestNewsHeadlineEleven{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+
+
+
+
+#latestNewsStoryTWELVE{
+  position: absolute;
+  outline: #0059ff 1px solid;
+  left: 935px;
+  width: 250px;
+  height: 370px;
+  top: 1003px;
+}
+#newsTwelve{
+  color: black;
+  font-family: "Programme Regular", serif;
+  font-size: 11.5px;
+  position: absolute;
+  top: 5px;
+  letter-spacing: 1.25px;
+}
+#blackBarLatestNewsTwelve{
+  background-color: black;
+  height: 2px;
+  width: 205px;
+  border-left: 1.5px solid black;
+  position: absolute;
+  top: 10px;
+  left: 45px;
+}
+#latestStoreTwelve{
+  width: 250px;
+  height: 142px;
+  top: 26px;
+  position: relative;
+}
+#latestNewsHeadlineTwelve{
+  font-family: "Programme Light", serif;
+  font-size: 20.5px;
+  padding-top: 27px;
+  text-align: left;
+  position: absolute;
+  letter-spacing: 0.26px;
+  line-height: 24px;
+  color: black;
+}
+#latestNewsAuthorTwelve{
+  font-size: 12px;
+  position: absolute;
+  top: 292px;
+  left: -1px;
+}
+#latestNewsDateTwelve{
+  font-size: 12px;
+  position: absolute;
+  top: 292px;
+  left: 99px;
+  color: #9a9a9a;
+}
+#latestNewsStoryTWELVE:hover #latestNewsHeadlineTwelve{
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#communityBlock {
+  position: absolute;
+  outline: #857a0a 5px dashed;
+  top: 4288px;
+  width: 100%;
+  height: 1222px;
+}
+
+#communityLeaderboard{
+  outline: darkblue 2px dotted;
+  height: 916px;
+  top: 305px;
+  position: absolute;
+  width: 100%;
+}
+#rankText{
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  left: -1px;
+  top: 0px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+#topScholarsToday{
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  left: 102px;
+  top: 0px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+#iqEarnedToday{
+  font-family: "Programme Regular", serif;
+  outline: pink 2px dotted;
+  position: absolute;
+  left: 1066px;
+  top: 0px;
+  width: 123px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+#communityGreyDividerOne{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 22px;
+}
+#communityRankOne{
+  outline: greenyellow 1px dashed;
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  height: 72px;
+}
+#communityGreyDividerTwo{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 98px;
+}
+#communityRankTwo{
+  outline: #9a2fff 1px dashed;
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 72px;
+}
+#communityGreyDividerThree{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 173px;
+}
+#communityRankThree{
+  outline: #ff2fac 1px dashed;
+  position: absolute;
+  top: 175px;
+  width: 100%;
+  height: 72px;
+}
+#communityGreyDividerFour{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 248px;
+}
+#communityRankFour{
+  outline: #ffc42f 1px dashed;
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  height: 72px;
+}
+#communityGreyDividerFive{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 323px;
+}
+#communityRankFive{
+  outline: #ff552f 1px dashed;
+  position: absolute;
+  top: 325px;
+  width: 100%;
+  height: 72px;
+}
+#communityGreyDividerSix{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 398px;
+}
+#communityRankSix{
+  outline: #2fe0ff 1px dashed;
+  position: absolute;
+  top: 400px;
+  width: 100%;
+  height: 72px;
+}
+#communityGreyDividerSeven{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 473px;
+}
+#communityRankSeven{
+  outline: #6aff2f 1px dashed;
+  position: absolute;
+  top: 475px;
+  width: 100%;
+  height: 72px;
+}
+#communityGreyDividerEight{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 549px;
+}
+#communityRankEight{
+  outline: #6aff2f 1px dashed;
+  position: absolute;
+  top: 551px;
+  width: 100%;
+  height: 72px;
+}
+#communityGreyDividerNine{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 624px;
+}
+#communityRankNine{
+  outline: #2fffe7 1px dashed;
+  position: absolute;
+  top: 626px;
+  width: 100%;
+  height: 72px;
+}
+#communityGreyDividerTen{
+  height: 2px;
+  width: 100%;
+  background-color: #e9e9e9;
+  position: absolute;
+  top: 699px;
+}
+#communityRankTen{
+  outline: #362fff 1px dashed;
+  position: absolute;
+  top: 701px;
+  width: 100%;
+  height: 72px;
+}
+
+#communityRankOne:hover, #communityRankTwo:hover, #communityRankThree:hover, #communityRankFour:hover, #communityRankFive:hover, #communityRankSix:hover, #communityRankSeven:hover, #communityRankEight:hover, #communityRankNine:hover, #communityRankTen:hover   {
+  background-color: #e9e9e9;
+}
+
+
+
+
+
+#rankNumber1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+
+}
+
+#userImage1 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+
+#userName1 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+
+#userLevel1 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#userPoints1 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+
+}
+
+
+
+
+
+
+
+
+#rankNumber2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+}
+#userImage2 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+#userName2 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+#userLevel2 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#userPoints2 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+
+#rankNumber3 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+}
+#userImage3 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+#userName3 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+#userLevel3 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#userPoints3 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+#rankNumber4 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+}
+#userImage4 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+#userName4 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+#userLevel4 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#userPoints4 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+#rankNumber5 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+}
+#userImage5 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+#userName5 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+#userLevel5 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#userPoints5 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+#rankNumber6 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+}
+#userImage6 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+#userName6 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+#userLevel6 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#userPoints6 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+#rankNumber7 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+}
+#userImage7 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+#userName7 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+#userLevel7 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#userPoints7 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+#rankNumber8 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+}
+#userImage8 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+#userName8 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+#userLevel8 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#userPoints8 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+#rankNumber9 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+}
+#userImage9 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+#userName9 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+#userLevel9 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#userPoints9 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+#rankNumber10 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: 23px;
+}
+#userImage10 {
+  position: absolute;
+  border-radius: 50%;
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  top: 49.25%;
+  transform: translateY(-49.25%);
+  left: 102px;
+}
+#userName10 {
+  position: absolute;
+  top: 10px;
+  left: 186px;
+  font-size: 24px;
+}
+#userLevel10 {
+  color: #9a9a9a;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  top: 42px;
+  left: 186px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#userPoints10 {
+  color: #ff1464;
+  position: absolute;
+  right: -0.1%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#communityHeading {
+  outline: #40d5ba 1px dotted;
+  font-family: "Programme Regular", serif;
+  font-weight: 600;
+  font-size: 79.5px;
+  color: black;
+  letter-spacing: 2.5px;
+  position: relative;
+  top: 58px;
+  margin: 0;
+  padding: 0; /* Remove padding */
+  line-height: 59px; /* Set line-height equal to font-size or adjust as needed */
+}
+
+#redCommunityDescription{
+  outline: #40b5ba 1px dotted;
+  color: #ff1464;
+  font-size: 13.45px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 155px;
+  font-family: "Programme Regular", serif;
+  letter-spacing: 1.3px;
+  line-height: 20px;
+  width: 600px;
+}
+
+#communityJoinOurCommunityButton{
+  top: 217px;
+  position: absolute;
+  left: 334px;
+  right: 610px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 23px;
+  border-color: black;
+  border-width: 2px;
+  font-family: "Programme Regular", serif;
+}
+
+#communityJoinOurCommunityButton:hover{
+  background-color: black;
+  color: white;
+  transition: background-color 0.25s, color 0.25s;
+  cursor: pointer;
+}
+
+#communityLearnHowGeniusWorksButton {
+  top: 217px;
+  position: absolute;
+  left: 610px;
+  right: 335px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 3px;
+  border-color: black;
+  border-width: 2px;
+  font-family: "Programme Regular", serif;
+
+}
+#communityLearnHowGeniusWorksButton:hover{
+  background-color: black;
+  color: white;
+  transition: background-color 0.25s, color 0.25s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+#footerBackground {
+  position: absolute;
+  top: 5510px;
+  height: 631px;
+  background-color: #121212;
+  width: 8000px;
+}
+#footer {
+  outline: gold 1px dashed;
+  position: absolute;
+  height: 607px;
+  width: 1185px;
+  left: 3408px;
+}
+#footerGeniusDescription {
+  border: pink 1px dotted;
+  position: absolute;
+  font-size: 36px;
+  font-family: "Programme Light", serif;
+  text-align: left;
+  left: 3405px;
+  top: 71px;
+  line-height: 41px;
+  width: 475px;
+  height: 140px;
+  color: white;
+}
+
+#facebookFooter {
+  position: absolute;
+  top: 231px;
+  left: 3406px;
+  width: 13px;
+  height: 22px;
+}
+
+#twitterFooter{
+  position: absolute;
+  top: 228px;
+  left: 3441px;
+  width: 27px;
+  height: 27px;
+}
+
+#instagramFooter{
+  position: absolute;
+  top: 230px;
+  left: 3492px;
+  width: 22px;
+  height: 22px;
+}
+
+#youtubeFooter {
+  position: absolute;
+  top: 228px;
+  left: 3538px;
+  width: 27px;
+  height: 26px;
+}
+
+#aboutGenius {
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 74px;
+  left: 4030px;
+  color: white;
+  font-size: 16px;
+}
+#contributorGuidelines{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 113px;
+  left: 4030px;
+  color: white;
+  font-size: 16px;
+}
+#press{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 153px;
+  left: 4030px;
+  color: white;
+  font-size: 16px;
+}
+#shop{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 192px;
+  left: 4030px;
+  color: white;
+  font-size: 16px;
+}
+#advertise{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 231px;
+  left: 4030px;
+  color: white;
+  font-size: 16px;
+}
+#privacyPolicy{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 270px;
+  left: 4030px;
+  color: white;
+  font-size: 16px;
+}
+#licensing{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 74px;
+  left: 4342px;
+  color: white;
+  font-size: 16px;
+}
+#jobs{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 113px;
+  left: 4342px;
+  color: white;
+  font-size: 16px;
+}
+#developers{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 153px;
+  left: 4342px;
+  color: white;
+  font-size: 16px;
+}
+#copyrightPolicy{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 192px;
+  left: 4342px;
+  color: white;
+  font-size: 16px;
+}
+#contactUs{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 231px;
+  left: 4342px;
+  color: white;
+  font-size: 16px;
+}
+#signInFooter {
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 270px;
+  left: 4342px;
+  color: white;
+  font-size: 16px;
+}
+#doNotSell {
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 307px;
+  left: 4342px;
+  color: white;
+  font-size: 16px;
+  width: 170px;
+  text-align: left;
+  line-height: 24px;
+}
+
+#tagLLC{
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 392px;
+  left: 4030px;
+  color: #999999;
+  font-size: 12px;
+  width: 180px;
+  text-align: left;
+  line-height: 22px;
+}
+
+
+
+#termsOfUse {
+  outline: red 1px dotted;
+  position: absolute;
+  font-family: "Programme Light", serif;
+  top: 392px;
+  left: 4342px;
+  color: #999999;
+  font-size: 12px;
+  width: 170px;
+  text-align: left;
+  line-height: 22px;
+}
+
+#footerGreyLine {
+  background-color: #2a2a2a;
+  position: absolute;
+  top: 446px;
+  height: 2px;
+  width: 8000px;
+}
+
+#verifiedArtists {
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3406px;
+  top: 489px;
+  color: white;
+  letter-spacing: 1px;
+}
+#fullstop{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 29px;
+  left: 3552px;
+  top: 471px;
+  color: white;
+  letter-spacing: 1px;
+}
+#allArtists{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3575px;
+  top: 489px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+
+
+#artistsA{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3690px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsB{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3708px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsC{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3726px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsD{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3744px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsE{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3762px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsF{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3779px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsG{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3796px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsH{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3814px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsI{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3833px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsJ{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3846px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsK{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3860px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsL{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3878px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsM{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3894px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsN{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3914px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsO{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3933px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsP{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3953px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsQ{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3970px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsR{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3990px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsS{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4008px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsT{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4024px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsU{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4042px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsV{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4060px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsW{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4078px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsX{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4100px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsY{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4118px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsZ{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4136px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#artistsHashtag{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4152px;
+  top: 489px;
+  color: white;
+  text-decoration: none;
+}
+#hotSongs{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3406px;
+  top: 552px;
+  color: white;
+  letter-spacing: 1px;
+}
+#hotSongFooterOne{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3512px;
+  top: 552px;
+  color: white;
+  letter-spacing: 1px;
+}
+#fullstopTwo{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 29px;
+  left: 3804px;
+  top: 534px;
+  color: white;
+  letter-spacing: 1px;
+}
+#hotSongFooterTwo{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3823px;
+  top: 552px;
+  color: white;
+  letter-spacing: 1px;
+}
+#fullstopThree{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 29px;
+  left: 3996px;
+  top: 534px;
+  color: white;
+  letter-spacing: 1px;
+}
+#hotSongFooterThree{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4015px;
+  top: 552px;
+  color: white;
+  letter-spacing: 1px;
+}
+#fullstopFour{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 29px;
+  left: 4131px;
+  top: 534px;
+  color: white;
+  letter-spacing: 1px;
+}
+#hotSongFooterFour{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4150px;
+  top: 552px;
+  color: white;
+  letter-spacing: 1px;
+}
+#fullstopFive{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 29px;
+  left: 4408px;
+  top: 534px;
+  color: white;
+  letter-spacing: 1px;
+}
+#hotSongFooterFive{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 4427px;
+  top: 552px;
+  color: white;
+  letter-spacing: 1px;
+}
+#fullstopSix{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 29px;
+  left: 3524px;
+  top: 558px;
+  color: white;
+  letter-spacing: 1px;
+}
+#viewAllFooter{
+  outline: red 1px dotted;
+  font-family: "Programme Regular", serif;
+  position: absolute;
+  font-size: 14px;
+  left: 3543px;
+  top: 576px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
 
 
 
