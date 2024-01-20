@@ -286,7 +286,6 @@ body {
   flex-direction: column;
   text-align: center;
   max-width: 1185px;
-
 }
 
 
@@ -784,7 +783,7 @@ body {
 }
 
 #filteredList {
-  outline: 5px pink dotted;
+  outline: 10px pink dotted;
   position: absolute;
   top: 1009px;
   width: 100%;
@@ -792,6 +791,33 @@ body {
   left: 0;
   z-index: 1;
 }
+
+#chartsLoadMoreButton{
+  top: 1822px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 133px;
+  right: 610px;
+  height: 41px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-color: black;
+  border-width: 2px;
+  font-family: "Programme Regular", serif;
+  background-color: white;
+  z-index: 1;
+}
+#chartsLoadMoreButton:hover{
+  background-color: black;
+  color: white;
+  transition: background-color 0.25s, color 0.25s;
+  cursor: pointer;
+}
+
+
+
+
 
 #bottomChartsNavBarAnchor{
   position: absolute;
@@ -1180,7 +1206,6 @@ body {
 }
 
 
-
 #areaCodesAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
@@ -1285,6 +1310,2352 @@ body {
   height: 60px;
   width: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#meow1{
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 770px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+#meow1:hover {
+  background-color: #e9e9e9;
+}
+#meow1 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+#meow1Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+#meow1Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+#meow2 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 847px; /* 770px + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow2:hover {
+  background-color: #e9e9e9;
+}
+
+#meow2 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow2Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow2Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+
+
+#meow3 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 924px; /* 847px + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow3:hover {
+  background-color: #e9e9e9;
+}
+
+#meow3 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow3Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow3Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow4 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1001px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow4:hover {
+  background-color: #e9e9e9;
+}
+
+#meow4 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow4Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow4Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow5 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1078px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow5:hover {
+  background-color: #e9e9e9;
+}
+
+#meow5 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow5Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow5Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+
+#meow6 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1155px; /* meow5's top (1078px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow6:hover {
+  background-color: #e9e9e9;
+}
+
+#meow6 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow6Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow6Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+/* Repeat the same pattern for meow7 through meow10 by incrementing the top value accordingly */
+
+
+
+
+#meow7 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1232px; /* meow6's top (1155px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow7:hover {
+  background-color: #e9e9e9;
+}
+
+#meow7 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow7Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow7Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow8 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1309px; /* meow7's top (1232px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow8:hover {
+  background-color: #e9e9e9;
+}
+
+#meow8 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow8Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow8Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow9 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1386px; /* meow8's top (1309px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow9:hover {
+  background-color: #e9e9e9;
+}
+
+#meow9 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow9Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow9Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow10 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1463px; /* meow9's top (1386px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow10:hover {
+  background-color: #e9e9e9;
+}
+
+#meow10 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow10Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow10Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow11 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1540px; /* meow9's top (1386px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow11:hover {
+  background-color: #e9e9e9;
+}
+
+#meow11 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow11Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow11Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+#meow12 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1617px; /* meow11's top (1540px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow12:hover {
+  background-color: #e9e9e9;
+}
+
+#meow12 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow12Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow12Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+#meow13 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1694px; /* meow12's top (1617px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow13:hover {
+  background-color: #e9e9e9;
+}
+
+#meow13 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow13Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow13Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+#meow14 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1771px; /* meow13's top (1694px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow14:hover {
+  background-color: #e9e9e9;
+}
+
+#meow14 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow14Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow14Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+#meow14 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1771px; /* meow13's top (1694px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow14:hover {
+  background-color: #e9e9e9;
+}
+
+#meow14 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow14Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow14Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+#meow15 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1848px; /* meow14's top (1771px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow15:hover {
+  background-color: #e9e9e9;
+}
+
+#meow15 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow15Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow15Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+#meow16 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 1925px; /* meow15's top (1848px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow16:hover {
+  background-color: #e9e9e9;
+}
+
+#meow16 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow16Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow16Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+#meow17 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2002px; /* meow16's top (1925px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow17:hover {
+  background-color: #e9e9e9;
+}
+
+#meow17 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow17Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow17Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+#meow18 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2079px; /* meow17's top (2002px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow18:hover {
+  background-color: #e9e9e9;
+}
+
+#meow18 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow18Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow18Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+#meow19 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2156px; /* meow18's top (2079px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow19:hover {
+  background-color: #e9e9e9;
+}
+
+#meow19 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow19Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow19Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+#meow20 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2233px; /* meow19's top (2156px) + 77px */
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow20:hover {
+  background-color: #e9e9e9;
+}
+
+#meow20 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow20Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow20Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow21 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2310px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow21:hover {
+  background-color: #e9e9e9;
+}
+
+#meow21 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow21Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow21Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+
+
+
+
+
+#meow22 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2387px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow22:hover {
+  background-color: #e9e9e9;
+}
+
+#meow22 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow22Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow22Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow23 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2464px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow23:hover {
+  background-color: #e9e9e9;
+}
+
+#meow23 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow23Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow23Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+
+#meow24 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2541px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow24:hover {
+  background-color: #e9e9e9;
+}
+
+#meow24 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow24Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow24Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+
+#meow25 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2618px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow25:hover {
+  background-color: #e9e9e9;
+}
+
+#meow25 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow25Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow25Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow26 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2695px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow26:hover {
+  background-color: #e9e9e9;
+}
+
+#meow26 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow26Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow26Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow27 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2772px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow27:hover {
+  background-color: #e9e9e9;
+}
+
+#meow27 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow27Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow27Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow28 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2849px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow28:hover {
+  background-color: #e9e9e9;
+}
+
+#meow28 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow28Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow28Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow29 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 2926px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow29:hover {
+  background-color: #e9e9e9;
+}
+
+#meow29 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow29Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow29Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow30 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3003px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow30:hover {
+  background-color: #e9e9e9;
+}
+
+#meow30 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow30Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow30Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow31 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3080px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow31:hover {
+  background-color: #e9e9e9;
+}
+
+#meow31 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow31Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow31Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow32 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3157px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow32:hover {
+  background-color: #e9e9e9;
+}
+
+#meow32 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow32Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow32Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+#meow33 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3234px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow33:hover {
+  background-color: #e9e9e9;
+}
+
+#meow33 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow33Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow33Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow34 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3311px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow34:hover {
+  background-color: #e9e9e9;
+}
+
+#meow34 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow34Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow34Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+#meow35 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3388px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow35:hover {
+  background-color: #e9e9e9;
+}
+
+#meow35 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow35Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow35Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow36 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3465px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow36:hover {
+  background-color: #e9e9e9;
+}
+
+#meow36 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow36Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow36Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow37 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3542px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow37:hover {
+  background-color: #e9e9e9;
+}
+
+#meow37 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow37Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow37Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+
+#meow38 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3619px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow38:hover {
+  background-color: #e9e9e9;
+}
+
+#meow38 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow38Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow38Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+#meow39 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3696px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow39:hover {
+  background-color: #e9e9e9;
+}
+
+#meow39 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow39Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow39Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+#meow40 {
+  font-family: "Programme Regular", serif;
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 3773px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 83.75%;
+  height: 78px;
+  padding-left: 16.25%;
+  padding-bottom: 2px;
+  text-align: left;
+  transition: background-color 0.15s ease;
+  display: none;
+}
+
+#meow40:hover {
+  background-color: #e9e9e9;
+}
+
+#meow40 img {
+  outline: blue 0.5px dotted;
+  position: absolute;
+  top: 10px;
+  left: 8.6%;
+  height: 60px;
+  width: 60px;
+}
+
+#meow40Additional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+
+#meow40Additional-div-2 {
+  font-family: "Programme Light", serif;
+  outline: indianred 1px dotted;
+  position: absolute;
+  left: 0.75%;
+  top: 24.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#chartsPlacementEleven {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 1857px; /* 1780 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwelve {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 1934px; /* 1857 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirteen {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2011px; /* 1934 + 77 */
+  display: none;
+}
+
+#chartsPlacementFourteen {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2088px; /* 2011 + 77 */
+  display: none;
+}
+
+#chartsPlacementFifteen {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2165px; /* 2088 + 77 */
+  display: none;
+}
+
+#chartsPlacementSixteen {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2242px; /* 2165 + 77 */
+  display: none;
+}
+
+#chartsPlacementSeventeen {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2319px; /* 2242 + 77 */
+  display: none;
+}
+
+#chartsPlacementEighteen {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2396px; /* 2319 + 77 */
+  display: none;
+}
+
+#chartsPlacementNineteen {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2473px; /* 2396 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwenty {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2550px; /* 2473 + 77 */
+  display: none;
+}
+
+
+
+
+
+
+
+#chartsPlacementTwentyOne {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2627px; /* 2550 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwentyTwo {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2704px; /* 2627 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwentyThree {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2781px; /* 2704 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwentyFour {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2858px; /* 2781 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwentyFive {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 2935px; /* 2858 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwentySix {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3012px; /* 2935 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwentySeven {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3089px; /* 3012 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwentyEight {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3166px; /* 3089 + 77 */
+  display: none;
+}
+
+#chartsPlacementTwentyNine {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3243px; /* 3166 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirty {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3320px; /* 3243 + 77 */
+  display: none;
+}
+
+
+
+
+#chartsPlacementThirtyOne {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3397px; /* 3320 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirtyTwo {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3474px; /* 3397 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirtyThree {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3551px; /* 3474 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirtyFour {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3628px; /* 3551 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirtyFive {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3705px; /* 3628 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirtySix {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3782px; /* 3705 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirtySeven {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3859px; /* 3782 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirtyEight {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 3936px; /* 3859 + 77 */
+  display: none;
+}
+
+#chartsPlacementThirtyNine {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4013px; /* 3936 + 77 */
+  display: none;
+}
+
+#chartsPlacementForty {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4090px; /* 4013 + 77 */
+  display: none;
+}
+
+
+
+
+#chartsPlacementFortyOne {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4167px; /* 4090 + 77 */
+  display: none;
+}
+
+#chartsPlacementFortyTwo {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4244px; /* 4167 + 77 */
+  display: none;
+}
+
+#chartsPlacementFortyThree {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4321px; /* 4244 + 77 */
+  display: none;
+}
+
+#chartsPlacementFortyFour {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4398px; /* 4321 + 77 */
+  display: none;
+}
+
+#chartsPlacementFortyFive {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4475px; /* 4398 + 77 */
+  display: none;
+}
+
+#chartsPlacementFortySix {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4552px; /* 4475 + 77 */
+  display: none;
+}
+
+#chartsPlacementFortySeven {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4629px; /* 4552 + 77 */
+  display: none;
+}
+
+#chartsPlacementFortyEight {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4706px; /* 4629 + 77 */
+  display: none;
+}
+
+#chartsPlacementFortyNine {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4783px; /* 4706 + 77 */
+  display: none;
+}
+
+#chartsPlacementFifty {
+  background-color: #e9e9e9;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  top: 4860px; /* 4783 + 77 */
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1499,7 +3870,7 @@ h3 {
 
 
 #blackSpace {
-  outline: 1px #ce0b2d dotted;
+  outline: 10px #ce0b2d dotted;
   background-color: #121212;
   position: absolute;
   top: 1935px;
@@ -1524,7 +3895,7 @@ h3 {
 }
 
 #videosLoadMoreButton{
-  top: 750px;
+  top: 760px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -1544,6 +3915,676 @@ h3 {
   transition: background-color 0.25s, color 0.25s;
   cursor: pointer;
 }
+
+#videosLoadMoreOne{
+  outline: blue 2px dotted;
+  top: 750px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1185px;
+  display: none;
+  color: white;
+  height: 375px;
+}
+
+
+#videosLoadMoreTwo{
+  outline: #ff0000 2px dotted;
+  top: 1129px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1185px;
+  display: none;
+  color: white;
+  height: 375px;
+}
+
+
+#videosLoadMoreThree{
+  outline: blue 2px dotted;
+  top: 1508px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1185px;
+  display: none;
+  color: white;
+  height: 375px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#videosLoadMoreVideoOne {
+  outline: red 2px dotted;
+  position: absolute;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoOneWhiteLine{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidOneHeadlineImage{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidOneCoverPhoto{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoOne:hover #videosLoadMoreVideoOneTitle {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoOneTitle{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoOneAuthor{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+#videosLoadMoreVideoTwo {
+  outline: red 2px dotted;
+  position: absolute;
+  left: 311px;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoTwoWhiteLine{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidTwoHeadlineImage{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidTwoCoverPhoto{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoTwo:hover #videosLoadMoreVideoTwoTitle {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoTwoTitle{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoTwoAuthor{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+#videosLoadMoreVideoThree {
+  outline: red 2px dotted;
+  position: absolute;
+  left: 623px;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoThreeWhiteLine{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidThreeHeadlineImage{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidThreeCoverPhoto{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoThree:hover #videosLoadMoreVideoThreeTitle {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoThreeTitle{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoThreeAuthor{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+
+
+
+
+#videosLoadMoreVideoFour {
+  outline: red 2px dotted;
+  position: absolute;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoFourWhiteLine{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidFourHeadlineImage{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidFourCoverPhoto{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoFour:hover #videosLoadMoreVideoFourTitle {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoFourTitle{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoFourAuthor{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#videosLoadMoreVideoOne2 {
+  outline: red 2px dotted;
+  position: absolute;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoOneWhiteLine2{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidOneHeadlineImage2{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidOneCoverPhoto2{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoOne2:hover #videosLoadMoreVideoOneTitle2 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoOneTitle2{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoOneAuthor2{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+#videosLoadMoreVideoTwo2 {
+  outline: red 2px dotted;
+  position: absolute;
+  left: 311px;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoTwoWhiteLine2{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidTwoHeadlineImage2{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidTwoCoverPhoto2{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoTwo2:hover #videosLoadMoreVideoTwoTitle2 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoTwoTitle2{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoTwoAuthor2{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+#videosLoadMoreVideoThree2 {
+  outline: red 2px dotted;
+  position: absolute;
+  left: 623px;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoThreeWhiteLine2{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidThreeHeadlineImage2{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidThreeCoverPhoto2{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoThree2:hover #videosLoadMoreVideoThreeTitle2 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoThreeTitle2{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoThreeAuthor2{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+
+
+
+
+#videosLoadMoreVideoFour2 {
+  outline: red 2px dotted;
+  position: absolute;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoFourWhiteLine2{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidFourHeadlineImage2{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidFourCoverPhoto2{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoFour2:hover #videosLoadMoreVideoFourTitle2 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoFourTitle2{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoFourAuthor2{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#videosLoadMoreVideoOne3 {
+  outline: red 2px dotted;
+  position: absolute;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoOneWhiteLine3{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidOneHeadlineImage3{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidOneCoverPhoto3{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoOne3:hover #videosLoadMoreVideoOneTitle3 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoOneTitle3{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoOneAuthor3{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+#videosLoadMoreVideoTwo3 {
+  outline: red 2px dotted;
+  position: absolute;
+  left: 311px;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoTwoWhiteLine3{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidTwoHeadlineImage3{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidTwoCoverPhoto3{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoTwo3:hover #videosLoadMoreVideoTwoTitle3 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoTwoTitle3{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoTwoAuthor3{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+#videosLoadMoreVideoThree3 {
+  outline: red 2px dotted;
+  position: absolute;
+  left: 623px;
+  width: 250px;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+}
+#videosLoadMoreVideoThreeWhiteLine3{
+  outline: #40d5ba 1px dotted;
+  position: relative;
+  height: 2px;
+  width: 250px;
+  background-color: white;
+}
+#vidThreeHeadlineImage3{
+  position: absolute;
+  left: 1px;
+  top: 19px;
+}
+#vidThreeCoverPhoto3{
+  position: absolute;
+  top: 57px;
+  left: 1px;
+}
+#videosLoadMoreVideoThree3:hover #videosLoadMoreVideoThreeTitle3 {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+#videosLoadMoreVideoThreeTitle3{
+  font-size: 22px;
+  position: absolute;
+  left: 1px;
+  top: 211px;
+  text-align: left;
+  font-size: 21px;
+  line-height: 23px;
+}
+#videosLoadMoreVideoThreeAuthor3{
+  font-size: 12px;
+  left: 1px;
+  position: absolute;
+  top: 275px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1679,13 +4720,12 @@ h3 {
 
 
 #latestBlock{
-  outline: greenyellow 1px dotted;
+  outline: #ff7004 10px dotted;
   top: 2805px;
   height: 1465px;
   width: 100%;
   position: absolute;
   left: 0px;
-
 }
 
 #largeLatest {
@@ -1712,6 +4752,36 @@ h3 {
   letter-spacing: 1.4px;
 
 }
+
+
+#latestLoadMoreButton{
+  top: 1404px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 133px;
+  right: 610px;
+  height: 41px;
+  font-size: 14px;
+  letter-spacing: 1.15px;
+  border-color: black;
+  border-width: 2px;
+  font-family: "Programme Regular", serif;
+  background-color: white;
+}
+#latestLoadMoreButton:hover{
+  background-color: black;
+  color: white;
+  transition: background-color 0.25s, color 0.25s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
 
 
 #latestNewsStoryONE {
@@ -1996,7 +5066,7 @@ h3 {
   left: 0;
   width: 250px;
   height: 370px;
-  top: 591px;
+  top: 640px;
 }
 #newsFive {
   color: black;
@@ -2061,7 +5131,7 @@ h3 {
   left: 310px;
   width: 250px;
   height: 370px;
-  top: 591px;
+  top: 640px;
 }
 #newsSix {
   color: black;
@@ -2127,7 +5197,7 @@ h3 {
   left: 624px;
   width: 250px;
   height: 370px;
-  top: 591px;
+  top: 640px;
 }
 #newsSeven {
   color: black;
@@ -2198,7 +5268,7 @@ h3 {
   left: 935px;
   width: 250px;
   height: 370px;
-  top: 591px;
+  top: 640px;
 }
 #newsEight {
   color: black;
@@ -2264,7 +5334,7 @@ h3 {
   left: 0;
   width: 250px;
   height: 370px;
-  top: 1003px;
+  top: 1060px;
 }
 #newsNine {
   color: black;
@@ -2330,7 +5400,7 @@ h3 {
   left: 313px;
   width: 250px;
   height: 370px;
-  top: 1003px;
+  top: 1060px;
 }
 #newsTen{
   color: black;
@@ -2394,7 +5464,7 @@ h3 {
   left: 623px;
   width: 250px;
   height: 370px;
-  top: 1003px;
+  top: 1060px;
 }
 #newsEleven{
   color: black;
@@ -2457,7 +5527,7 @@ h3 {
   left: 935px;
   width: 250px;
   height: 370px;
-  top: 1003px;
+  top: 1060px;
 }
 #newsTwelve{
   color: black;
@@ -2514,8 +5584,8 @@ h3 {
   position: absolute;
   outline: #a268c0 5px dashed;
   width: 100%;
-  height: 1222px;
-  top: 4220px !important;
+  height: 1232px;
+  top: 4275px;
   z-index: 1;
 }
 
@@ -5736,7 +8806,7 @@ h3 {
   height: 631px;
   background-color: #121212;
   width: 8000px;
-  top: 5451px;
+  top: 5510px;
 }
 #footer {
   outline: gold 1px dashed;
