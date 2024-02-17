@@ -3741,12 +3741,11 @@ body {
   font-size: 14px;    /* Increase font size as needed */
   letter-spacing: 1px;
   top: 910px;
+  width: 316px !important; /* Adjust this to match the width of the dropdown content or as required */
   z-index: 2;
   right: -1px;
   border: 2px solid black;
   border-bottom: transparent;
-
-
   transition: width 0.1s ease;
   border-bottom: 2px solid grey;
   justify-content: left;
@@ -7281,11 +7280,11 @@ h3 {
 
 
 #communityGreyDividerThirtyOne {
-  height: 2px;
+  height: 2.55px;
   width: 100%;
   background-color: #e9e9e9;
   position: absolute;
-  top: 2292px; /* 2219px + 72px + 1px */
+  top: 2291.35px; /* 2219px + 72px + 1px */
   display: none;
 }
 #communityRankThirtyOne {
