@@ -4585,30 +4585,30 @@ function toggleDropdown() {
 const songData = [
 
   <!-- Songs / All Genres / Today  -->
-  {id: 'areaCodes', rank: "1", artist: "Kali", type: 'songs', genre: 'all', time: "today", title: 'Area Codes', image: 'AreaCodes.png', url: 'https://genius.com/Kali-area-codes-lyrics'},
-  {id: 'cupidTW', rank: "2", artist: "FIFTY FIFTY (피프티...", type: 'songs', genre: 'all', time: "today", title: 'Cupid (Twin Version)', image: 'CupidTwins.png', url: 'https://genius.com/Fifty-fifty-cupid-twin-version-lyrics'},
-  {id: 'allMyLife', rank: "3", artist: "Lil Durk", type: 'songs', genre: 'all', time: "today", title: 'All My Life', image: 'AllMyLife.png', url: 'https://genius.com/Lil-durk-all-my-life-lyrics'},
-  {id: 'kaarija', rank: "4", artist: "Genius English Trans...", type: 'songs', genre: 'all', time: "today", title: 'Käärijä - Cha Cha Cha (Engli...', image: 'kaarija.png', url: 'https://genius.com/Genius-english-translations-kaarija-cha-cha-cha-english-translation-lyrics'},
-  {id: 'fiftyFiftyCupid', rank: "5", artist: "Genius English Trans...", type: 'songs', genre: 'all', time: "today", title: 'FIFTY FIFTY - Cupid (Englis...', image: 'FiftyFifty.png', url: 'https://genius.com/Genius-english-translations-fifty-fifty-cupid-english-translation-lyrics'},
-  {id: 'mathematicalDisrespect', rank: "6", artist: "Lil Mabu", type: 'songs', genre: 'all', time: "today", title: 'MATHEMATICAL DISRESPECT', image: 'MathematicalDisrespect.png', url: 'https://genius.com/Lil-mabu-mathematical-disrespect-lyrics'},
-  {id: 'yoasobi', rank: "7", artist: "Genius Romanizations", type: 'songs', genre: 'all', time: "today", title: 'YOASOBI - アイドル (Idol) (...', image: 'yoasobi.png', url: 'https://genius.com/Genius-romanizations-yoasobi-idol-romanized-lyrics'},
-  {id: 'iFeel', rank: "8", artist: "Genius English Trans...", type: 'songs', genre: 'all', time: "today", title: '(G)I-DLE - 퀸카 (Queencard)...', image: 'iFeel.png', url: 'https://genius.com/Genius-english-translations-gi-dle-queencard-english-translation-lyrics'},
-  {id: 'mahal', rank: "9", artist: "Rockstar", type: 'songs', genre: 'all', time: "today", title: 'Mahal Pa Rin Kita', image: 'mahal.png', url: 'https://genius.com/Rockstar-mahal-pa-rin-kita-lyrics'},
-  {id: 'underYou', rank: "10", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'one', rank: "1", artist: "¥$, Kanye West, Ty D...", type: 'songs', genre: 'all', time: "today", title: 'CARNIVAL', image: 'https://images.genius.com/417e5b985d42ee571934985d7904b63b.300x300x1.png', url: 'https://genius.com/Kali-area-codes-lyrics'},
+  {id: 'two', rank: "2", artist: "Cigarettes After Sex", type: 'songs', genre: 'all', time: "today", title: 'Tejano Blue', image: 'https://images.genius.com/ff720a24e70619755c2ae2536d888413.300x300x1.png', url: 'https://genius.com/Fifty-fifty-cupid-twin-version-lyrics'},
+  {id: 'three', rank: "3", artist: "Lazza", type: 'songs', genre: 'all', time: "today", title: '100 MESSAGGI', image: 'https://images.genius.com/b852d016373114a37d6a562ff097b8ad.300x300x1.png', url: 'https://genius.com/Lil-durk-all-my-life-lyrics'},
+  {id: 'four', rank: "4", artist: "Eminem", type: 'songs', genre: 'all', time: "today", title: 'Mockingbird', image: 'https://images.genius.com/481d2a614d302cd50d06082bea096266.300x300x1.png', url: 'https://genius.com/Genius-english-translations-kaarija-cha-cha-cha-english-translation-lyrics'},
+  {id: 'five', rank: "5", artist: "Noel5ive", type: 'songs', genre: 'all', time: "today", title: 'GTA', image: 'https://images.genius.com/0a9e0c89530c940109616909a5ba8f5a.300x300x1.jpg', url: 'https://genius.com/Genius-english-translations-fifty-fifty-cupid-english-translation-lyrics'},
+  {id: 'six', rank: "6", artist: "Eminem", type: 'songs', genre: 'all', time: "today", title: 'Without Me', image: 'https://images.genius.com/d97224e10b88dcd05ed18b87366461c8.300x300x1.jpg', url: 'https://genius.com/Lil-mabu-mathematical-disrespect-lyrics'},
+  {id: 'seven', rank: "7", artist: "Eminem", type: 'songs', genre: 'all', time: "today", title: 'The Real Slim Shady', image: 'https://images.genius.com/18d65c99cffe8073c7ae92592ed2d2e2.300x256x1.jpg', url: 'https://genius.com/Genius-romanizations-yoasobi-idol-romanized-lyrics'},
+  {id: 'eight', rank: "8", artist: "One Direction", type: 'songs', genre: 'all', time: "today", title: 'What Makes You Beautiful', image: 'https://images.genius.com/ddd26dfd51f3ffe53a8f3422543c9103.300x300x1.png', url: 'https://genius.com/Genius-english-translations-gi-dle-queencard-english-translation-lyrics'},
+  {id: 'nine', rank: "9", artist: "¥$, Kanye West, Ty D...", type: 'songs', genre: 'all', time: "today", title: 'BACK TO ME', image: 'https://images.genius.com/5f9a010dd8b351b82c9340044228bd8d.300x300x1.png', url: 'https://genius.com/Rockstar-mahal-pa-rin-kita-lyrics'},
+  {id: 'ten', rank: "10", artist: "SZA", type: 'songs', genre: 'all', time: "today", title: 'Saturn', image: 'https://images.genius.com/cdde0c68e0ae65fc0f529535e192ebee.300x300x1.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
 
 
 
 
-  {id: 'meow1', rank: "11", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
-  {id: 'meow2', rank: "12", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
-  {id: 'meow3', rank: "13", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
-  {id: 'meow4', rank: "14", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
-  {id: 'meow5', rank: "15", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
-  {id: 'meow6', rank: "16", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
-  {id: 'meow7', rank: "17", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
-  {id: 'meow8', rank: "18", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
-  {id: 'meow9', rank: "19", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
-  {id: 'meow10', rank: "20", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow1', rank: "11", artist: "Eminem", type: 'songs', genre: 'all', time: "today", title: 'Lose Yourself', image: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2Fce61c1b2664c5952984e30f9b59f1346.1000x1000x1.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow2', rank: "12", artist: "Bruno Mars", type: 'songs', genre: 'all', time: "today", title: 'When I Was Your Man', image: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F2e1e1ea46235d86a0ba541a1c30b3397.1000x1000x1.jpg', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow3', rank: "13", artist: "Eminem", type: 'songs', genre: 'all', time: "today", title: 'Stan', image: 'https://t2.genius.com/unsafe/168x168/https%3A%2F%2Fimages.genius.com%2Fd4144df8656805edbed2dac3a7524368.1000x1000x1.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow4', rank: "14", artist: "Genius Romanizations", type: 'songs', genre: 'all', time: "today", title: 'Anuv Jain - Husn (Romanized)', image: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F90c97ac6e4964237bcf038e2053f6b96.1000x1000x1.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow5', rank: "15", artist: "Genius Romanizations", type: 'songs', genre: 'all', time: "today", title: 'Creepy Nuts - Bling-Bang-B...', image: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F5b2054abdc05bc8561c20ddc069a01f2.1000x1000x1.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow6', rank: "16", artist: "Andrew Underberg, S...", type: 'songs', genre: 'all', time: "today", title: 'You Didn\'t Know', image: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F4d35ab85eec40ea65ea65dc1b7994fb3.1000x1000x1.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow7', rank: "17", artist: "Backstreet Boys", type: 'songs', genre: 'all', time: "today", title: 'I Want It That Way', image: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F6b49d0065d36552377a5ffb23f0bcf43.600x600x1.jpg', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow8', rank: "18", artist: "Knocked Loose", type: 'songs', genre: 'all', time: "today", title: 'Blinding Faith', image: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2F122de83307c6cfee5648f20871cd6c74.1000x1000x1.jpg', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow9', rank: "19", artist: "Teddy Swims", type: 'songs', genre: 'all', time: "today", title: 'Lose Control', image: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2Ffcf311f11df1fdb278405f64494cdc39.1000x1000x1.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
+  {id: 'meow10', rank: "20", artist: "Breskvica", type: 'songs', genre: 'all', time: "today", title: 'Gnezdo orlovo', image: 'https://t2.genius.com/unsafe/340x340/https%3A%2F%2Fimages.genius.com%2Fd7567654b4d60cd3f53e50cb8ff7e9de.1000x1000x1.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
   {id: 'meow11', rank: "21", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
   {id: 'meow12', rank: "22", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
   {id: 'meow13', rank: "23", artist: "Foo Fighters", type: 'songs', genre: 'all', time: "today", title: 'Under You', image: 'UnderYou.png', url: 'https://genius.com/Foo-fighters-under-you-lyrics'},
@@ -4850,6 +4850,6 @@ function redirectToHome() {
 }
 
 function redirectToMainNewsArticle() {
-  window.location.href = "https://genius.com/a/g-i-dle-are-more-confident-than-ever-on-new-song-queencard";
+  window.location.href = "https://genius.com/a/cigarettes-after-sex-nod-to-their-texas-roots-with-new-song-tejano-blue";
 }
 

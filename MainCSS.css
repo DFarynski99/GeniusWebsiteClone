@@ -8,16 +8,12 @@ body, html {
 html {
   overflow-y: scroll;
   overflow-x: hidden;
-
-}
-
-body {
 }
 
 #yellowBar {
   background-color: #fdfd63;
   height: 41px;
-  width: 100%;
+  width: 100vw;
   padding-right: 10px;
   display: flex;
   align-items: center; /* Vertical alignment */
@@ -28,6 +24,7 @@ body {
   background-color: #121212 ;
   height: 41px;
   display: flex;
+  width: 100vw;
   align-items: center; /* Vertical axis alignment */
   justify-content: center
 }
@@ -36,109 +33,78 @@ body {
   background-color: yellow; /* Set the desired background color */
 }
 
-#the50th{
-  font-weight: 525;
-  font-size: 14.1px;
-  letter-spacing: 0.95px;
-  position: absolute;
-  left: 492px;
-  font-family: "Programme Regular", serif;
-  color: white;
-  text-decoration: none;
-}
-
 
 #separatorOne {
   position: absolute;
-  left: 599px;
+  left: 675px;
   color: white;
   font-weight: 500;
   font-size: 15px;
 }
-
-
 #featured {
   font-weight: 525;
   font-size: 14.1px;
   letter-spacing: 0.95px;
   position: absolute;
-  left: 636px;
+  left: 564px;
   font-family: "Programme Regular", serif;
   color: white;
   text-decoration: none;
 }
-
 #separatorTwo {
   position: absolute;
-  left: 748px;
+  left: 806px;
   color: white;
   font-weight: 500;
   font-size: 15px;
 }
-
 #charts {
   font-weight: 525;
   font-size: 14.1px;
   letter-spacing: 0.95px;
   position: absolute;
-  left: 786px;
+  left: 713px;
   font-family: "Programme Regular", serif;
   color: white;
   text-decoration: none;
 }
-
 #separatorThree {
   position: absolute;
-  left: 878px;
+  left: 934px;
   color: white;
   font-weight: 500;
   font-size: 15px;
 }
-
-
 #videos {
   font-weight: 525;
   font-size: 14.1px;
   letter-spacing: 0.95px;
   position: absolute;
-  left: 916px;
+  left: 844px;
   font-family: "Programme Regular", serif;
   color: white;
   text-decoration: none;
 }
-
 #separatorFour {
   position: absolute;
-  left: 1006px;
+  left: 1174px;
   color: white;
   font-weight: 500;
   font-size: 15px;
 }
-
-
-
 #promoteYourMusic {
   font-weight: 525;
   font-size: 14.1px;
   letter-spacing: 0.95px;
   position: absolute;
-  left: 1044px;
+  left: 972px;
   font-family: "Programme Regular", serif;
   color: white;
   text-decoration: none;
 }
-
-#separatorFive {
-  position: absolute;
-  left: 1246px;
-  color: white;
-  font-weight: 500;
-  font-size: 15px;
-}
-
 #facebookHeader {
   position: absolute;
-  left: 1280px;
+  left: 1208px;
   background: none;
   cursor: pointer;
   height: 14px;
@@ -147,7 +113,7 @@ body {
 }
 #twitterHeader{
   position: absolute;
-  left: 1315px;
+  left: 1243px;
   background: none;
   cursor: pointer;
   height: 18px;
@@ -156,7 +122,7 @@ body {
 }
 #instagramHeader{
   position: absolute;
-  left: 1356px;
+  left: 1284px;
   background: none;
   cursor: pointer;
   height: 14px;
@@ -165,7 +131,7 @@ body {
 }
 #youtubeHeader{
   position: absolute;
-  left: 1394px;
+  left: 1322px;
   background: none;
   cursor: pointer;
   height: 18px;
@@ -173,11 +139,7 @@ body {
   top: 52px;
 }
 
-
-
-
-
-#signUp {
+#signUp{
 
   font-size: 78.1%;
   position: absolute;
@@ -190,7 +152,6 @@ body {
   font-family: "Programme Regular", serif;
   letter-spacing: 0.77px;
 }
-
 #signIn {
   font-size: 78.1%;
   position: absolute;
@@ -203,12 +164,6 @@ body {
   font-family: "Programme Regular", serif;
   letter-spacing: 0.77px;
 }
-
-@font-face {font-family: "Programme Regular"; src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot"); src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff") format("woff"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.svg#Programme Regular") format("svg"); }
-@font-face {font-family: "Programme Light"; src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot"); src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff") format("woff"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.svg#Programme Light") format("svg"); }
-/*  height="151" width="837"   5.583333*/
-
-
 #searchBar {
   font-family: "Programme Regular", serif;
   font-weight: 525;
@@ -222,7 +177,6 @@ body {
   border: none;
   outline: none;
 }
-
 #searchBar::placeholder{
   color: black;
   padding-left: 1px;
@@ -230,7 +184,6 @@ body {
 #searchBar:focus::placeholder{
   color: #8b8989;
 }
-
 #searchButton{
   position: absolute;
   left: 98px;
@@ -252,8 +205,8 @@ body {
   background-color: transparent;
 }
 
-
-
+@font-face {font-family: "Programme Regular"; src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot"); src: url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.woff") format("woff"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/615ebd2bd72c443cdfe3991532f0df4f.svg#Programme Regular") format("svg"); }
+@font-face {font-family: "Programme Light"; src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot"); src: url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.woff") format("woff"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a9119a625b812f862b623442195661ff.svg#Programme Light") format("svg"); }
 
 #geniusLogoImage {
   height: 22.48px;
@@ -266,11 +219,12 @@ body {
 }
 #geniusLogoImage::selection{
   background-color: transparent; /* Set the desired background color */
-
 }
 
+
+
 #containerOneMain {
-  outline: red dashed 1px;
+  outline: red dashed 3px;
   font-family: "Programme Light", serif;
   font-size: 38px;
   position: absolute;
@@ -286,11 +240,8 @@ body {
   flex-direction: column;
   text-align: center;
   max-width: 1185px;
+  height: 100%;
 }
-
-
-
-
 #featuredLineOne{
   outline: green dotted 2px;
   font-family: "Programme Regular", serif;
@@ -308,11 +259,10 @@ body {
   transform: translateX(-0);
   letter-spacing: 0.825px;
 }
-
 #featuredBlackBar{
   background-color: black;
   height: 2px;
-  width: 415px;
+  width: 85%;
   left: 46px;
   position: absolute;
   top: 4px;
@@ -332,7 +282,6 @@ body {
   width: 38.6225%;
   background-color: white;
 }
-
 #hyperlinkHoverArea {
   outline: dotted chocolate 1px;
   top: 1px;
@@ -342,21 +291,14 @@ body {
   position: absolute;
 
 }
-
-
 #imageID1 {
-  position: absolute;
-  top: 3px;
-  left: 43.75575%;
   height: 379px;
-  width: 669px;
+  width: 56.3%;
+  position: absolute;
+  right: -3px;
+  top: 3px; /* or any other value depending on where you want the image to be positioned vertically */
   cursor: pointer;
 }
-
-
-
-
-
 #headingOne {
   text-decoration: none;
   color: black;
@@ -370,7 +312,6 @@ body {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #paragraphOne {
   outline: aqua dotted 1px;
   font-family: "Programme Light", serif;
@@ -390,15 +331,13 @@ body {
   text-decoration: none;
   color: black;
 }
-
-
 #mainImageName {
   outline: dotted black 1px;
   color: black;
   font-size: 12.45px;
   margin-top: 5px;
   position: absolute;
-  top: 137.5%;
+  top: 123%;
   left: 0.05%;
   margin-bottom: 0;
   display: flex;
@@ -407,14 +346,13 @@ body {
   text-align: left;
   letter-spacing: -0.2px;
 }
-
 #mainImageDate {
   outline: dotted #999999 1px;
   color: #999999FF;
   font-size: 12px;
   margin-top: 5px;
   position: absolute;
-  top: 137.5%;
+  top: 123%;
   left: 22.2%;
   margin-bottom: 0;
   display: flex;
@@ -443,7 +381,6 @@ body {
   top: 2px;
   left: 32%;
 }
-
 #blackVerticalBarTwo {
   background-color: black;
   height: 400px;
@@ -452,7 +389,6 @@ body {
   top: 2px;
   left: 67.75%;
 }
-
 
 #newsLineMiniOne {
   outline: #000000 dotted 2px;
@@ -470,7 +406,6 @@ body {
   transform: translateX(-0.15%);
   letter-spacing: 1.25px;
 }
-
 #newsMiniStoryOne {
   outline: #9679c8 dotted 2px;
   font-family: "Programme Light", serif;
@@ -492,7 +427,6 @@ body {
   color: black;
 
 }
-
 #newsMiniStoryOneAnchor:hover{
   text-decoration-color: black;
   color: black;
@@ -500,12 +434,10 @@ body {
   text-decoration-thickness: 1px;
   cursor: pointer;
 }
-
 #newsMiniStoryOneAnchor:hover #newsMiniStoryOne {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #miniStoryOneAuthor{
   outline: dotted #40d5ba 1px;
   color: black;
@@ -523,7 +455,6 @@ body {
   left: 0;
 
 }
-
 #miniStoryOneDate{
   outline: dotted #640a78 1px;
   color: #999999FF;
@@ -538,10 +469,9 @@ body {
   letter-spacing: -0.2px;
   top: 224px;
   padding-top: 0;
-  left: 29%;
+  left: 44%;
   transform: translateX(-13.25%);
 }
-
 #miniStoryImageOne {
   position: absolute;
   top: 259px;
@@ -568,7 +498,6 @@ body {
   letter-spacing: 1.3px;
   color: black;
 }
-
 #newsMiniStoryTwo  {
   outline: lightsalmon 2px dotted;
   left: 35.5%;
@@ -588,7 +517,6 @@ body {
   line-height: 27px;
   color: black;
 }
-
 #newsMiniStoryTwoAnchor:hover{
   text-decoration-color: black;
   color: black;
@@ -596,14 +524,12 @@ body {
   text-decoration-thickness: 1px;
   cursor: pointer;
 }
-
 #newsMiniStoryTwoAnchor:hover #newsMiniStoryTwo {
   text-decoration: underline;
   color: black;
   text-decoration-color: black;
   text-decoration-thickness: 1px;
 }
-
 #miniStoryImageTwo {
   position: absolute;
   top: 259px;
@@ -612,7 +538,6 @@ body {
   width: 252px;
   cursor: pointer;
 }
-
 #miniStoryTwoAuthor {
   outline: dotted #40d5ba 1px;
   color: black;
@@ -629,7 +554,6 @@ body {
   padding-top: 0;
   left: 0;
 }
-
 #miniStoryTwoDate {
   outline: dotted #640a78 1px;
   color: #999999FF;
@@ -646,6 +570,7 @@ body {
   left: 40.25%;
   padding-top: 0;
 }
+
 
 #newsLineMiniThree {
   outline: #857a0a dotted 2px;
@@ -664,7 +589,6 @@ body {
   letter-spacing: 1.3px;
   color: black;
 }
-
 #newsMiniStoryThree  {
   outline: #4d46ff 2px dotted;
   right: 0;
@@ -684,8 +608,6 @@ body {
   line-height: 27px;
   color: black;
 }
-
-
 #newsMiniStoryThreeAnchor:hover{
   text-decoration-color: black;
   color: black;
@@ -693,23 +615,21 @@ body {
   text-decoration-thickness: 1px;
   cursor: pointer;
 }
-
 #newsMiniStoryThreeAnchor:hover #newsMiniStoryThree {
   text-decoration: underline;
   color: black;
   text-decoration-color: black;
   text-decoration-thickness: 1px;
 }
-
 #miniStoryImageThree {
   position: absolute;
-  top: 259px;
+  top: 255px;
   right: 0;
+  left: 5px;
   height: 143px;
   width: 252px;
   cursor: pointer;
 }
-
 #miniStoryThreeAuthor {
   outline: dotted #40d5ba 1px;
   color: black;
@@ -727,7 +647,6 @@ body {
   left: 0;
 
 }
-
 #miniStoryThreeDate {
   outline: dotted #640a78 1px;
   color: #999999FF;
@@ -824,8 +743,14 @@ body {
   top: 1936px;
 }
 
+.item-link {
+  color: black;
+  text-decoration-color: black;
+  text-decoration: none;
+}
 
-#areaCodes {
+
+#one {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -843,26 +768,7 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-#areaCodes:hover {
-  background-color: #e9e9e9;
-}
-#areaCodes img {
-  outline: blue 0.5px dotted;
-  position: absolute;
-  top: 10px;
-  left: 8.6%;
-  height: 60px;
-  width: 60px;
-}
-
-.item-link {
-  color: black;
-  text-decoration-color: black;
-  text-decoration: none;
-}
-
-
-#cupidTW {
+#two {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -880,20 +786,7 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-  #cupidTW:hover {
-    background-color: #e9e9e9;
-  }
-  #cupidTW img {
-    outline: blue 0.5px dotted;
-    position: absolute;
-    top: 10px;
-    left: 8.6%;
-    height: 60px;
-    width: 60px;
-  }
-
-
-#allMyLife {
+#three {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -911,19 +804,7 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-#allMyLife:hover {
-  background-color: #e9e9e9;
-}
-#allMyLife img {
-  outline: blue 0.5px dotted;
-  position: absolute;
-  top: 10px;
-  left: 8.6%;
-  height: 60px;
-  width: 60px;
-}
-
-#kaarija {
+#four {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -941,19 +822,7 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-#kaarija:hover {
-  background-color: #e9e9e9;
-}
-#kaarija img {
-  outline: blue 0.5px dotted;
-  position: absolute;
-  top: 10px;
-  left: 8.6%;
-  height: 60px;
-  width: 60px;
-}
-
-#fiftyFiftyCupid {
+#five {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -971,19 +840,7 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-#fiftyFiftyCupid:hover {
-  background-color: #e9e9e9;
-}
-#fiftyFiftyCupid img {
-  outline: blue 0.5px dotted;
-  position: absolute;
-  top: 10px;
-  left: 8.6%;
-  height: 60px;
-  width: 60px;
-}
-
-#mathematicalDisrespect {
+#six {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -1001,19 +858,7 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-#mathematicalDisrespect:hover {
-  background-color: #e9e9e9;
-}
-#mathematicalDisrespect img {
-  outline: blue 0.5px dotted;
-  position: absolute;
-  top: 10px;
-  left: 8.6%;
-  height: 60px;
-  width: 60px;
-}
-
-#yoasobi {
+#seven {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -1031,19 +876,7 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-#yoasobi:hover {
-  background-color: #e9e9e9;
-}
-#yoasobi img {
-  outline: blue 0.5px dotted;
-  position: absolute;
-  top: 10px;
-  left: 8.6%;
-  height: 60px;
-  width: 60px;
-}
-
-#iFeel {
+#eight {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -1061,19 +894,7 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-#iFeel:hover {
-  background-color: #e9e9e9;
-}
-#iFeel img {
-  outline: blue 0.5px dotted;
-  position: absolute;
-  top: 10px;
-  left: 8.6%;
-  height: 60px;
-  width: 60px;
-}
-
-#mahal {
+#nine {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -1091,19 +912,7 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-#mahal:hover {
-  background-color: #e9e9e9;
-}
-#mahal img {
-  outline: blue 0.5px dotted;
-  position: absolute;
-  top: 10px;
-  left: 8.6%;
-  height: 60px;
-  width: 60px;
-}
-
-#underYou {
+#ten {
   font-family: "Programme Regular", serif;
   outline: blue 0.5px dotted;
   position: absolute;
@@ -1121,10 +930,13 @@ body {
   justify-content: left;
   transition: background-color 0.15s ease;
 }
-#underYou:hover {
+
+
+#one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #ten:hover{
   background-color: #e9e9e9;
+
 }
-#underYou img {
+#one img, #two img, #three img, #four img, #five img, #six img, #seven img, #eight img, #nine img, #ten img{
   outline: blue 0.5px dotted;
   position: absolute;
   top: 10px;
@@ -1134,70 +946,70 @@ body {
 }
 
 
-#areaCodesAdditional-div-1 {
+#oneAdditional-div-1 {
   font-family: "Programme Light", serif;
   outline: orange 1px dotted;
   position: absolute;
   left: 52.5%;
   top: 25px;
 }
-#cupidTWAdditional-div-1 {
-  font-family: "Programme Light", serif;
-  outline: orange 1px dotted;
-  position: absolute;
-  left: 52.5%;
-  top: 22px;
-}
-#allMyLifeAdditional-div-1 {
+#twoAdditional-div-1 {
   font-family: "Programme Light", serif;
   outline: orange 1px dotted;
   position: absolute;
   left: 52.5%;
   top: 25px;
 }
-#kaarijaAdditional-div-1 {
+#threeAdditional-div-1 {
   font-family: "Programme Light", serif;
   outline: orange 1px dotted;
   position: absolute;
   left: 52.5%;
   top: 25px;
 }
-#fiftyFiftyCupidAdditional-div-1 {
+#fourAdditional-div-1 {
   font-family: "Programme Light", serif;
   outline: orange 1px dotted;
   position: absolute;
   left: 52.5%;
   top: 25px;
 }
-#mathematicalDisrespectAdditional-div-1 {
+#fiveAdditional-div-1 {
   font-family: "Programme Light", serif;
   outline: orange 1px dotted;
   position: absolute;
   left: 52.5%;
   top: 25px;
 }
-#yoasobiAdditional-div-1 {
+#sixAdditional-div-1 {
   font-family: "Programme Light", serif;
   outline: orange 1px dotted;
   position: absolute;
   left: 52.5%;
   top: 25px;
 }
-#iFeelAdditional-div-1 {
+#sevenAdditional-div-1 {
   font-family: "Programme Light", serif;
   outline: orange 1px dotted;
   position: absolute;
   left: 52.5%;
   top: 25px;
 }
-#mahalAdditional-div-1 {
+#eightAdditional-div-1 {
   font-family: "Programme Light", serif;
   outline: orange 1px dotted;
   position: absolute;
   left: 52.5%;
   top: 25px;
 }
-#underYouAdditional-div-1 {
+#nineAdditional-div-1 {
+  font-family: "Programme Light", serif;
+  outline: orange 1px dotted;
+  position: absolute;
+  left: 52.5%;
+  top: 25px;
+}
+#tenAdditional-div-1 {
   font-family: "Programme Light", serif;
   outline: orange 1px dotted;
   position: absolute;
@@ -1206,79 +1018,76 @@ body {
 }
 
 
-#areaCodesAdditional-div-2 {
+#oneAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 1.35%;
   top: 24.5px;
 }
-#cupidTWAdditional-div-2 {
+#twoAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 1.225%;
   top: 24.5px;
 }
-#allMyLifeAdditional-div-2 {
+#threeAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 1.225%;
   top: 24.5px;
 }
-#kaarijaAdditional-div-2 {
+#fourAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 1.15%;
   top: 24.5px;
 }
-#fiftyFiftyCupidAdditional-div-2 {
+#fiveAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 1.15%;
   top: 24.5px;
 }
-#mathematicalDisrespectAdditional-div-2 {
+#sixAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 1.15%;
   top: 24.5px;
 }
-#yoasobiAdditional-div-2 {
+#sevenAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 1.2%;
   top: 24.5px;
 }
-#iFeelAdditional-div-2 {
+#eightAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 1.15%;
   top: 24.5px;
 }
-#mahalAdditional-div-2 {
+#nineAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 1.15%;
   top: 24.5px;
 }
-#underYouAdditional-div-2 {
+#tenAdditional-div-2 {
   font-family: "Programme Light", serif;
   outline: indianred 1px dotted;
   position: absolute;
   left: 0.75%;
   top: 24.5px;
 }
-
-
-
 
 
 #allmyLifeALLTIME {
@@ -1310,17 +1119,6 @@ body {
   height: 60px;
   width: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3873,7 +3671,7 @@ h3 {
   background-color: #121212;
   position: absolute;
   top: 1935px;
-  width: 8000px;
+  width: 100vw !important;
   height: 872px;
 
 }
@@ -4573,26 +4371,6 @@ h3 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #geniusOriginalSeries {
   outline: #ffffff 1px dotted;
   font-family: "Programme Regular", serif;
@@ -4605,7 +4383,6 @@ h3 {
   line-height: 11px; /* Set line-height equal to font-size or adjust as needed */
 
 }
-
  #originalSeriesPicture {
    text-decoration: none;
    outline: #0ae50a 1px dotted;
@@ -4613,9 +4390,6 @@ h3 {
    height: 495px;
    width: 876px;
 }
-
-
-
 #playButton {
   outline: #0ae50a 5px dotted;
   position: relative;
@@ -4625,29 +4399,23 @@ h3 {
   width: 47px;
 
 }
-
-
 #originalSeriesWritingBox {
   outline: #95ef95 1px dotted;
   width: 250px;
   height: 495px;
 }
-
 #originalSeriesWritingBoxLink{
   outline: hotpink 1px solid;
   position: absolute;
   top: 220px;
   width: 250px;
-  left: 4342px;
-  right: 4380px;
+  left: 1300px;
 }
-
 #originalSeriesWritingBox:hover #originalSeriesNewsHeadline  {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 
 }
-
 #whiteLine {
   outline: #40d5ba 1px dotted;
   position: relative;
@@ -4655,18 +4423,17 @@ h3 {
   width: 250px;
   background-color: white;
 }
-
 #originalSeriesNewsHeadline {
   outline: purple 1px dotted;
   color: white;
   font-size: 24px;
-  width: 202px;
+  width: 100%;
   position: absolute;
   text-align: left;
   line-height: 28px;
+  left: 3px;
   top: 65px;
 }
-
 #originalSeriesNewsDescription {
   outline: royalblue 1px dotted;
   color: white;
@@ -4674,36 +4441,36 @@ h3 {
   position: absolute;
   text-align: left;
   line-height: 18px;
-  top: 155px;
+  top: 128px;
+  left: 3px;
   width: 100.5%;
 }
-
-#openMic {
+#verifiedImg {
   outline: #40d5ba 1px dotted;
+  fill: white;
   position: absolute;
   left: 1px;
-  top: 18px;
+  top: 16px;
+  height: 6%;
+  width: 56%;
 }
-
 #originalSeriesReporter {
   outline: pink 1px dotted;
   font-size: 12px;
   color: white;
   position: absolute;
-  top: 208px;
-
+  top: 183px;
+  left: 3px;
 }
-
 #originalSeriesDate {
   outline: hotpink 1px dotted;
   font-size: 12px;
   color: grey;
-  left: 111px;
+  left: 114px;
   position: absolute;
-  top: 208px;
+  top: 183px;
 
 }
-
 #hyperLink{
   text-decoration: none;
   outline: hotpink 1px solid;
@@ -4725,8 +4492,8 @@ h3 {
   width: 100%;
   position: absolute;
   left: 0px;
+  overflow: hidden
 }
-
 #largeLatest {
   outline: #40d5ba 1px dotted;
   font-family: "Programme Regular", serif;
@@ -4735,7 +4502,7 @@ h3 {
   color: black;
   letter-spacing: 2px;
   position: relative;
-  top: 85px;
+  top: 50px;
   margin: 0;
   padding: 0; /* Remove padding */
   line-height: 59px; /* Set line-height equal to font-size or adjust as needed */
@@ -4746,7 +4513,7 @@ h3 {
   color: #ff1464;
   font-size: 13.25px;
   position: relative;
-  top: 105px;
+  top: 70px;
   font-family: "Programme Regular", serif;
   letter-spacing: 1.4px;
 
@@ -4754,7 +4521,7 @@ h3 {
 
 
 #latestLoadMoreButton{
-  top: 1404px;
+  top: 1190px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -4776,20 +4543,14 @@ h3 {
 }
 
 
-
-
-
-
-
-
-
 #latestNewsStoryONE {
   position: absolute;
   outline: red 1px solid;
   left: 0;
   width: 250px;
-  height: 370px;
-  top: 217px;
+  height: 310px;
+  top: 182px;
+  color: black !important;
 }
 #newsOne {
   color: black;
@@ -4827,14 +4588,15 @@ h3 {
 #latestNewsAuthorOne{
   font-size: 12px;
   position: absolute;
-  top: 270px;
+  top: 245px;
+  left: 0;
 
 }
 #latestNewsDateOne{
   font-size: 12px;
   position: absolute;
-  top: 270px;
-  left: 100px;
+  top: 245px;
+  left: 110px;
   color: #9a9a9a;
 }
 #latestNewsStoryONE:hover #latestNewsHeadlineOne {
@@ -4842,15 +4604,14 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
-
-
 #latestNewsStoryTWO{
   position: absolute;
   outline: #002aff 1px solid;
   left: 310px;
   width: 250px;
-  height: 370px;
-  top: 216px;
+  height: 310px;
+  top: 182px;
+  color: black !important;
 }
 #newsTwo {
   color: black;
@@ -4884,6 +4645,7 @@ h3 {
   letter-spacing: 0.26px;
   line-height: 24px;
   color: black;
+
 }
 #latestNewsAuthorTwo{
   font-size: 12px;
@@ -4903,17 +4665,14 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
-
-
-
-
 #latestNewsStoryTHREE{
   position: absolute;
   outline: #ff0000 1px solid;
   left: 624px;
   width: 250px;
-  height: 370px;
-  top: 216px;
+  height: 310px;
+  color: black !important;
+  top: 182px;
 }
 #newsThree {
   color: black;
@@ -4948,58 +4707,35 @@ h3 {
   letter-spacing: 0.26px;
   line-height: 24px;
   color: black;
+  left: -3px;
 }
 #latestNewsAuthorThree{
   font-size: 12px;
   position: absolute;
-  top: 363px;
+  top: 292px;
+  left: -1px;
 
 }
 #latestNewsDateThree{
   font-size: 12px;
   position: absolute;
-  top: 363px;
-  left: 65px;
+  top: 292px;
+  left: 100px;
   color: #9a9a9a;
 }
 #latestNewsStoryTHREE:hover #latestNewsHeadlineThree {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-#presentedByThreeText {
-  font-family: "Programme Regular", serif;
-  font-size: 12.25px;
-  color: #9a9a9a;
-  height: 55px;
-  width: 100px;
-  position: relative;
-  top: 118px;
-  left: -2px;
-  letter-spacing: 0.8px;
-
-}
-#presentedByThreeImg {
-  height: 40px;
-  width: 60px;
-  position: relative;
-  top: 90px;
-  left: -90px;
-
-}
-
-
-
-
-
-
 
 #latestNewsStoryFOUR{
   position: absolute;
   outline: #0059ff 1px solid;
   left: 935px;
+  color: black;
   width: 250px;
-  height: 370px;
-  top: 216px;
+  height: 310px;
+  top: 182px;
 }
 #newsFour {
   color: black;
@@ -5033,16 +4769,18 @@ h3 {
   letter-spacing: 0.26px;
   line-height: 24px;
   color: black;
+  width: 105%;
+  outline: blue 2px dotted !important;
 }
 #latestNewsAuthorFour{
   font-size: 12px;
   position: absolute;
-  top: 317px;
+  top: 270px;
 }
 #latestNewsDateFour{
   font-size: 12px;
   position: absolute;
-  top: 317px;
+  top: 270px;
   left: 100px;
   color: #9a9a9a;
 }
@@ -5052,20 +4790,13 @@ h3 {
 }
 
 
-
-
-
-
-
-
-
 #latestNewsStoryFIVE {
   position: absolute;
   outline: red 1px solid;
   left: 0;
   width: 250px;
-  height: 370px;
-  top: 640px;
+  height: 310px;
+  top: 525px;
 }
 #newsFive {
   color: black;
@@ -5099,17 +4830,20 @@ h3 {
   letter-spacing: 0.26px;
   line-height: 24px;
   color: black;
+  width: 105%;
+  outline: blue 2px dotted !important;
+  left: -3px;
 }
 #latestNewsAuthorFive{
   font-size: 12px;
   position: absolute;
-  top: 315px;
-  left: 2px;
+  top: 292px;
+  left: -1px;
 }
 #latestNewsDateFive{
   font-size: 12px;
   position: absolute;
-  top: 315px;
+  top: 292px;
   left: 100px;
   color: #9a9a9a;
 }
@@ -5118,19 +4852,13 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
-
-
-
-
-
-
 #latestNewsStorySIX{
   position: absolute;
   outline: #0059ff 1px solid;
   left: 310px;
   width: 250px;
-  height: 370px;
-  top: 640px;
+  height: 310px;
+  top: 525px;
 }
 #newsSix {
   color: black;
@@ -5168,12 +4896,12 @@ h3 {
 #latestNewsAuthorSix{
   font-size: 12px;
   position: absolute;
-  top: 270px;
+  top: 268px;
 }
 #latestNewsDateSix{
   font-size: 12px;
   position: absolute;
-  top: 270px;
+  top: 268px;
   left: 100px;
   color: #9a9a9a;
 }
@@ -5182,21 +4910,13 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
-
-
-
-
-
-
-
-
 #latestNewsStorySEVEN{
   position: absolute;
   outline: red 1px solid;
   left: 624px;
   width: 250px;
-  height: 370px;
-  top: 640px;
+  height: 310px;
+  top: 525px;
 }
 #newsSeven {
   color: black;
@@ -5236,13 +4956,14 @@ h3 {
 #latestNewsAuthorSeven{
   font-size: 12px;
   position: absolute;
-  top: 270px;
+  top: 268px;
+  left: -1px;
 
 }
 #latestNewsDateSeven{
   font-size: 12px;
   position: absolute;
-  top: 270px;
+  top: 268px;
   left: 100px;
   color: #9a9a9a;
 }
@@ -5251,23 +4972,13 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
-
-
-
-
-
-
-
-
-
-
 #latestNewsStoryEIGHT{
   position: absolute;
   outline: #0059ff 1px solid;
   left: 935px;
   width: 250px;
-  height: 370px;
-  top: 640px;
+  height: 310px;
+  top: 525px;
 }
 #newsEight {
   color: black;
@@ -5305,12 +5016,13 @@ h3 {
 #latestNewsAuthorEight{
   font-size: 12px;
   position: absolute;
-  top: 290px;
+  top: 268px;
+  left: -1px;
 }
 #latestNewsDateEight{
   font-size: 12px;
   position: absolute;
-  top: 290px;
+  top: 268px;
   left: 100px;
   color: #9a9a9a;
 }
@@ -5320,20 +5032,13 @@ h3 {
 }
 
 
-
-
-
-
-
-
-
 #latestNewsStoryNINE {
   position: absolute;
   outline: red 1px solid;
   left: 0;
   width: 250px;
-  height: 370px;
-  top: 1060px;
+  height: 285px;
+  top: 867px;
 }
 #newsNine {
   color: black;
@@ -5374,13 +5079,13 @@ h3 {
 #latestNewsAuthorNine{
   font-size: 12px;
   position: absolute;
-  top: 292px;
+  top: 268px;
   left: -1px;
 }
 #latestNewsDateNine{
   font-size: 12px;
   position: absolute;
-  top: 292px;
+  top: 268px;
   left: 99px;
   color: #9a9a9a;
 }
@@ -5389,17 +5094,13 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
-
-
-
-
 #latestNewsStoryTEN{
   position: absolute;
   outline: #0059ff 1px solid;
   left: 313px;
   width: 250px;
-  height: 370px;
-  top: 1060px;
+  height: 285px;
+  top: 867px;
 }
 #newsTen{
   color: black;
@@ -5433,19 +5134,19 @@ h3 {
   position: absolute;
   letter-spacing: 0.26px;
   line-height: 24px;
-  color: black;
+  color: black !important;
 }
 #latestNewsAuthorTen{
   font-size: 12px;
   position: absolute;
-  top: 292px;
+  top: 245px;
   left: -1px;
 }
 #latestNewsDateTen{
   font-size: 12px;
   position: absolute;
-  top: 292px;
-  left: 99px;
+  top: 245px;
+  left: 147px;
   color: #9a9a9a;
 }
 #latestNewsStoryTEN:hover #latestNewsHeadlineTen{
@@ -5453,17 +5154,13 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
-
-
-
-
 #latestNewsStoryELEVEN{
   position: absolute;
   outline: red 1px solid;
   left: 623px;
   width: 250px;
-  height: 370px;
-  top: 1060px;
+  height: 285px;
+  top: 867px;
 }
 #newsEleven{
   color: black;
@@ -5501,13 +5198,13 @@ h3 {
 #latestNewsAuthorEleven{
   font-size: 12px;
   position: absolute;
-  top: 292px;
+  top: 268px;
   left: -1px;
 }
 #latestNewsDateEleven{
   font-size: 12px;
   position: absolute;
-  top: 292px;
+  top: 268px;
   left: 99px;
   color: #9a9a9a;
 }
@@ -5516,17 +5213,13 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
-
-
-
-
 #latestNewsStoryTWELVE{
   position: absolute;
   outline: #0059ff 1px solid;
   left: 935px;
   width: 250px;
-  height: 370px;
-  top: 1060px;
+  height: 285px;
+  top: 867px;
 }
 #newsTwelve{
   color: black;
@@ -5564,13 +5257,13 @@ h3 {
 #latestNewsAuthorTwelve{
   font-size: 12px;
   position: absolute;
-  top: 292px;
+  top: 268px;
   left: -1px;
 }
 #latestNewsDateTwelve{
   font-size: 12px;
   position: absolute;
-  top: 292px;
+  top: 268px;
   left: 99px;
   color: #9a9a9a;
 }
@@ -5579,12 +5272,14 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
+
+
 #communityBlock {
   position: absolute;
   outline: #a268c0 5px dashed;
   width: 100%;
   height: 1232px;
-  top: 4275px;
+  top: 4061px;
   z-index: 1;
 }
 
@@ -5640,8 +5335,8 @@ h3 {
   font-family: "Programme Regular", serif;
   outline: pink 2px dotted;
   position: absolute;
-  left: 1066px;
-  top: 0px;
+  top: 0;
+  right: 0;
   width: 123px;
   font-size: 12px;
   letter-spacing: 1px;
@@ -8747,10 +8442,10 @@ h3 {
 }
 
 #communityJoinOurCommunityButton{
-  top: 217px;
+  top: 220px;
   position: absolute;
-  left: 334px;
-  right: 610px;
+  left: 335px;
+  width: 212px !important;
   height: 38px;
   line-height: 38px;
   padding-left: 23px;
@@ -8758,7 +8453,6 @@ h3 {
   border-width: 2px;
   font-family: "Programme Regular", serif;
 }
-
 #communityJoinOurCommunityButton:hover{
   background-color: black;
   color: white;
@@ -8767,10 +8461,10 @@ h3 {
 }
 
 #communityLearnHowGeniusWorksButton {
-  top: 217px;
+  top: 220px;
   position: absolute;
   left: 610px;
-  right: 335px;
+  width: 235px !important;
   height: 38px;
   line-height: 38px;
   padding-left: 3px;
@@ -8793,26 +8487,21 @@ h3 {
   top: 1081px;
   width: 100%;
   height: 72px;
-
-
 }
 
 
-
-
 #footerBackground {
-  position: absolute;
+  position: relative;
   height: 631px;
   background-color: #121212;
-  width: 8000px;
-  top: 5510px;
+  width: 100vw;
+  top: 5150px;
 }
 #footer {
   outline: gold 1px dashed;
   position: absolute;
   height: 607px;
-  width: 1185px;
-  left: 3408px;
+  width: 100vw !important;
 }
 #footerGeniusDescription {
   border: pink 1px dotted;
@@ -8820,61 +8509,60 @@ h3 {
   font-size: 36px;
   font-family: "Programme Light", serif;
   text-align: left;
-  left: 3405px;
-  top: 71px;
+  top: 95px;
   line-height: 41px;
   width: 475px;
   height: 140px;
   color: white;
+  left: 365px;
 }
-
 #facebookFooter {
   position: absolute;
-  top: 231px;
-  left: 3406px;
+  top: 255px;
   width: 13px;
   height: 22px;
-}
+  left: 365px;
 
+}
 #twitterFooter{
   position: absolute;
-  top: 228px;
-  left: 3441px;
+  top: 253px;
   width: 27px;
   height: 27px;
+  left: 400px;
 }
-
 #instagramFooter{
   position: absolute;
-  top: 230px;
-  left: 3492px;
+  top: 254px;
   width: 22px;
   height: 22px;
+  left: 451px;
 }
-
 #youtubeFooter {
   position: absolute;
-  top: 228px;
-  left: 3538px;
+  top: 252px;
   width: 27px;
   height: 26px;
+  left: 497px;
 }
+
+
 
 #aboutGenius {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 74px;
-  left: 4030px;
   color: white;
   font-size: 16px;
+  top: 98px;
+  left: 990px;
 }
 #contributorGuidelines{
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 113px;
-  left: 4030px;
+  top: 137px;
+  left: 990px;
   color: white;
   font-size: 16px;
 }
@@ -8882,8 +8570,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 153px;
-  left: 4030px;
+  top: 177px;
+  left: 990px;
   color: white;
   font-size: 16px;
 }
@@ -8891,8 +8579,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 192px;
-  left: 4030px;
+  top: 216px;
+  left: 990px;
   color: white;
   font-size: 16px;
 }
@@ -8900,8 +8588,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 231px;
-  left: 4030px;
+  top: 255px;
+  left: 990px;
   color: white;
   font-size: 16px;
 }
@@ -8909,8 +8597,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 270px;
-  left: 4030px;
+  top: 294px;
+  left: 990px;
   color: white;
   font-size: 16px;
 }
@@ -8918,8 +8606,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 74px;
-  left: 4342px;
+  top: 98px;
+  left: 1302px;
   color: white;
   font-size: 16px;
 }
@@ -8927,8 +8615,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 113px;
-  left: 4342px;
+  top: 137px;
+  left: 1302px;
   color: white;
   font-size: 16px;
 }
@@ -8936,8 +8624,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 153px;
-  left: 4342px;
+  top: 177px;
+  left: 1302px;
   color: white;
   font-size: 16px;
 }
@@ -8945,8 +8633,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 192px;
-  left: 4342px;
+  top: 216px;
+  left: 1302px;
   color: white;
   font-size: 16px;
 }
@@ -8954,8 +8642,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 231px;
-  left: 4342px;
+  top: 255px;
+  left: 1302px;
   color: white;
   font-size: 16px;
 }
@@ -8963,8 +8651,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 270px;
-  left: 4342px;
+  top: 294px;
+  left: 1302px;
   color: white;
   font-size: 16px;
 }
@@ -8972,8 +8660,8 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 307px;
-  left: 4342px;
+  top: 331px;
+  left: 1302px;
   color: white;
   font-size: 16px;
   width: 170px;
@@ -8986,7 +8674,6 @@ h3 {
   position: absolute;
   font-family: "Programme Light", serif;
   top: 392px;
-  left: 4030px;
   color: #999999;
   font-size: 12px;
   width: 180px;
@@ -9001,7 +8688,6 @@ h3 {
   position: absolute;
   font-family: "Programme Light", serif;
   top: 392px;
-  left: 4342px;
   color: #999999;
   font-size: 12px;
   width: 170px;
@@ -9014,7 +8700,7 @@ h3 {
   position: absolute;
   top: 446px;
   height: 2px;
-  width: 8000px;
+  width: 2px;
 }
 
 #verifiedArtists {
@@ -9022,7 +8708,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3406px;
   top: 489px;
   color: white;
   letter-spacing: 1px;
@@ -9032,7 +8717,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  left: 3552px;
   top: 471px;
   color: white;
   letter-spacing: 1px;
@@ -9042,7 +8726,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3575px;
   top: 489px;
   color: white;
   letter-spacing: 1px;
@@ -9055,7 +8738,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3690px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9065,7 +8747,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3708px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9075,7 +8756,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3726px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9085,7 +8765,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3744px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9095,7 +8774,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3762px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9105,7 +8783,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3779px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9115,7 +8792,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3796px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9125,7 +8801,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3814px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9135,7 +8810,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3833px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9145,7 +8819,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3846px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9155,7 +8828,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3860px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9165,7 +8837,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3878px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9175,7 +8846,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3894px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9185,7 +8855,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3914px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9195,7 +8864,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3933px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9205,7 +8873,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3953px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9215,7 +8882,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3970px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9225,7 +8891,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3990px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9235,7 +8900,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4008px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9245,7 +8909,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4024px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9255,7 +8918,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4042px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9265,7 +8927,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4060px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9275,7 +8936,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4078px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9285,7 +8945,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4100px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9295,7 +8954,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4118px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9305,7 +8963,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4136px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9315,7 +8972,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4152px;
   top: 489px;
   color: white;
   text-decoration: none;
@@ -9325,7 +8981,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3406px;
   top: 552px;
   color: white;
   letter-spacing: 1px;
@@ -9335,7 +8990,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3512px;
   top: 552px;
   color: white;
   letter-spacing: 1px;
@@ -9345,7 +8999,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  left: 3804px;
   top: 534px;
   color: white;
   letter-spacing: 1px;
@@ -9355,7 +9008,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3823px;
   top: 552px;
   color: white;
   letter-spacing: 1px;
@@ -9365,7 +9017,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  left: 3996px;
   top: 534px;
   color: white;
   letter-spacing: 1px;
@@ -9375,7 +9026,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4015px;
   top: 552px;
   color: white;
   letter-spacing: 1px;
@@ -9385,7 +9035,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  left: 4131px;
   top: 534px;
   color: white;
   letter-spacing: 1px;
@@ -9395,7 +9044,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4150px;
   top: 552px;
   color: white;
   letter-spacing: 1px;
@@ -9405,7 +9053,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  left: 4408px;
   top: 534px;
   color: white;
   letter-spacing: 1px;
@@ -9415,7 +9062,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 4427px;
   top: 552px;
   color: white;
   letter-spacing: 1px;
@@ -9425,7 +9071,6 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  left: 3524px;
   top: 558px;
   color: white;
   letter-spacing: 1px;
@@ -9435,190 +9080,7 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  left: 3543px;
   top: 576px;
   color: white;
   letter-spacing: 1px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 960px) {
-  #containerOneMain  {
-    outline: #dfce0b dashed 1px;
-    font-family: "Programme Light", serif;
-    font-size: 38px;
-    position: absolute;
-    left: 12.5%;
-    transform: translateX(-12.5%);
-    width: 50%;
-    top: 150px;
-    height: 100%;
-    word-break: break-word;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    max-width: 1185px;
-  }
-
-
-
-  #textContainerOne {
-    outline: blue dashed 1px;
-    font-size: 36px;
-    position: absolute;
-    left: 0;
-
-    top: 32px;
-    word-break: break-word;
-    line-height: 41.2px;
-    width: 62.5%;
-    background-color: white;
-  }
-
-
-
-  #newsLineOne {
-
-  outline: green dotted 2px;
-  font-family: "Programme Regular", serif;
-  line-height: 12px;
-  font-size: 12px;
-  top: 4px;
-  width: 62.2%;
-  padding-top: 0;
-  display: flex;
-  align-items: flex-start;
-  justify-content: left;
-  text-align: left;
-  position: absolute;
-  left: -0.1%;
-  transform: translateX(-0);
-  letter-spacing: 0.88px;
-  }
-
-
-
-  #featured {
-    position: absolute;
-    left: 21.8%;
-    transform: translateX(-21.8%);
-  }
-
-  #separatorOne {
-    position: absolute;
-    left: 31.75%;
-    transform: translateX(-31.8%);
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-  }
-
-
-
-  #charts {
-    font-weight: 525;
-    font-size: 14.1px;
-    letter-spacing: 0.95px;
-    position: absolute;
-    left: 37.9%;
-    transform: translateX(-37.9%);
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-family: "Programme Regular", serif;
-    color: white;
-    text-decoration: none;
-  }
-  #separatorTwo {
-    position: absolute;
-    left: 45.45%;
-    transform: translateX(-45.45%);
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-  }
-
-
-  #videos {
-    font-weight: 525;
-    font-size: 14.1px;
-    letter-spacing: 0.95px;
-    position: absolute;
-    left: 52.2175%;
-    transform: translateX(-52.2175%);
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-family: "Programme Regular", serif;
-    color: white;
-    text-decoration: none;
-  }
-  #separatorThree {
-    position: absolute;
-    left: 58.75%;
-    transform: translateX(-58.75%);
-    font-weight: 500;
-    font-size: 15px;
-  }
-
-  #promoteYourMusic {
-    font-weight: 525;
-    font-size: 14.1px;
-    letter-spacing: 0.95px;
-    position: absolute;
-    left: 75.72%;
-    transform: translateX(-75.72%);
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-family: "Programme Regular", serif;
-    color: white;
-    text-decoration: none;
-  }
-
-  #separatorFour {
-    position: absolute;
-    left: 111%;
-    transform: translateX(-111%);
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-  }
-
-  #imageID1 {
-    position: absolute;
-    top: 4px;
-    left: 78.4%;
-    height: 261.4px;
-    width: 464px;
-    cursor: pointer;
-
-  }
-
-
 }
