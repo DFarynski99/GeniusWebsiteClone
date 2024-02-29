@@ -337,7 +337,7 @@ html {
   font-size: 12.45px;
   margin-top: 5px;
   position: absolute;
-  top: 123%;
+  top: 156%;
   left: 0.05%;
   margin-bottom: 0;
   display: flex;
@@ -352,8 +352,8 @@ html {
   font-size: 12px;
   margin-top: 5px;
   position: absolute;
-  top: 123%;
-  left: 22.2%;
+  top: 156%;
+  left: 26%;
   margin-bottom: 0;
   display: flex;
   align-items: flex-start;
@@ -469,7 +469,7 @@ html {
   letter-spacing: -0.2px;
   top: 224px;
   padding-top: 0;
-  left: 44%;
+  left: 43%;
   transform: translateX(-13.25%);
 }
 #miniStoryImageOne {
@@ -533,7 +533,7 @@ html {
 #miniStoryImageTwo {
   position: absolute;
   top: 259px;
-  left: 0;
+  left: 1px;
   height: 143px;
   width: 252px;
   cursor: pointer;
@@ -623,9 +623,9 @@ html {
 }
 #miniStoryImageThree {
   position: absolute;
-  top: 255px;
+  top: 259px;
   right: 0;
-  left: 5px;
+  left: 0;
   height: 143px;
   width: 252px;
   cursor: pointer;
@@ -660,7 +660,7 @@ html {
   text-align: left;
   letter-spacing: -0.2px;
   top: 224px;
-  left: 40.85%;
+  left: 40%;
   padding-top: 0;
 }
 
@@ -8673,21 +8673,20 @@ h3 {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 392px;
+  top: 416px;
+  left: 990px;
   color: #999999;
   font-size: 12px;
   width: 180px;
   text-align: left;
   line-height: 22px;
 }
-
-
-
 #termsOfUse {
   outline: red 1px dotted;
   position: absolute;
   font-family: "Programme Light", serif;
-  top: 392px;
+  top: 416px;
+  left: 1302px;
   color: #999999;
   font-size: 12px;
   width: 170px;
@@ -8695,12 +8694,13 @@ h3 {
   line-height: 22px;
 }
 
+
 #footerGreyLine {
   background-color: #2a2a2a;
   position: absolute;
-  top: 446px;
+  top: 471px;
   height: 2px;
-  width: 2px;
+  width: 100%;
 }
 
 #verifiedArtists {
@@ -8708,7 +8708,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 366px;
   color: white;
   letter-spacing: 1px;
 }
@@ -8717,7 +8718,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  top: 471px;
+  top: 495px;
+  left: 512px;
   color: white;
   letter-spacing: 1px;
 }
@@ -8726,19 +8728,19 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 535px;
   color: white;
   letter-spacing: 1px;
 }
-
-
 
 #artistsA{
   outline: red 1px dotted;
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 649px;
   color: white;
   text-decoration: none;
 }
@@ -8747,7 +8749,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 668px;
   color: white;
   text-decoration: none;
 }
@@ -8756,7 +8759,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 685px;
   color: white;
   text-decoration: none;
 }
@@ -8765,7 +8769,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 704px;
   color: white;
   text-decoration: none;
 }
@@ -8774,7 +8779,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 721px;
   color: white;
   text-decoration: none;
 }
@@ -8783,7 +8789,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 739px;
   color: white;
   text-decoration: none;
 }
@@ -8792,7 +8799,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 756px;
   color: white;
   text-decoration: none;
 }
@@ -8801,7 +8809,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 774px;
   color: white;
   text-decoration: none;
 }
@@ -8810,7 +8819,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 793px;
   color: white;
   text-decoration: none;
 }
@@ -8819,7 +8829,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 806px;
   color: white;
   text-decoration: none;
 }
@@ -8828,7 +8839,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 820px;
   color: white;
   text-decoration: none;
 }
@@ -8837,7 +8849,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 837px;
   color: white;
   text-decoration: none;
 }
@@ -8846,7 +8859,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 854px;
   color: white;
   text-decoration: none;
 }
@@ -8855,7 +8869,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 874px;
   color: white;
   text-decoration: none;
 }
@@ -8864,7 +8879,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 893px;
   color: white;
   text-decoration: none;
 }
@@ -8873,7 +8889,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 913px;
   color: white;
   text-decoration: none;
 }
@@ -8882,7 +8899,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 930px;
   color: white;
   text-decoration: none;
 }
@@ -8891,7 +8909,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 950px;
   color: white;
   text-decoration: none;
 }
@@ -8900,7 +8919,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 968px;
   color: white;
   text-decoration: none;
 }
@@ -8909,7 +8929,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 984px;
   color: white;
   text-decoration: none;
 }
@@ -8918,7 +8939,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 1001px;
   color: white;
   text-decoration: none;
 }
@@ -8927,7 +8949,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 1019px;
   color: white;
   text-decoration: none;
 }
@@ -8936,7 +8959,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 1037px;
   color: white;
   text-decoration: none;
 }
@@ -8945,7 +8969,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 1059px;
   color: white;
   text-decoration: none;
 }
@@ -8954,7 +8979,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 1077px;
   color: white;
   text-decoration: none;
 }
@@ -8963,7 +8989,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 1095px;
   color: white;
   text-decoration: none;
 }
@@ -8972,16 +8999,20 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 489px;
+  top: 513px;
+  left: 1112px;
   color: white;
   text-decoration: none;
 }
+
+
 #hotSongs{
   outline: red 1px dotted;
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 552px;
+  top: 576px;
+  left: 366px;
   color: white;
   letter-spacing: 1px;
 }
@@ -8990,7 +9021,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 552px;
+  top: 576px;
+  left: 472px;
   color: white;
   letter-spacing: 1px;
 }
@@ -8999,7 +9031,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  top: 534px;
+  top: 558px;
+  left: 557px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9008,7 +9041,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 552px;
+  top: 576px;
+  left: 576px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9017,7 +9051,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  top: 534px;
+  top: 558px;
+  left: 692px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9026,7 +9061,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 552px;
+  top: 576px;
+  left: 711px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9035,7 +9071,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  top: 534px;
+  top: 558px;
+  left: 823px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9044,7 +9081,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 552px;
+  top: 576px;
+  left: 842px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9053,7 +9091,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 29px;
-  top: 534px;
+  top: 558px;
+  left: 1090px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9062,7 +9101,8 @@ h3 {
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
-  top: 552px;
+  top: 576px;
+  left: 1109px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9072,6 +9112,7 @@ h3 {
   position: absolute;
   font-size: 29px;
   top: 558px;
+  left: 1223px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9081,6 +9122,7 @@ h3 {
   position: absolute;
   font-size: 14px;
   top: 576px;
+  left: 1242px;
   color: white;
   letter-spacing: 1px;
 }
