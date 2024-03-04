@@ -1,4 +1,7 @@
 
+*{
+  outline: none !important;
+}
 
 body, html {
   margin: 0;
@@ -262,7 +265,7 @@ html {
 #featuredBlackBar{
   background-color: black;
   height: 2px;
-  width: 85%;
+  width: 90.5%;
   left: 46px;
   position: absolute;
   top: 4px;
@@ -337,7 +340,7 @@ html {
   font-size: 12.45px;
   margin-top: 5px;
   position: absolute;
-  top: 156%;
+  top: 123%;
   left: 0.05%;
   margin-bottom: 0;
   display: flex;
@@ -352,8 +355,8 @@ html {
   font-size: 12px;
   margin-top: 5px;
   position: absolute;
-  top: 156%;
-  left: 26%;
+  top: 123%;
+  left: 22%;
   margin-bottom: 0;
   display: flex;
   align-items: flex-start;
@@ -469,7 +472,7 @@ html {
   letter-spacing: -0.2px;
   top: 224px;
   padding-top: 0;
-  left: 43%;
+  left: 45%;
   transform: translateX(-13.25%);
 }
 #miniStoryImageOne {
@@ -3692,7 +3695,7 @@ h3 {
 }
 
 #videosLoadMoreButton{
-  top: 760px;
+  top: 86.75%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -3709,13 +3712,14 @@ h3 {
 #videosLoadMoreButton:hover{
   background-color: white;
   color: black;
+  border: transparent;
   transition: background-color 0.25s, color 0.25s;
   cursor: pointer;
 }
 
 #videosLoadMoreOne{
   outline: blue 2px dotted;
-  top: 750px;
+  top: 754px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -3728,7 +3732,7 @@ h3 {
 
 #videosLoadMoreTwo{
   outline: #ff0000 2px dotted;
-  top: 1129px;
+  top: 1180px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -3757,7 +3761,14 @@ h3 {
 
 
 
-
+.playButtonLoadMoreVideos{
+  top: 35.8%;
+  left: 74.6%;
+  position: absolute;
+  height: 48px;
+  width: 48px;
+  z-index: 5;
+}
 
 
 
@@ -3787,17 +3798,17 @@ h3 {
 #vidOneCoverPhoto{
   position: absolute;
   top: 57px;
-  left: 1px;
+  left: -1px;
+  width: 101%;
 }
 #videosLoadMoreVideoOne:hover #videosLoadMoreVideoOneTitle {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #videosLoadMoreVideoOneTitle{
   font-size: 22px;
   position: absolute;
-  left: 1px;
+  left: -1px;
   top: 211px;
   text-align: left;
   font-size: 21px;
@@ -3805,13 +3816,10 @@ h3 {
 }
 #videosLoadMoreVideoOneAuthor{
   font-size: 12px;
-  left: 1px;
+  left: -1px;
   position: absolute;
   top: 275px;
 }
-
-
-
 
 
 #videosLoadMoreVideoTwo {
@@ -3832,23 +3840,23 @@ h3 {
 }
 #vidTwoHeadlineImage{
   position: absolute;
-  left: 1px;
-  top: 19px;
+  left: -2px;
+  top: 17px;
 }
 #vidTwoCoverPhoto{
   position: absolute;
   top: 57px;
-  left: 1px;
+  left: -1px;
+  width: 101%;
 }
 #videosLoadMoreVideoTwo:hover #videosLoadMoreVideoTwoTitle {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #videosLoadMoreVideoTwoTitle{
   font-size: 22px;
   position: absolute;
-  left: 1px;
+  left: -1px;
   top: 211px;
   text-align: left;
   font-size: 21px;
@@ -3856,12 +3864,24 @@ h3 {
 }
 #videosLoadMoreVideoTwoAuthor{
   font-size: 12px;
-  left: 1px;
+  left: -1px;
   position: absolute;
-  top: 275px;
+  top: 370px;
 }
-
-
+#presentedBy{
+  color: #9a9a9a;
+  font-size: 0.324em;
+  position: absolute;
+  top: 73.5%;
+  left: -1px;
+  letter-spacing: 0.08em;
+  font-family: "Programme Regular", serif;
+}
+#bobMarley{
+  top: 79.75%;
+  position: absolute;
+  left: -1px;
+}
 
 
 
@@ -3883,23 +3903,24 @@ h3 {
 }
 #vidThreeHeadlineImage{
   position: absolute;
-  left: 1px;
-  top: 19px;
+  left: -2px;
+  top: 17px;
 }
 #vidThreeCoverPhoto{
   position: absolute;
+  left: -1px;
+  width: 101%;
   top: 57px;
-  left: 1px;
+
 }
 #videosLoadMoreVideoThree:hover #videosLoadMoreVideoThreeTitle {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #videosLoadMoreVideoThreeTitle{
   font-size: 22px;
   position: absolute;
-  left: 1px;
+  left: -1px;
   top: 211px;
   text-align: left;
   font-size: 21px;
@@ -3907,15 +3928,10 @@ h3 {
 }
 #videosLoadMoreVideoThreeAuthor{
   font-size: 12px;
-  left: 1px;
+  left: -1px;
   position: absolute;
-  top: 275px;
+  top: 323px;
 }
-
-
-
-
-
 
 
 
@@ -3938,23 +3954,23 @@ h3 {
 }
 #vidFourHeadlineImage{
   position: absolute;
-  left: 1px;
-  top: 19px;
+  left: -1px;
+  top: 15px;
 }
 #vidFourCoverPhoto{
   position: absolute;
   top: 57px;
-  left: 1px;
+  left: -1px;
+  width: 101%;
 }
 #videosLoadMoreVideoFour:hover #videosLoadMoreVideoFourTitle {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #videosLoadMoreVideoFourTitle{
   font-size: 22px;
   position: absolute;
-  left: 1px;
+  left: -1px;
   top: 211px;
   text-align: left;
   font-size: 21px;
@@ -3962,45 +3978,10 @@ h3 {
 }
 #videosLoadMoreVideoFourAuthor{
   font-size: 12px;
-  left: 1px;
+  left: -1px;
   position: absolute;
-  top: 275px;
+  top: 299px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -4024,23 +4005,23 @@ h3 {
 }
 #vidOneHeadlineImage2{
   position: absolute;
-  left: 1px;
-  top: 19px;
+  left: -3px;
+  top: 16px;
 }
 #vidOneCoverPhoto2{
   position: absolute;
   top: 57px;
-  left: 1px;
+  left: -1px;
+  width: 101%;
 }
 #videosLoadMoreVideoOne2:hover #videosLoadMoreVideoOneTitle2 {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #videosLoadMoreVideoOneTitle2{
   font-size: 22px;
   position: absolute;
-  left: 1px;
+  left: -1px;
   top: 211px;
   text-align: left;
   font-size: 21px;
@@ -4048,13 +4029,10 @@ h3 {
 }
 #videosLoadMoreVideoOneAuthor2{
   font-size: 12px;
-  left: 1px;
+  left: -1px;
   position: absolute;
-  top: 275px;
+  top: 299px;
 }
-
-
-
 
 
 #videosLoadMoreVideoTwo2 {
@@ -4075,37 +4053,35 @@ h3 {
 }
 #vidTwoHeadlineImage2{
   position: absolute;
-  left: 1px;
-  top: 19px;
+  left: 0;
+  top: 15px;
 }
 #vidTwoCoverPhoto2{
   position: absolute;
   top: 57px;
-  left: 1px;
+  left: -1px;
+  width: 101%;
 }
 #videosLoadMoreVideoTwo2:hover #videosLoadMoreVideoTwoTitle2 {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #videosLoadMoreVideoTwoTitle2{
   font-size: 22px;
   position: absolute;
-  left: 1px;
+  left: -1px;
   top: 211px;
   text-align: left;
   font-size: 21px;
   line-height: 23px;
 }
+
 #videosLoadMoreVideoTwoAuthor2{
   font-size: 12px;
-  left: 1px;
+  left: -1px;
   position: absolute;
   top: 275px;
 }
-
-
-
 
 
 #videosLoadMoreVideoThree2 {
@@ -4126,41 +4102,48 @@ h3 {
 }
 #vidThreeHeadlineImage2{
   position: absolute;
-  left: 1px;
-  top: 19px;
+  left: -3px;
+  top: 14px;
 }
 #vidThreeCoverPhoto2{
   position: absolute;
   top: 57px;
-  left: 1px;
+  left: -1px;
+  width: 101%;
 }
 #videosLoadMoreVideoThree2:hover #videosLoadMoreVideoThreeTitle2 {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #videosLoadMoreVideoThreeTitle2{
   font-size: 22px;
   position: absolute;
-  left: 1px;
+  left: -1px;
   top: 211px;
   text-align: left;
   font-size: 21px;
   line-height: 23px;
 }
+#presentedBy2{
+  color: #9a9a9a;
+  font-size: 0.324em;
+  position: absolute;
+  top: 79.8%;
+  left: -1px;
+  letter-spacing: 0.08em;
+  font-family: "Programme Regular", serif;
+}
+#patron{
+  top: 86.25%;
+  position: absolute;
+  left: 0;
+}
 #videosLoadMoreVideoThreeAuthor2{
   font-size: 12px;
-  left: 1px;
+  left: 0;
   position: absolute;
-  top: 275px;
+  top: 393px;
 }
-
-
-
-
-
-
-
 
 
 #videosLoadMoreVideoFour2 {
@@ -4181,41 +4164,35 @@ h3 {
 }
 #vidFourHeadlineImage2{
   position: absolute;
-  left: 1px;
-  top: 19px;
+  left: -3px;
+  top: 16px;
 }
 #vidFourCoverPhoto2{
   position: absolute;
   top: 57px;
-  left: 1px;
+  left: 0;
+  width: 101%;
 }
 #videosLoadMoreVideoFour2:hover #videosLoadMoreVideoFourTitle2 {
   text-decoration: underline;
   text-decoration-thickness: 1px;
 }
-
 #videosLoadMoreVideoFourTitle2{
   font-size: 22px;
   position: absolute;
-  left: 1px;
+  left: -1px;
   top: 211px;
+  width: 100%;
   text-align: left;
   font-size: 21px;
   line-height: 23px;
 }
 #videosLoadMoreVideoFourAuthor2{
   font-size: 12px;
-  left: 1px;
+  left: -1px;
   position: absolute;
-  top: 275px;
+  top: 322px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -4421,6 +4398,8 @@ h3 {
   position: relative;
   height: 2px;
   width: 250px;
+  top: 2px;
+  left: 4px;
   background-color: white;
 }
 #originalSeriesNewsHeadline {
@@ -4430,9 +4409,9 @@ h3 {
   width: 100%;
   position: absolute;
   text-align: left;
-  line-height: 28px;
-  left: 3px;
-  top: 65px;
+  line-height: 27px;
+  left: 2px;
+  top: 13.25%;
 }
 #originalSeriesNewsDescription {
   outline: royalblue 1px dotted;
@@ -4441,8 +4420,8 @@ h3 {
   position: absolute;
   text-align: left;
   line-height: 18px;
-  top: 128px;
-  left: 3px;
+  top: 31.4%;
+  left: 2px;
   width: 100.5%;
 }
 #verifiedImg {
@@ -4459,8 +4438,8 @@ h3 {
   font-size: 12px;
   color: white;
   position: absolute;
-  top: 183px;
-  left: 3px;
+  top: 42.25%;
+  left: 2px;
 }
 #originalSeriesDate {
   outline: hotpink 1px dotted;
@@ -4468,7 +4447,7 @@ h3 {
   color: grey;
   left: 114px;
   position: absolute;
-  top: 183px;
+  top: 42.25%;
 
 }
 #hyperLink{
@@ -4548,8 +4527,8 @@ h3 {
   outline: red 1px solid;
   left: 0;
   width: 250px;
-  height: 310px;
-  top: 182px;
+  height: 290px;
+  top: 184px;
   color: black !important;
 }
 #newsOne {
@@ -4558,16 +4537,17 @@ h3 {
   font-size: 11.5px;
   position: absolute;
   top: 5px;
+  left: -2px;
   letter-spacing: 1.25px;
 }
 #blackBarLatestNewsOne{
   background-color: black;
   height: 2px;
-  width: 205px;
+  width: 184px;
   border-left: 1.5px solid black;
   position: absolute;
   top: 10px;
-  left: 45px;
+  left: 64px;
 }
 #latestStoreOne {
   width: 250px;
@@ -4584,19 +4564,20 @@ h3 {
   letter-spacing: 0.26px;
   line-height: 24px;
   color: black;
+  left: -1px;
 }
 #latestNewsAuthorOne{
   font-size: 12px;
   position: absolute;
-  top: 245px;
-  left: 0;
+  top: 269px;
+  left: -1px;
 
 }
 #latestNewsDateOne{
   font-size: 12px;
   position: absolute;
-  top: 245px;
-  left: 110px;
+  top: 269px;
+  left: 104px;
   color: #9a9a9a;
 }
 #latestNewsStoryONE:hover #latestNewsHeadlineOne {
@@ -4609,8 +4590,8 @@ h3 {
   outline: #002aff 1px solid;
   left: 310px;
   width: 250px;
-  height: 310px;
-  top: 182px;
+  height: 290px;
+  top: 184px;
   color: black !important;
 }
 #newsTwo {
@@ -4624,11 +4605,11 @@ h3 {
 #blackBarLatestNewsTwo{
   background-color: black;
   height: 2px;
-  width: 205px;
+  width: 184px;
   border-left: 1.5px solid black;
   position: absolute;
   top: 10px;
-  left: 45px;
+  left: 64px;
 }
 #latestStoreTwo {
   width: 250px;
@@ -4650,14 +4631,14 @@ h3 {
 #latestNewsAuthorTwo{
   font-size: 12px;
   position: absolute;
-  top: 270px;
+  top: 246px;
 
 }
 #latestNewsDateTwo{
   font-size: 12px;
   position: absolute;
-  top: 270px;
-  left: 100px;
+  top: 246px;
+  left: 105px;
   color: #9a9a9a;
 }
 #latestNewsStoryTWO:hover #latestNewsHeadlineTwo {
@@ -4670,9 +4651,9 @@ h3 {
   outline: #ff0000 1px solid;
   left: 624px;
   width: 250px;
-  height: 310px;
+  height: 290px;
   color: black !important;
-  top: 182px;
+  top: 184px;
 }
 #newsThree {
   color: black;
@@ -4712,15 +4693,15 @@ h3 {
 #latestNewsAuthorThree{
   font-size: 12px;
   position: absolute;
-  top: 292px;
+  top: 269px;
   left: -1px;
 
 }
 #latestNewsDateThree{
   font-size: 12px;
   position: absolute;
-  top: 292px;
-  left: 100px;
+  top: 269px;
+  left: 99px;
   color: #9a9a9a;
 }
 #latestNewsStoryTHREE:hover #latestNewsHeadlineThree {
@@ -4734,8 +4715,8 @@ h3 {
   left: 935px;
   color: black;
   width: 250px;
-  height: 310px;
-  top: 182px;
+  height: 290px;
+  top: 184px;
 }
 #newsFour {
   color: black;
@@ -4770,7 +4751,6 @@ h3 {
   line-height: 24px;
   color: black;
   width: 105%;
-  outline: blue 2px dotted !important;
 }
 #latestNewsAuthorFour{
   font-size: 12px;
@@ -4796,7 +4776,7 @@ h3 {
   left: 0;
   width: 250px;
   height: 310px;
-  top: 525px;
+  top: 504px;
 }
 #newsFive {
   color: black;
@@ -4804,6 +4784,7 @@ h3 {
   font-size: 11.5px;
   position: absolute;
   top: 4px;
+  left: -2px;
   letter-spacing: 1.25px;
 }
 #blackBarLatestNewsFive{
@@ -4831,8 +4812,7 @@ h3 {
   line-height: 24px;
   color: black;
   width: 105%;
-  outline: blue 2px dotted !important;
-  left: -3px;
+  left: -1px;
 }
 #latestNewsAuthorFive{
   font-size: 12px;
@@ -4858,7 +4838,7 @@ h3 {
   left: 310px;
   width: 250px;
   height: 310px;
-  top: 525px;
+  top: 504px;
 }
 #newsSix {
   color: black;
@@ -4916,7 +4896,7 @@ h3 {
   left: 624px;
   width: 250px;
   height: 310px;
-  top: 525px;
+  top: 504px;
 }
 #newsSeven {
   color: black;
@@ -4951,7 +4931,7 @@ h3 {
   letter-spacing: 0.26px;
   line-height: 24px;
   color: black;
-  left: 3px;
+  left: -2px;
 }
 #latestNewsAuthorSeven{
   font-size: 12px;
@@ -4978,7 +4958,7 @@ h3 {
   left: 935px;
   width: 250px;
   height: 310px;
-  top: 525px;
+  top: 504px;
 }
 #newsEight {
   color: black;
@@ -5016,14 +4996,14 @@ h3 {
 #latestNewsAuthorEight{
   font-size: 12px;
   position: absolute;
-  top: 268px;
+  top: 244px;
   left: -1px;
 }
 #latestNewsDateEight{
   font-size: 12px;
   position: absolute;
-  top: 268px;
-  left: 100px;
+  top: 244px;
+  left: 117px;
   color: #9a9a9a;
 }
 #latestNewsStoryEIGHT:hover #latestNewsHeadlineEight {
@@ -5038,7 +5018,7 @@ h3 {
   left: 0;
   width: 250px;
   height: 285px;
-  top: 867px;
+  top: 845px;
 }
 #newsNine {
   color: black;
@@ -5079,13 +5059,13 @@ h3 {
 #latestNewsAuthorNine{
   font-size: 12px;
   position: absolute;
-  top: 268px;
+  top: 290px;
   left: -1px;
 }
 #latestNewsDateNine{
   font-size: 12px;
   position: absolute;
-  top: 268px;
+  top: 290px;
   left: 99px;
   color: #9a9a9a;
 }
@@ -5097,10 +5077,10 @@ h3 {
 #latestNewsStoryTEN{
   position: absolute;
   outline: #0059ff 1px solid;
-  left: 313px;
+  left: 310px;
   width: 250px;
   height: 285px;
-  top: 867px;
+  top: 845px;
 }
 #newsTen{
   color: black;
@@ -5108,7 +5088,7 @@ h3 {
   font-size: 11.5px;
   position: absolute;
   top: 5px;
-  left: -2px;
+  left: 0;
   letter-spacing: 1.25px;
 }
 #blackBarLatestNewsTen{
@@ -5124,6 +5104,7 @@ h3 {
   width: 250px;
   height: 142px;
   top: 26px;
+  left: 0;
   position: relative;
 }
 #latestNewsHeadlineTen{
@@ -5146,7 +5127,7 @@ h3 {
   font-size: 12px;
   position: absolute;
   top: 245px;
-  left: 147px;
+  left: 110px;
   color: #9a9a9a;
 }
 #latestNewsStoryTEN:hover #latestNewsHeadlineTen{
@@ -5160,7 +5141,7 @@ h3 {
   left: 623px;
   width: 250px;
   height: 285px;
-  top: 867px;
+  top: 845px;
 }
 #newsEleven{
   color: black;
@@ -5219,7 +5200,7 @@ h3 {
   left: 935px;
   width: 250px;
   height: 285px;
-  top: 867px;
+  top: 845px;
 }
 #newsTwelve{
   color: black;
@@ -5257,13 +5238,13 @@ h3 {
 #latestNewsAuthorTwelve{
   font-size: 12px;
   position: absolute;
-  top: 268px;
+  top: 290px;
   left: -1px;
 }
 #latestNewsDateTwelve{
   font-size: 12px;
   position: absolute;
-  top: 268px;
+  top: 290px;
   left: 99px;
   color: #9a9a9a;
 }
@@ -5272,7 +5253,11 @@ h3 {
   text-decoration-thickness: 1px;
 }
 
-
+#latestNewsAuthorOne, #latestNewsAuthorTwo, #latestNewsAuthorThree, #latestNewsAuthorFour,#latestNewsAuthorFive,
+#latestNewsAuthorSix, #latestNewsAuthorSeven, #latestNewsAuthorEight, #latestNewsAuthorNine, #latestNewsAuthorTen,
+#latestNewsAuthorEleven, #latestNewsAuthorTwelve{
+  color: black !important;
+}
 
 #communityBlock {
   position: absolute;
@@ -5641,7 +5626,27 @@ h3 {
   letter-spacing: 1px;
 
 }
-
+#eyeViewCount{
+  display: block;
+  overflow: visible;
+  fill: rgb(0, 0, 0);
+  width: 19px;
+  top: -43px;
+  left: 89.45%;
+  position: absolute;
+  height: 11.5px;
+  z-index: 5;
+}
+.viewCount{
+  font-family: "Programme Regular", serif;
+  font-size: 12px;
+  z-index: 5;
+  color: black;
+  top: -45px;
+  left: 91.5%;
+  position: absolute;
+  letter-spacing: 0.06em;
+}
 
 
 
@@ -8504,7 +8509,6 @@ h3 {
   width: 100vw !important;
 }
 #footerGeniusDescription {
-  border: pink 1px dotted;
   position: absolute;
   font-size: 36px;
   font-family: "Programme Light", serif;
@@ -9032,7 +9036,7 @@ h3 {
   position: absolute;
   font-size: 29px;
   top: 558px;
-  left: 557px;
+  left: 890px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9042,7 +9046,7 @@ h3 {
   position: absolute;
   font-size: 14px;
   top: 576px;
-  left: 576px;
+  left: 909px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9052,7 +9056,7 @@ h3 {
   position: absolute;
   font-size: 29px;
   top: 558px;
-  left: 692px;
+  left: 1060px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9062,7 +9066,7 @@ h3 {
   position: absolute;
   font-size: 14px;
   top: 576px;
-  left: 711px;
+  left: 1079px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9072,7 +9076,7 @@ h3 {
   position: absolute;
   font-size: 29px;
   top: 558px;
-  left: 823px;
+  left: 1120px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9082,7 +9086,7 @@ h3 {
   position: absolute;
   font-size: 14px;
   top: 576px;
-  left: 842px;
+  left: 1139px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9092,7 +9096,7 @@ h3 {
   position: absolute;
   font-size: 29px;
   top: 558px;
-  left: 1090px;
+  left: 1229px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9102,7 +9106,7 @@ h3 {
   position: absolute;
   font-size: 14px;
   top: 576px;
-  left: 1109px;
+  left: 1248px;
   color: white;
   letter-spacing: 1px;
 }
@@ -9112,17 +9116,18 @@ h3 {
   position: absolute;
   font-size: 29px;
   top: 558px;
-  left: 1223px;
+  left: 1433px;
   color: white;
   letter-spacing: 1px;
 }
+
 #viewAllFooter{
   outline: red 1px dotted;
   font-family: "Programme Regular", serif;
   position: absolute;
   font-size: 14px;
   top: 576px;
-  left: 1242px;
+  left: 1452px;
   color: white;
   letter-spacing: 1px;
 }
